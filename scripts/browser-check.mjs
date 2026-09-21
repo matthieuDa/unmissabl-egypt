@@ -58,7 +58,12 @@ try {
   await page.locator('#copy-email').click();
   assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'dalle.matthieu@gmail.com');
   await page.goto(origin+'/');
-  await page.getByRole('link',{name:'Request a call',exact:false}).click();
+  assert.equal(await page.locator('.work-card:visible').count(),6);
+  await page.locator('.work-more summary').click();
+  assert.equal(await page.locator('.work-card:visible').count(),10);
+  await page.locator('.work-more summary').click();
+  assert.equal(await page.locator('.work-card:visible').count(),6);
+  await page.getByRole('link',{name:'Plan a 15-minute call',exact:false}).click();
   assert.equal(await page.locator('#intent').inputValue(),'call');
   assert.deepEqual(errors,[]);
   console.log('PASS: three pages at four viewport widths; image loading; no overflow; contact navigation; validation; call selection; encoded email brief; clipboard; no JS errors.');
