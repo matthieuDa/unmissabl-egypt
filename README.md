@@ -15,6 +15,10 @@ Les boutons conduisent √† `contact.html`. Le mode `?intent=call` affiche les pr√
 
 ## Publication
 
+### Netlify
+
+Import this GitHub repository into Netlify. The included `netlify.toml` sets `dist` as the publish directory, so no build command is required for this static site.
+
 Projet Sites : `appgprj_6ab15a220b088191bf0b7955ac8f9119`.
 Version 1 : commit `b1ce1ee0af29ef36b1edcffa512ef71fd3ce1d1d`.
 URL : https://unmissabl-egypt.hjrf68hwnt.chatgpt.site

@@ -1,4 +1,6 @@
-# UNMISSABL — raccordement du domaine
+# UNMISSABL — raccordement du domaine (déploiement OpenAI Sites historique)
+
+Ce fichier documente le déploiement OpenAI Sites précédent. Pour le déploiement GitHub/Netlify, connecter le dépôt dans Netlify et appliquer les enregistrements DNS affichés dans les réglages de domaine Netlify.
 
 La landing est déployée à https://unmissabl-egypt.hjrf68hwnt.chatgpt.site.
 L'accès est actuellement privé. Son ouverture publique attend la confirmation de Matthieu.
