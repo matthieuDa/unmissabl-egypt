@@ -1,0 +1,34 @@
+---
+import {href,type Lang} from '../data/site';
+import Icon from './Icon.astro';
+import audience from '../data/audience.json';
+import {reportedReach} from '../data/reported-reach';
+const {lang}=Astro.props as {lang:Lang};
+const fr=lang==='fr';
+const total=Math.round(audience.accounts.reduce((sum,a)=>sum+a.followers,0)/1000);
+const measurements=fr?[
+ ['Visibilité','Vues, portée unique et impressions. Nous distinguons le nombre de lectures du nombre de personnes touchées.'],
+ ['Attention','Durée de visionnage, rétention et lectures complètes. Ces indicateurs montrent jusqu’où votre histoire retient l’attention.'],
+ ['Engagement','Partages, enregistrements, commentaires et réactions. Nous regardons les actions provoquées par le contenu, au-delà du compteur de vues.'],
+ ['Action','Clics, visites et demandes attribuables à la campagne, lorsque vos liens de suivi et outils de mesure le permettent.']
+]:[
+ ['Visibility','Views, unique reach and impressions. We distinguish plays from the number of people reached.'],
+ ['Attention','Watch time, retention and completed views. These indicators show how long your story holds attention.'],
+ ['Engagement','Shares, saves, comments and reactions. We look at the actions content prompts, beyond its view count.'],
+ ['Action','Clicks, visits and enquiries attributable to the campaign, where your tracking links and measurement tools allow.']
+];
+---
+<div class="reach-detail collective-results" id="audiences">
+ <h3>{fr?'La force d’un collectif. La portée de vos images.':'One collective. A wider reach for your images.'}</h3>
+ <p class="reach-lead">{fr?'Nos films vivent sur les comptes des marques, dans leurs campagnes et, en option, auprès des communautés de nos créateurs. Nous pensons la production et sa diffusion ensemble, selon ce que votre marque veut accomplir.':'Our films live on brand channels, in campaigns and, optionally, within our creators’ communities. We plan production and distribution together around what your brand wants to achieve.'}</p>
+ <div class="collective-result-pair">
+  <article><strong>800 M+</strong><h4>{reportedReach.label[lang]}</h4><p>{fr?'Contenus du collectif, tous comptes de diffusion confondus dans le bilan communiqué par Unmissabl.':'Collective content across the distribution accounts included in the figures supplied by Unmissabl.'}</p><small>{fr?'Chiffre communiqué par Unmissabl · 12 octobre 2026':'Figure supplied by Unmissabl · 12 October 2026'}</small></article>
+  <article><strong>≈ {total} k</strong><h4>{fr?'Abonnements Instagram cumulés':'Combined Instagram follows'}</h4><p>{fr?'Les communautés réunies autour des comptes de nos créateurs. Un point d’appui pour envisager une diffusion adaptée à votre univers.':'The communities around our creators’ accounts. A starting point for planning distribution suited to your brand.'}</p><small>{fr?'Compteurs publics · 12 octobre 2026 · non dédupliqués':'Public counters · 12 October 2026 · not deduplicated'}</small></article>
+ </div>
+ <div class="reach-strategy"><h3>{fr?'Une diffusion construite autour de votre objectif.':'Distribution built around your objective.'}</h3><div><p>{fr?'Faire découvrir une destination, installer une image de marque ou donner envie de découvrir un produit ne demande pas le même dispositif. Nous définissons avec vous le film, ses déclinaisons, les canaux et les droits d’utilisation.':'Introducing a destination, shaping a brand image and sparking interest in a product call for different approaches. Together, we define the film, its cutdowns, channels and usage rights.'}</p><p>{fr?'Vous pouvez diffuser sur vos propres comptes et dans vos campagnes. La publication par les créateurs fait l’objet d’une sélection et d’un accord distincts : affinité avec la marque, audience, territoire et calendrier.':'You can publish on your own channels and in your campaigns. Creator distribution is selected and agreed separately, based on brand fit, audience, territory and timing.'}</p></div></div>
+ <h3>{fr?'Ce que nous mesurons pour votre campagne.':'What we measure for your campaign.'}</h3>
+ <p>{fr?'Le cadre de mesure est défini dans le brief. Selon les accès et données partagés, le bilan peut couvrir les quatre dimensions suivantes.':'The measurement framework is agreed in the brief. Depending on access and shared data, reporting can cover the following four dimensions.'}</p>
+ <dl class="reach-measurements">{measurements.map(([title,body])=><div><dt>{title}</dt><dd>{body}</dd></div>)}</dl>
+ <details class="reach-method"><summary>{fr?'Périmètre des chiffres et méthode de suivi':'Scope of the figures and reporting method'}</summary><div><p>{reportedReach.source[lang]} {fr?'Ce cumul ne mesure ni des personnes uniques ni la performance d’une campagne particulière. Le détail par publication et la ventilation organique/payante ne sont pas disponibles dans ce bilan public.':'This total is neither unique people reached nor the performance of a specific campaign. Publication-level detail and an organic/paid breakdown are not available in this public summary.'}</p><p>{fr?'Les abonnements sont la somme de compteurs Instagram, en partie arrondis, avec un compte retenu par talent. Une même personne peut suivre plusieurs comptes. Les estimations isolées de quelques profils ne sont pas extrapolées à l’ensemble du collectif.':'Follows are summed from Instagram counters, some rounded, using one account per talent. The same person may follow multiple accounts. Isolated estimates from individual profiles are not extrapolated to the entire collective.'}</p><p>{fr?'Pour une campagne, nous convenons d’une période de mesure et d’une liste de publications. Les données fournies par les marques, les créateurs et les plateformes sont rapprochées par identifiant ; une publication collaborative avec un compteur partagé n’est comptée qu’une fois. Les republications et les vues payantes sont distinguées lorsque les exports le permettent.':'For each campaign, we agree a measurement period and publication list. Data supplied by brands, creators and platforms is matched by publication ID; a collaborative post with a shared counter is counted once. Reposts and paid views are separated where exports allow.'}</p><p>{fr?'Les résultats des productions antérieures ne garantissent pas ceux d’une prochaine campagne. Les indicateurs d’attention, d’engagement et de conversion ci-dessus décrivent le cadre de suivi proposé ; aucun total collectif n’est annoncé sans données comparables.':'Past work does not guarantee future campaign results. Attention, engagement and conversion indicators above describe the proposed reporting framework; no collective totals are claimed without comparable data.'}</p></div></details>
+ <a class="text-link" href={href(lang,'contact')+'?need=distribution'}>{fr?'Construisons votre campagne':'Let’s build your campaign'}<Icon/></a>
+</div>

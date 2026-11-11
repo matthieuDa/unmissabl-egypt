@@ -1,0 +1,200 @@
+{
+  "observedDate": "2026-10-12",
+  "observedAt": "2026-10-12T15:30:07.543221+00:00",
+  "accounts": [
+    {
+      "talentId": "tom-pacelli",
+      "name": "Tom Pacelli",
+      "handle": "tom.pacelli",
+      "url": "https://www.instagram.com/tom.pacelli/",
+      "followers": 26000,
+      "displayFollowers": "26K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "orie-hyde",
+      "name": "Orie Hyde",
+      "handle": "orie.hyde",
+      "url": "https://www.instagram.com/orie.hyde/",
+      "followers": 25000,
+      "displayFollowers": "25K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "marceau-thevenin",
+      "name": "Marceau Thevenin",
+      "handle": "marceau.tvn",
+      "url": "https://www.instagram.com/marceau.tvn/",
+      "followers": 5295,
+      "displayFollowers": "5,295",
+      "status": "observed_public_count",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Integer displayed by Instagram"
+    },
+    {
+      "talentId": "laura",
+      "name": "Laura Edl",
+      "handle": "lauraaedl",
+      "url": "https://www.instagram.com/lauraaedl/",
+      "followers": 14000,
+      "displayFollowers": "14K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "samuel-kwan",
+      "name": "Samuel Kwan",
+      "handle": "samuelkwansy",
+      "url": "https://www.instagram.com/samuelkwansy/",
+      "followers": 56000,
+      "displayFollowers": "56K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "cj-blardony",
+      "name": "CJ Blardony",
+      "handle": "cjblardony",
+      "url": "https://www.instagram.com/cjblardony/",
+      "followers": 9173,
+      "displayFollowers": "9,173",
+      "status": "observed_public_count",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Integer displayed by Instagram"
+    },
+    {
+      "talentId": "robin-chills",
+      "name": "Robin Chills",
+      "handle": "robinchills",
+      "url": "https://www.instagram.com/robinchills/",
+      "followers": 20000,
+      "displayFollowers": "20K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "chuck-dumont",
+      "name": "Chuck Dumont",
+      "handle": "chuck_dumont",
+      "url": "https://www.instagram.com/chuck_dumont/",
+      "followers": 1493,
+      "displayFollowers": "1,493",
+      "status": "observed_public_count",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Integer displayed by Instagram"
+    },
+    {
+      "talentId": "zaid-wazzan",
+      "name": "Zaid Wazzan",
+      "handle": "_byzaid_",
+      "url": "https://www.instagram.com/_byzaid_/",
+      "followers": 13000,
+      "displayFollowers": "13K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "matiss-skujins",
+      "name": "Matiss Skujins",
+      "handle": "matiss.skujins",
+      "url": "https://www.instagram.com/matiss.skujins/",
+      "followers": 8318,
+      "displayFollowers": "8,318",
+      "status": "observed_public_count",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Integer displayed by Instagram"
+    },
+    {
+      "talentId": "keoni-lachhar",
+      "name": "Keoni Lachhar",
+      "handle": "keonilachhar",
+      "url": "https://www.instagram.com/keonilachhar/",
+      "followers": 39000,
+      "displayFollowers": "39K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "bahri-najm",
+      "name": "Bahri Najm",
+      "handle": "bahrinajm",
+      "url": "https://www.instagram.com/bahrinajm/",
+      "followers": 17000,
+      "displayFollowers": "17K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "rayan-claverol",
+      "name": "Rayan Claverol",
+      "handle": "rayanclaverrol",
+      "url": "https://www.instagram.com/rayanclaverrol/",
+      "followers": 37000,
+      "displayFollowers": "37K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    },
+    {
+      "talentId": "duarte",
+      "name": "Duarte · Du Creates",
+      "handle": "du.creates",
+      "url": "https://www.instagram.com/du.creates/",
+      "followers": 7828,
+      "displayFollowers": "7,828",
+      "status": "observed_public_count",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Integer displayed by Instagram"
+    },
+    {
+      "talentId": "alexandre-buisson",
+      "name": "Alexandre Buisson",
+      "handle": "alexoonnn",
+      "url": "https://www.instagram.com/alexoonnn/",
+      "followers": 26000,
+      "displayFollowers": "26K",
+      "status": "observed_public_rounded",
+      "observedDate": "2026-10-12",
+      "source": "Instagram public profile metadata",
+      "precision": "Rounded by Instagram"
+    }
+  ],
+  "displayTotal": {
+    "fr": "≈ 305 k",
+    "en": "≈ 305k"
+  },
+  "sumOfDisplayedCounts": 305107,
+  "scope": {
+    "fr": "15 comptes Instagram, un compte par talent créatif. Audiences non dédupliquées. Compteurs publics en partie arrondis.",
+    "en": "15 Instagram accounts, one account per creative talent. Audiences are not deduplicated. Some public counts are rounded."
+  },
+  "excluded": [
+    "Matthieu Dalle-Berardinelli: no creator Instagram account recorded",
+    "Secondary studio accounts and the separate @bykeonilachhar professional account"
+  ],
+  "basis": "Public profile descriptions, ordinary unauthenticated HTTP GET; not Instagram Insights or guaranteed campaign reach."
+}

@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T15:24:31.712639+00:00",
+  "purpose": "Local UNMISSABL intro alternatives; credited excerpts of talent portfolios, not a claim that UNMISSABL produced the original commissions.",
+  "editPolicy": {
+    "fps": 24,
+    "codec": "H.264",
+    "crf": 19,
+    "preset": "slow",
+    "audio": "removed",
+    "colourChanges": false,
+    "cuts": "straight cuts, no fades or forced slow motion",
+    "upscale": false,
+    "mobile": "810×1080 native crop. Wider 3:4 framing preserves real detail from 1080p landscape sources; responsive display may crop further."
+  },
+  "sources": {
+    "rayan": {
+      "projectId": "rayan-showreel",
+      "name": "Rayan Claverol",
+      "credit": "Portfolio Rayan Claverol — montage de plusieurs réalisations",
+      "sourceUrl": "https://rayanclaverol.com/",
+      "mediaUrl": "https://rayanclaverol.com/videos/Showreel.mp4",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/rayan-showreel.mp4",
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 33.54,
+        "hasAudio": true,
+        "bytes": 35181642,
+        "sha256": "7b070f438ebaf22795dc6ed1506736b1a43d7aed77ba10b3a9b7222d49a211e7"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "dubai": {
+      "projectId": "robin-dubai",
+      "name": "Robin Chills · Visit Dubai",
+      "credit": "Robin Chills — Visit Dubai · Stopover",
+      "sourceUrl": "https://www.robinchills.com/",
+      "mediaUrl": "https://dl.dropboxusercontent.com/scl/fi/y7ryognngdbi0idlq76bi/CINEMATIC-DUBAI-30-SEC-V5.mp4?rlkey=w2n69kref9ed386nvsd9rt6t2&raw=1",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/robin-dubai.mp4",
+      "original": {
+        "width": 3840,
+        "height": 2160,
+        "duration": 31.2,
+        "hasAudio": true,
+        "bytes": 118393844,
+        "sha256": "54128d64377740d4470db1b2be36b7ac05e7d86fb691ea1a37cfd6cccf4f5aee"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "sanctuary": {
+      "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+      "name": "Sanctuary Creative / Samuel Kwan",
+      "credit": "Sanctuary Creative — rôles individuels par extrait non détaillés",
+      "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+      "mediaUrl": "https://video.wixstatic.com/video/e3752c_1c495ee89c0b4bd6900901e02f9c320e/1080p/mp4/file.mp4",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e.mp4",
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 29.44,
+        "hasAudio": true,
+        "bytes": 21800581,
+        "sha256": "21498875ecb0da01ba41ea08cbd2990e6891ccdbba28ba5d2dd688d77ba72240"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "royal": {
+      "projectId": "duarte-creatum-royal-rides-1",
+      "name": "Creatum Media · Royal Rides",
+      "credit": "Duarte / Creatum Media — Director & Cinematographer",
+      "sourceUrl": "https://www.creatummedia.com/project/royal-rides",
+      "mediaUrl": "https://ittwaowwkvrjexigniml.supabase.co/storage/v1/object/public/videos/royal-rides-reel.mp4",
+      "localMaster": "/private/tmp/unmissabl-preview-sources/duarte-creatum-royal-rides-1.mp4",
+      "original": {
+        "width": 3840,
+        "height": 2160,
+        "duration": 13.46,
+        "hasAudio": true,
+        "bytes": 44313263,
+        "sha256": "2c9ee9d5fa34aea28b87deb23abd8deed1ffab28d250c7c46d40acb46db0fa8b"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "dolomites": {
+      "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+      "name": "Sanctuary Creative · Go Wild",
+      "credit": "Sanctuary Creative — Travel to the Dolomites with Go Wild HK",
+      "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+      "mediaUrl": "https://video.wixstatic.com/video/e3752c_c1aeca96273a4149b4964482386d96f2/1080p/mp4/file.mp4",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/samuel-kwan-c1aeca96273a4149b4964482386d96f2.mp4",
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 38.27,
+        "hasAudio": true,
+        "bytes": 29564396,
+        "sha256": "f3f1537084b9f2c5faded802e9b4c7fa3864d4f22b635cce8a210d030c3e727a"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "faroe": {
+      "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+      "name": "Sanctuary Creative · Columbia",
+      "credit": "Sanctuary Creative — Faroe Islands Exploration with Columbia HK",
+      "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+      "mediaUrl": "https://video.wixstatic.com/video/e3752c_13f1b1ebf6bd49279b59821517b45d63/1080p/mp4/file.mp4",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/samuel-kwan-13f1b1ebf6bd49279b59821517b45d63.mp4",
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 19.35,
+        "hasAudio": true,
+        "bytes": 14132690,
+        "sha256": "6cdf3c3ca9da8893ec09eb1d8b934463c6b5dcc7ab1dd149c06ba049869075d1"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "tom": {
+      "projectId": "tom-2025-webshowreel",
+      "name": "Tom Pacelli",
+      "credit": "Portfolio Tom Pacelli — 2025 web showreel, plusieurs réalisations",
+      "sourceUrl": "https://www.tompacelli.com/content/",
+      "mediaUrl": "https://www.tompacelli.com/wp-content/uploads/2025/01/2025_webshowreel.mp4",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/tom-2025-webshowreel.mp4",
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 32.04,
+        "hasAudio": true,
+        "bytes": 9239561,
+        "sha256": "77625298ebb05ae46c43305cc9b9c6003c60032cec044c0a90e858d5cf31a686"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "dumont": {
+      "projectId": "chuck-dumont-homepage-showreel",
+      "name": "Dumont Films",
+      "credit": "Dumont Films — montage collectif, rôles par extrait non détaillés",
+      "sourceUrl": "https://dumontfilms.ca/",
+      "mediaUrl": "https://dumontfilms-v1.cdn.prismic.io/dumontfilms-v1/ZhGWABrFxhpPBWf3_BannerWebsiteV2.3.mov",
+      "localMaster": "/private/tmp/unmissabl-reel-sources/chuck-dumont-homepage-showreel.mp4",
+      "original": {
+        "width": 3840,
+        "height": 2160,
+        "duration": 70.57,
+        "hasAudio": true,
+        "bytes": 93228254,
+        "sha256": "0b7e1ba72598b8c34abf9de4bee71ac8073417eef93772620ccbce33cf161f0d"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "bahri": {
+      "projectId": "bahri-najm-socotra-hero",
+      "name": "Bahri Najm / Last Meridian Films",
+      "credit": "Bahri Najm / Last Meridian Films — Socotra, film d'accueil",
+      "sourceUrl": "https://bahrinajm.com/",
+      "mediaUrl": "https://bahrinajm.com/assets/socotra-hero.mp4",
+      "localMaster": "/Users/matthieu/Documents/ChatGPT/FILMAKERS/public/media/bahri-socotra.mp4",
+      "original": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 12.42,
+        "hasAudio": false,
+        "bytes": 5745857,
+        "sha256": "ad18b72c64b76fd48ad5219cf985bbb0e4cd5a17c7a97e381423e258ec51f3fd"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": null
+    },
+    "porsche": {
+      "projectId": "duarte-adobe-fqyvsjfqfuj",
+      "name": "Duarte · Porsche Singer",
+      "credit": "Duarte / Creatum Media — Porsche Singer Campaign, Portimão",
+      "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+      "mediaUrl": "https://www-ccv.adobe.io/v1/player/ccv/FqyVsjFQFuJ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "localMaster": "/Users/matthieu/Documents/ChatGPT/FILMAKERS/public/media/catalogue-preview-porsche-portimao.mp4",
+      "original": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 9.41,
+        "hasAudio": false,
+        "bytes": 9049893,
+        "sha256": "87475f5e3888f36cad73d831654372e706fec00a2a073d80aa21b0912ffb48d6"
+      },
+      "acquisition": "public portfolio video; ordinary GET or previously verified local master",
+      "preparedSourceProvenance": {
+        "id": "duarte-adobe-fqyvsjfqfuj",
+        "sourcePage": "https://ducreates.myportfolio.com/car-videography",
+        "accessedAt": "2026-10-12",
+        "output": "/media/catalogue-preview-porsche-portimao.mp4",
+        "poster": "/media/catalogue-poster-porsche-portimao.webp",
+        "publicPlayer": "https://www-ccv.adobe.io/v1/player/ccv/FqyVsjFQFuJ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+        "sourceVariant": "1080x1920",
+        "segmentStartIndex": 0,
+        "segmentCount": 2,
+        "sourceKind": "public-adobe-hls",
+        "sourceDimensions": [
+          1080,
+          1920
+        ],
+        "durationSeconds": 10,
+        "bytes": 9049893,
+        "sha256": "87475f5e3888f36cad73d831654372e706fec00a2a073d80aa21b0912ffb48d6",
+        "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+      }
+    }
+  },
+  "reels": [
+    {
+      "id": "signature",
+      "shots": [
+        {
+          "sourceId": "rayan",
+          "projectId": "rayan-showreel",
+          "sourceIn": 2.75,
+          "sourceOut": 4.25,
+          "timelineIn": 0,
+          "timelineOut": 1.5,
+          "mobileCropFocusX": 0.45
+        },
+        {
+          "sourceId": "dubai",
+          "projectId": "robin-dubai",
+          "sourceIn": 5.5,
+          "sourceOut": 6.75,
+          "timelineIn": 1.5,
+          "timelineOut": 2.75,
+          "mobileCropFocusX": 0.55
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 12.5,
+          "sourceOut": 13.75,
+          "timelineIn": 2.75,
+          "timelineOut": 4.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "royal",
+          "projectId": "duarte-creatum-royal-rides-1",
+          "sourceIn": 7.0,
+          "sourceOut": 8.25,
+          "timelineIn": 4.0,
+          "timelineOut": 5.25,
+          "mobileCropFocusX": 0.6
+        },
+        {
+          "sourceId": "dolomites",
+          "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+          "sourceIn": 23.0,
+          "sourceOut": 24.5,
+          "timelineIn": 5.25,
+          "timelineOut": 6.75,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "tom",
+          "projectId": "tom-2025-webshowreel",
+          "sourceIn": 3.0,
+          "sourceOut": 4.25,
+          "timelineIn": 6.75,
+          "timelineOut": 8.0,
+          "mobileCropFocusX": 0.52
+        },
+        {
+          "sourceId": "dumont",
+          "projectId": "chuck-dumont-homepage-showreel",
+          "sourceIn": 48.0,
+          "sourceOut": 49.5,
+          "timelineIn": 8.0,
+          "timelineOut": 9.5,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "bahri",
+          "projectId": "bahri-najm-socotra-hero",
+          "sourceIn": 10.75,
+          "sourceOut": 12.25,
+          "timelineIn": 9.5,
+          "timelineOut": 11.0,
+          "mobileCropFocusX": 0.6
+        },
+        {
+          "sourceId": "faroe",
+          "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+          "sourceIn": 3.0,
+          "sourceOut": 4.25,
+          "timelineIn": 11.0,
+          "timelineOut": 12.25,
+          "mobileCropFocusX": 0.6
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 20.0,
+          "sourceOut": 21.5,
+          "timelineIn": 12.25,
+          "timelineOut": 13.75,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "rayan",
+          "projectId": "rayan-showreel",
+          "sourceIn": 29.2,
+          "sourceOut": 30.45,
+          "timelineIn": 13.75,
+          "timelineOut": 15.0,
+          "mobileCropFocusX": 0.65
+        },
+        {
+          "sourceId": "rayan",
+          "projectId": "rayan-showreel",
+          "sourceIn": 0.0,
+          "sourceOut": 1.5,
+          "timelineIn": 15.0,
+          "timelineOut": 16.5,
+          "mobileCropFocusX": 0.45
+        }
+      ],
+      "renditions": {
+        "desktop": {
+          "path": "/media/reels/signature.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 16.5,
+          "hasAudio": false,
+          "bytes": 15214157,
+          "sha256": "6d3529d189397d5192e6668829fbad958a1e64b42c03ac3a3132aa7138767f14",
+          "verifiedFullDecode": true,
+          "faststart": true,
+          "atoms": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ]
+        },
+        "mobile": {
+          "path": "/media/reels/signature-mobile.mp4",
+          "width": 810,
+          "height": 1080,
+          "duration": 16.5,
+          "hasAudio": false,
+          "bytes": 7630798,
+          "sha256": "437cab542fea58796d7271d83a9cee81d89a94889fcd62108857e682677fd2d8",
+          "verifiedFullDecode": true,
+          "faststart": true,
+          "atoms": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ]
+        }
+      },
+      "poster": {
+        "path": "/media/reels/signature-poster.webp",
+        "timeSeconds": 0.5,
+        "bytes": 54486
+      }
+    },
+    {
+      "id": "destinations",
+      "shots": [
+        {
+          "sourceId": "dumont",
+          "projectId": "chuck-dumont-homepage-showreel",
+          "sourceIn": 56.5,
+          "sourceOut": 58.5,
+          "timelineIn": 0,
+          "timelineOut": 2.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "rayan",
+          "projectId": "rayan-showreel",
+          "sourceIn": 11.25,
+          "sourceOut": 13.25,
+          "timelineIn": 2.0,
+          "timelineOut": 4.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "bahri",
+          "projectId": "bahri-najm-socotra-hero",
+          "sourceIn": 4.0,
+          "sourceOut": 5.5,
+          "timelineIn": 4.0,
+          "timelineOut": 5.5,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "dubai",
+          "projectId": "robin-dubai",
+          "sourceIn": 13.0,
+          "sourceOut": 14.5,
+          "timelineIn": 5.5,
+          "timelineOut": 7.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "bahri",
+          "projectId": "bahri-najm-socotra-hero",
+          "sourceIn": 6.0,
+          "sourceOut": 8.0,
+          "timelineIn": 7.0,
+          "timelineOut": 9.0,
+          "mobileCropFocusX": 0.35
+        },
+        {
+          "sourceId": "dolomites",
+          "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+          "sourceIn": 2.5,
+          "sourceOut": 4.5,
+          "timelineIn": 9.0,
+          "timelineOut": 11.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "dumont",
+          "projectId": "chuck-dumont-homepage-showreel",
+          "sourceIn": 45.75,
+          "sourceOut": 47.75,
+          "timelineIn": 11.0,
+          "timelineOut": 13.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "rayan",
+          "projectId": "rayan-showreel",
+          "sourceIn": 2.75,
+          "sourceOut": 4.75,
+          "timelineIn": 13.0,
+          "timelineOut": 15.0,
+          "mobileCropFocusX": 0.45
+        },
+        {
+          "sourceId": "faroe",
+          "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+          "sourceIn": 14.5,
+          "sourceOut": 16.5,
+          "timelineIn": 15.0,
+          "timelineOut": 17.0,
+          "mobileCropFocusX": 0.45
+        },
+        {
+          "sourceId": "bahri",
+          "projectId": "bahri-najm-socotra-hero",
+          "sourceIn": 1.0,
+          "sourceOut": 3.0,
+          "timelineIn": 17.0,
+          "timelineOut": 19.0,
+          "mobileCropFocusX": 0.5
+        }
+      ],
+      "renditions": {
+        "desktop": {
+          "path": "/media/reels/destinations.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 19.0,
+          "hasAudio": false,
+          "bytes": 17246080,
+          "sha256": "512410850d20fff681dd12e41ebe043e557e006a02b92e4b26f172a18daa019e",
+          "verifiedFullDecode": true,
+          "faststart": true,
+          "atoms": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ]
+        },
+        "mobile": {
+          "path": "/media/reels/destinations-mobile.mp4",
+          "width": 810,
+          "height": 1080,
+          "duration": 19.0,
+          "hasAudio": false,
+          "bytes": 8683273,
+          "sha256": "cc4c6902a5e2f6c6e7fbffb3969bae1314fae93372642c1e5224355a8cbf7929",
+          "verifiedFullDecode": true,
+          "faststart": true,
+          "atoms": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ]
+        }
+      },
+      "poster": {
+        "path": "/media/reels/destinations-poster.webp",
+        "timeSeconds": 0.5,
+        "bytes": 56102
+      }
+    },
+    {
+      "id": "brands",
+      "shots": [
+        {
+          "sourceId": "royal",
+          "projectId": "duarte-creatum-royal-rides-1",
+          "sourceIn": 7.0,
+          "sourceOut": 8.5,
+          "timelineIn": 0,
+          "timelineOut": 1.5,
+          "mobileCropFocusX": 0.6,
+          "mobileOverride": {
+            "sourceId": "porsche",
+            "projectId": "duarte-adobe-fqyvsjfqfuj",
+            "sourceIn": 1.0,
+            "sourceOut": 2.5,
+            "timelineIn": 0,
+            "timelineOut": 1.5,
+            "mobileCropFocusX": 0.5
+          }
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 12.75,
+          "sourceOut": 14.0,
+          "timelineIn": 1.5,
+          "timelineOut": 2.75,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "faroe",
+          "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+          "sourceIn": 6.5,
+          "sourceOut": 7.5,
+          "timelineIn": 2.75,
+          "timelineOut": 3.75,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "tom",
+          "projectId": "tom-2025-webshowreel",
+          "sourceIn": 3.0,
+          "sourceOut": 4.0,
+          "timelineIn": 3.75,
+          "timelineOut": 4.75,
+          "mobileCropFocusX": 0.52
+        },
+        {
+          "sourceId": "dolomites",
+          "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+          "sourceIn": 13.25,
+          "sourceOut": 14.5,
+          "timelineIn": 4.75,
+          "timelineOut": 6.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "dubai",
+          "projectId": "robin-dubai",
+          "sourceIn": 19.0,
+          "sourceOut": 20.25,
+          "timelineIn": 6.0,
+          "timelineOut": 7.25,
+          "mobileCropFocusX": 0.55
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 15.0,
+          "sourceOut": 16.25,
+          "timelineIn": 7.25,
+          "timelineOut": 8.5,
+          "mobileCropFocusX": 0.55
+        },
+        {
+          "sourceId": "royal",
+          "projectId": "duarte-creatum-royal-rides-1",
+          "sourceIn": 9.5,
+          "sourceOut": 10.75,
+          "timelineIn": 8.5,
+          "timelineOut": 9.75,
+          "mobileCropFocusX": 0.45
+        },
+        {
+          "sourceId": "dumont",
+          "projectId": "chuck-dumont-homepage-showreel",
+          "sourceIn": 48.0,
+          "sourceOut": 49.25,
+          "timelineIn": 9.75,
+          "timelineOut": 11.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 0.2,
+          "sourceOut": 1.2,
+          "timelineIn": 11.0,
+          "timelineOut": 12.0,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 23.0,
+          "sourceOut": 24.25,
+          "timelineIn": 12.0,
+          "timelineOut": 13.25,
+          "mobileCropFocusX": 0.5
+        },
+        {
+          "sourceId": "sanctuary",
+          "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e",
+          "sourceIn": 17.25,
+          "sourceOut": 18.75,
+          "timelineIn": 13.25,
+          "timelineOut": 14.75,
+          "mobileCropFocusX": 0.6
+        }
+      ],
+      "renditions": {
+        "desktop": {
+          "path": "/media/reels/brands.mp4",
+          "width": 1920,
+          "height": 1080,
+          "duration": 14.75,
+          "hasAudio": false,
+          "bytes": 16177306,
+          "sha256": "a69fb996a1eb721c1794ec35ad9b0f439d33e1f27d28739bc744906dedb8c094",
+          "verifiedFullDecode": true,
+          "faststart": true,
+          "atoms": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ]
+        },
+        "mobile": {
+          "path": "/media/reels/brands-mobile.mp4",
+          "width": 810,
+          "height": 1080,
+          "duration": 14.75,
+          "hasAudio": false,
+          "bytes": 7630281,
+          "sha256": "8ce455881fc1e155f4cf6184c9260fdd4ba2522def16897355fd63126eee3784",
+          "verifiedFullDecode": true,
+          "faststart": true,
+          "atoms": [
+            "ftyp",
+            "moov",
+            "free",
+            "mdat"
+          ]
+        }
+      },
+      "poster": {
+        "path": "/media/reels/brands-poster.webp",
+        "timeSeconds": 0.5,
+        "bytes": 293176
+      }
+    }
+  ],
+  "notUsed": [
+    "720p Tom brand/destination reels: below the native 1080p quality floor",
+    "Ferrari Madeira: letterboxed 1080p would need an upscale to fill 16:9",
+    "Etihad MOV: exceeds bounded source download size; source remains in library"
+  ],
+  "review": "Original and final desktop/mobile frame contact sheets visually inspected. These edits do not establish additional shoot locations or individual creator roles."
+}

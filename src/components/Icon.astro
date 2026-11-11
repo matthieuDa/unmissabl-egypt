@@ -1,0 +1,6 @@
+---
+interface Props {name?:'arrow'|'play'|'close'|'pause'|'menu'|'plus';size?:number;}
+const {name='arrow',size=20}=Astro.props;
+const paths={arrow:'M4 12h16M13 5l7 7-7 7',play:'m9 5 11 7-11 7V5Z',close:'m6 6 12 12M18 6 6 18',pause:'M8 5v14M16 5v14',menu:'M4 8h16M4 16h16',plus:'M12 4v16M4 12h16'};
+---
+<svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]}/></svg>

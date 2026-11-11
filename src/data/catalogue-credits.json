@@ -1,0 +1,96 @@
+{
+  "chuck-dumont-malo-college-st-sacrament": {
+    "credit": {
+      "fr": "Client : Groupe Malo. Production : Chuck Dumont, Yoan Sun Dubord. FPV : Chuck Dumont. Photographie : Xavier Barriault.",
+      "en": "Client: Groupe Malo. Production: Chuck Dumont, Yoan Sun Dubord. FPV: Chuck Dumont. Photography: Xavier Barriault."
+    },
+    "creatorIds": [
+      "chuck-dumont"
+    ]
+  },
+  "chuck-dumont-tisseur-bureau-fpv": {
+    "credit": {
+      "fr": "Client : Tisseur. FPV et montage : Chuck Dumont.",
+      "en": "Client: Tisseur. FPV and editor: Chuck Dumont."
+    },
+    "creatorIds": [
+      "chuck-dumont"
+    ]
+  },
+  "chuck-dumont-musicbed": {
+    "credit": {
+      "fr": "Client : Musicbed. Production : Mustafa Yamak, Chuck Dumont, Robin Diederichs, Jack Zakrajsek, Tristan Blais-Noël, Kyle Marcoe, Nam Nguyen. Montage : Mustafa Yamak. FPV : Chuck Dumont.",
+      "en": "Client: Musicbed. Production: Mustafa Yamak, Chuck Dumont, Robin Diederichs, Jack Zakrajsek, Tristan Blais-Noël, Kyle Marcoe, Nam Nguyen. Editor: Mustafa Yamak. FPV: Chuck Dumont."
+    },
+    "creatorIds": [
+      "chuck-dumont",
+      "robin-chills"
+    ]
+  },
+  "chuck-dumont-nomatic-bags": {
+    "credit": {
+      "fr": "Client : Nomatic. Production : Chuck Dumont, Robin Diederichs, Jack Zakrajsek, Benjy.",
+      "en": "Client: Nomatic. Production: Chuck Dumont, Robin Diederichs, Jack Zakrajsek, Benjy."
+    },
+    "creatorIds": [
+      "chuck-dumont",
+      "robin-chills"
+    ]
+  },
+  "chuck-dumont-arcteryx-montreal": {
+    "credit": {
+      "fr": "Client : Arc’teryx Montréal. Photographie et blogue. Production : Chuck Dumont, Benjy, Jules Rapp.",
+      "en": "Client: Arc’teryx Montréal. Photography and blog. Production: Chuck Dumont, Benjy, Jules Rapp."
+    },
+    "creatorIds": [
+      "chuck-dumont"
+    ]
+  },
+  "chuck-dumont-corona": {
+    "credit": {
+      "fr": "Client : Corona Studios. Équipe : Chuck Dumont, Alexandre Buisson, Benjy, Jules Rapp. Montage : Alexandre Buisson. FPV : Chuck Dumont.",
+      "en": "Client: Corona Studios. Team: Chuck Dumont, Alexandre Buisson, Benjy, Jules Rapp. Editor: Alexandre Buisson. FPV: Chuck Dumont."
+    },
+    "creatorIds": [
+      "chuck-dumont",
+      "alexandre-buisson"
+    ]
+  },
+  "chuck-dumont-kiliwarrior-expeditions": {
+    "credit": {
+      "fr": "Client : Kiliwarrior Expeditions. Production : Chuck Dumont, Benjy, Jules Rapp. FPV : Chuck Dumont.",
+      "en": "Client: Kiliwarrior Expeditions. Production: Chuck Dumont, Benjy, Jules Rapp. FPV: Chuck Dumont."
+    },
+    "creatorIds": [
+      "chuck-dumont"
+    ]
+  },
+  "chuck-dumont-hyundai-ioniq-5": {
+    "credit": {
+      "fr": "Client : Hyundai Switzerland. Production : Chuck Dumont, Robin Diederichs, Stian Glatthard, Timo Nieswandt.",
+      "en": "Client: Hyundai Switzerland. Production: Chuck Dumont, Robin Diederichs, Stian Glatthard, Timo Nieswandt."
+    },
+    "creatorIds": [
+      "chuck-dumont",
+      "robin-chills"
+    ]
+  },
+  "chuck-dumont-north-face": {
+    "credit": {
+      "fr": "Projet personnel. Production : Chuck Dumont, Béatrice Vu, Yoan Dubord, Xavier Barriault, Jeff David, Michael Mamic. Photographie : Xavier Barriault. Modèle : Béatrice Vu. Caméra : Yoan Dubord.",
+      "en": "Personal project. Production: Chuck Dumont, Béatrice Vu, Yoan Dubord, Xavier Barriault, Jeff David, Michael Mamic. Photography: Xavier Barriault. Model: Béatrice Vu. Camera: Yoan Dubord."
+    },
+    "creatorIds": [
+      "chuck-dumont"
+    ]
+  },
+  "chuck-dumont-ironman-hawaii": {
+    "credit": {
+      "fr": "Film personnel publié par Dumont Films. Le détail des rôles n’est pas indiqué dans la source.",
+      "en": "Personal film published by Dumont Films. Individual roles are not specified in the source."
+    },
+    "creatorIds": [
+      "chuck-dumont"
+    ]
+  }
+}

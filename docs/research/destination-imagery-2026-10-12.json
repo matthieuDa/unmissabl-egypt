@@ -1,0 +1,18 @@
+[
+  {
+    "destination": "iceland",
+    "file": "/media/iceland-vestrahorn.webp",
+    "creator": "Luca Micheli",
+    "source": "https://unsplash.com/photos/vestrahorn-mountain-reflected-on-icelandic-beach-ruWkmt3nU58",
+    "license": "Unsplash License",
+    "purpose": "Destination illustration, not collective work"
+  },
+  {
+    "destination": "france",
+    "file": "/media/france-lavender.webp",
+    "creator": "Léonard Cotte",
+    "source": "https://unsplash.com/photos/lavender-field-c1Jp-fo53U8",
+    "license": "Unsplash License",
+    "purpose": "Destination illustration, not collective work"
+  }
+]

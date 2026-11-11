@@ -1,0 +1,9 @@
+---
+import {liveSectors} from '../data/projects';
+import {href,type Lang} from '../data/site';
+import PreviewVideo from './PreviewVideo.astro';
+import Icon from './Icon.astro';
+const {lang,directory=false}=Astro.props as {lang:Lang;directory?:boolean};
+const credits:Record<string,string>={hospitality:'SIRO One Za’abeel · Matiss Skujins',travel:'Socotra · Bahri Najm',fashion:'Columbia · Samuel Kwan',automotive:'Royal Rides · Duarte',aviation:'Jetex · Robin Chills',food:'Etihad · Robin Chills',jewellery:lang==='fr'?'Photographies animées · Zaid Wazzan':'Animated photographs · Zaid Wazzan',architecture:'Emaar · Matiss Skujins'};
+---
+<div class:list={['sector-gallery',{'sector-gallery-directory':directory}]}>{liveSectors.map(s=><a href={href(lang,'sectors/'+s.id)} data-card-preview={'sector-'+s.id} data-preview-orientation="landscape"><div class="sector-gallery-image"><img src={'/media/previews/sector-'+s.id+'.webp'} alt="" loading="lazy" width="960" height="540"/><PreviewVideo source={'sector-'+s.id} lang={lang}/><span class="sector-preview-credit">{credits[s.id]}</span></div><h3>{s.name[lang]}</h3><Icon size={20}/></a>)}</div>

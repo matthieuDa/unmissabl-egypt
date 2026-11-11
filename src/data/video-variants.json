@@ -1,0 +1,344 @@
+{
+  "sector-travel": [
+    {
+      "src": "/media/previews/catalogue-preview-socotra-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-socotra-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-socotra.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-hospitality": [
+    {
+      "src": "/media/previews/sector-hospitality-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/sector-hospitality-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/previews/sector-hospitality-1280.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-fashion": [
+    {
+      "src": "/media/previews/catalogue-preview-columbia-faroe-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-columbia-faroe-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-columbia-faroe.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-automotive": [
+    {
+      "src": "/media/previews/catalogue-preview-royal-rides-portugal-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-royal-rides-portugal-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-royal-rides-portugal.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-food": [
+    {
+      "src": "/media/previews/sector-food-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/sector-food-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/previews/sector-food-1280.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-jewellery": [
+    {
+      "src": "/media/previews/sector-jewellery-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/sector-jewellery-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/previews/sector-jewellery-1280.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-architecture": [
+    {
+      "src": "/media/previews/sector-architecture-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/sector-architecture-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/previews/sector-architecture-1280.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-socotra.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-socotra-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-socotra-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-socotra.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-columbia-faroe.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-columbia-faroe-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-columbia-faroe-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-columbia-faroe.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-go-wild-dolomites.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-go-wild-dolomites-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-go-wild-dolomites-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-go-wild-dolomites.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-royal-rides-portugal.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-royal-rides-portugal-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-royal-rides-portugal-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-royal-rides-portugal.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-porsche-portimao.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-porsche-portimao-640.mp4",
+      "width": 640,
+      "height": 1138
+    },
+    {
+      "src": "/media/catalogue-preview-porsche-portimao.mp4",
+      "width": 960,
+      "height": 1706
+    }
+  ],
+  "/media/catalogue-preview-akla-lisbon.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-akla-lisbon-640.mp4",
+      "width": 640,
+      "height": 1138
+    },
+    {
+      "src": "/media/catalogue-preview-akla-lisbon.mp4",
+      "width": 960,
+      "height": 1706
+    }
+  ],
+  "/media/catalogue-preview-24h-barcelona.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-24h-barcelona-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-24h-barcelona-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-24h-barcelona.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-hilton-lisbon.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-hilton-lisbon-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-hilton-lisbon-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-hilton-lisbon.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-ferrari-estoril.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-ferrari-estoril-640.mp4",
+      "width": 640,
+      "height": 1138
+    },
+    {
+      "src": "/media/catalogue-preview-ferrari-estoril.mp4",
+      "width": 960,
+      "height": 1706
+    }
+  ],
+  "/media/catalogue-preview-ferrari-madeira.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-ferrari-madeira-640.mp4",
+      "width": 640,
+      "height": 264
+    },
+    {
+      "src": "/media/previews/catalogue-preview-ferrari-madeira-960.mp4",
+      "width": 960,
+      "height": 396
+    },
+    {
+      "src": "/media/catalogue-preview-ferrari-madeira.mp4",
+      "width": 1280,
+      "height": 526
+    }
+  ],
+  "/media/catalogue-preview-landmark-hong-kong.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-landmark-hong-kong-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-landmark-hong-kong-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-landmark-hong-kong.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-dubai.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-dubai-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-dubai-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-dubai.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "sector-aviation": [
+    {
+      "src": "/media/previews/sector-aviation-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/sector-aviation-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/previews/sector-aviation-1280.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "/media/catalogue-preview-elewana.mp4": [
+    {
+      "src": "/media/previews/catalogue-preview-elewana-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/catalogue-preview-elewana-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/catalogue-preview-elewana.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

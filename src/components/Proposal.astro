@@ -1,0 +1,44 @@
+---
+import {proposalCopy,proposalPresets,type ProposalLang} from '../data/proposal';
+import '../styles/proposal.css';
+const {lang}=Astro.props as {lang:ProposalLang};
+const c=proposalCopy[lang];
+---
+<section class="proposal-root" data-proposal-root data-lang={lang}>
+ <div class="proposal-intro"><h1>{c.title}</h1><p>{c.intro}</p><p class="proposal-privacy">{c.privacy}</p><a href="#proposal-document">{c.preview}</a></div>
+ <div class="proposal-workspace">
+  <form class="proposal-editor" data-proposal-form>
+   <fieldset><legend>{c.preset}</legend><label for="proposal-sector">{c.preset}</label><div class="proposal-template-controls"><select id="proposal-sector" name="sector"><option value="">{c.other}</option>{Object.entries(proposalPresets).map(([id,p])=><option value={id}>{p.name[lang]}</option>)}</select><button type="button" data-apply-template>{c.apply}</button></div><p class="proposal-help">{c.presetNote}</p></fieldset>
+   <fieldset><legend>{c.details}</legend><div class="proposal-input-grid">
+    <label>{c.client}<input name="client" maxlength="200" autocomplete="organization" placeholder={c.clientPlaceholder}/></label>
+    <label>{c.contact}<input name="contact" maxlength="200" autocomplete="name"/></label>
+    <label class="wide">{c.projectTitle}<input name="title" maxlength="200" placeholder={c.titlePlaceholder}/></label>
+    <label class="wide">{c.location}<input name="location" maxlength="200"/></label>
+    <label>{c.period}<input name="period" maxlength="200"/></label>
+    <label>{c.validity}<input name="validity" maxlength="200" placeholder={c.validityHint}/></label>
+    <label class="wide">{c.objective}<textarea name="objective" rows="4" maxlength="3000"></textarea></label>
+   </div></fieldset>
+   <fieldset><legend>{c.scope}</legend><div data-proposal-lines></div><button type="button" data-add-line>{c.add}</button><label class="proposal-tax-field">{c.vat}<input name="vat" inputmode="decimal" maxlength="6" placeholder="—" aria-describedby="proposal-tax-help"/></label><p class="proposal-help" id="proposal-tax-help">{c.vatNote}</p><p class="proposal-validation" id="proposal-validation" data-proposal-validation hidden role="status"></p></fieldset>
+   <details class="proposal-conditions"><summary>{c.rightsTitle} · {c.termsTitle}</summary><label>{c.rights}<textarea name="rights" rows="4" maxlength="3000">{c.emptyRights}</textarea></label><label>{c.terms}<textarea name="terms" rows="5" maxlength="3000">{c.emptyTerms}</textarea></label></details>
+   <div class="proposal-controls"><button class="proposal-print" type="button" data-proposal-print>{c.print}</button><button type="button" data-proposal-download>{c.download}</button><label class="proposal-file-label">{c.import}<input type="file" accept=".json,application/json" data-proposal-import/></label><p class="proposal-help">{c.fileNote}</p><p class="proposal-status" data-proposal-status role="status" aria-live="polite" tabindex="-1"></p></div>
+   <noscript><p>{lang==='fr'?'Activez JavaScript pour personnaliser ce modèle et calculer le budget.':'Enable JavaScript to customise this template and calculate the budget.'}</p></noscript>
+  </form>
+  <div class="proposal-preview"><p class="proposal-preview-title">{c.preview}</p><article class="proposal-document" id="proposal-document" aria-label={c.preview} tabindex="-1">
+   <header class="proposal-document-header"><span class="proposal-wordmark">unmissabl</span><span>{c.draft}</span></header>
+   <div class="proposal-client"><span>{c.for}</span><h2 data-document="client">{c.clientPlaceholder}</h2><p data-document="contact" hidden></p></div>
+   <h3 class="proposal-project-title" data-document="title">{c.titlePlaceholder}</h3>
+   <dl class="proposal-facts"><div><dt>{c.location}</dt><dd data-document="location">{c.notSet}</dd></div><div><dt>{c.period}</dt><dd data-document="period">{c.notSet}</dd></div><div><dt>{c.validity}</dt><dd data-document="validity">{c.notSet}</dd></div></dl>
+   <section class="proposal-objective" data-document-objective hidden><h3>{c.objective}</h3><p data-document="objective"></p></section>
+   <section><h3>{c.approach}</h3><p>{c.approachText}</p></section>
+   <section><h3>{c.scopeTitle}</h3><table class="proposal-table"><caption class="proposal-sr-only">{c.scope}</caption><colgroup><col class="proposal-description-col"/><col class="proposal-quantity-col"/><col/><col/></colgroup><thead><tr><th scope="col">{c.description}</th><th scope="col">{c.quantity}</th><th scope="col">{c.price}</th><th scope="col">{c.amount}</th></tr></thead><tbody data-document-lines></tbody></table><dl class="proposal-totals"><div><dt>{c.subtotal}</dt><dd data-subtotal>{c.pending}</dd></div><div data-tax-row><dt>{c.tax}</dt><dd data-tax>—</dd></div><div class="proposal-grand-total" data-total-row hidden><dt>{c.total}</dt><dd data-total>—</dd></div></dl><p class="proposal-tax-note" data-tax-note>{c.taxUndefined}</p></section>
+   <section><h3>{c.rightsTitle}</h3><p data-document="rights">{c.emptyRights}</p></section>
+   <section><h3>{c.termsTitle}</h3><p data-document="terms">{c.emptyTerms}</p></section>
+   <footer class="proposal-document-footer"><strong>{c.producer}</strong><p>{c.footer}</p><span>unmissabl.com</span></footer>
+  </article></div>
+ </div>
+</section>
+<script>
+ import {setupProposals} from '../scripts/proposal';
+ setupProposals();
+ document.addEventListener('astro:page-load',setupProposals);
+</script>

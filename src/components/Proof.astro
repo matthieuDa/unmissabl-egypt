@@ -1,0 +1,22 @@
+---
+import brands from '../data/brands.json';
+import audience from '../data/audience.json';
+import {reportedReach} from '../data/reported-reach';
+import {href,type Lang} from '../data/site';
+import Icon from './Icon.astro';
+const {lang}=Astro.props as {lang:Lang};
+const fr=lang==='fr';
+const followers=audience.accounts.reduce((sum,a)=>sum+a.followers,0);
+const rounded=Math.floor(followers/10000)*10;
+const brandCount=brands.filter(b=>b.entityType==='brand-or-organization'&&!('parentBrandId' in b&&b.parentBrandId)).length;
+---
+<section class="section dark proof-section" aria-labelledby="proof-title">
+ <div class="proof-intro"><h2 id="proof-title">{fr?'Chiffres clés':'Key figures'}</h2><p>{fr?'Des références internationales et des communautés réunies autour de nos images.':'International work and communities brought together by our images.'}</p></div>
+ <dl class="proof-figures">
+  <div><dt>{fr?'Marques et institutions':'Brands and organisations'}</dt><dd>{brandCount}</dd><a href={href(lang,'credits')+'#brands'}>{fr?'Voir les marques et les sources':'View brands and sources'}<Icon size={16}/></a></div>
+  <div><dt>{reportedReach.label[lang]}</dt><dd>800<span>M+</span></dd><a href={href(lang,'collective')+'#visibility'}>{fr?'Comprendre notre impact':'Explore our impact'}<Icon size={16}/></a></div>
+  <div><dt>{fr?'Abonnés Instagram cumulés':'Combined Instagram followers'}</dt><dd>{rounded}<span>k+</span></dd><a href={href(lang,'collective')+'#audiences'}>{fr?'Comptes de nos créateurs':'Our creators’ accounts'}<Icon size={16}/></a></div>
+ </dl>
+ <p class="proof-source">{reportedReach.source[lang]} </p>
+ <p class="proof-source">{fr?`Références issues des portfolios des talents. Abonnés : somme de compteurs publics arrondis, relevés le ${new Date(audience.observedDate+'T12:00:00Z').toLocaleDateString('fr-FR')}. Audiences non dédupliquées. La diffusion par les créateurs est proposée en option.`:`References from the talents’ portfolios. Followers: sum of rounded public counts, observed ${new Date(audience.observedDate+'T12:00:00Z').toLocaleDateString('en-GB')}. Audiences are not deduplicated. Creator distribution is optional.`}</p>
+</section>

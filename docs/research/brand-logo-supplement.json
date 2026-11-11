@@ -1,0 +1,35 @@
+[
+  {
+    "brandId": "asics",
+    "logo": "/media/logos/asics-official.svg",
+    "sourceUrl": "https://corp.asics.com/en",
+    "assetUrl": "https://corp.asics.com/system/assets/logo-asics.svg",
+    "retrievedAt": "2026-10-12T15:41:34.836709+00:00",
+    "logoTreatment": "original"
+  },
+  {
+    "brandId": "hilton",
+    "logo": "/media/logos/hilton-official.png",
+    "sourceUrl": "https://stories.hilton.com/",
+    "assetUrl": "https://stories-editor.hilton.com/wp-content/uploads/2024/12/Hilton_HHR_LOGO_Hilton-Blue_RGB.png",
+    "retrievedAt": "2026-10-12T15:41:34.836709+00:00",
+    "logoTreatment": "original"
+  },
+  {
+    "brandId": "jetex",
+    "logo": "/media/logos/jetex-official.svg",
+    "sourceUrl": "https://www.jetex.com/",
+    "assetUrl": "https://www.jetex.com/wp-content/uploads/2023/04/Jetex-Logo.svg",
+    "retrievedAt": "2026-10-12T15:41:34.836709+00:00",
+    "logoTreatment": "original"
+  },
+  {
+    "brandId": "arcteryx",
+    "logo": "/media/logos/arcteryx-official.svg",
+    "sourceUrl": "https://arcteryx.com/fr/en",
+    "assetUrl": "https://arcteryx.com/fr/en#arcteryx-logo",
+    "retrievedAt": "2026-10-12T15:41:34.836709+00:00",
+    "logoTreatment": "monochrome",
+    "note": "Official inline SVG, unchanged paths; --colour-white resolved to #ffffff for standalone use. Requires dark treatment or CSS brightness(0) on a light surface."
+  }
+]

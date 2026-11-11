@@ -1,0 +1,4 @@
+---
+import {defaultLocale,locales,languageNames,href} from '../data/site';
+---
+<!doctype html><html lang={defaultLocale}><head><meta charset="utf-8"/><meta http-equiv="refresh" content={'0;url='+href(defaultLocale)}/><meta name="robots" content="noindex"/><title>Unmissabl</title></head><body>{locales.map(lang=><a href={href(lang)}>Unmissabl — {languageNames[lang]}</a>)}</body></html>

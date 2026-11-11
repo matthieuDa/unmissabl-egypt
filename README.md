@@ -1,30 +1,69 @@
-# UNMISSABL — Egypt
+# UNMISSABL — site international
 
-Landing anglaise pour la production du 16 au 25 octobre 2026. Site statique sans dépendance d'exécution. Tous les médias et polices utilisés dans la page sont servis localement.
+Site Astro en français et anglais : références du collectif, destinations, parcours sectoriels, contact et modèle de proposition commerciale imprimable. Cette livraison reste locale et en pull request. **Aucun déploiement en production n’a été effectué.**
 
-## Usage
+## Origine des sources
 
-- `npm start` : aperçu sur http://localhost:3008
-- `npm run check` : liens, ancres, fichiers et balisage essentiel
-- Source du site : `dist/`
-- `scripts/browser-check.mjs` : vérification réelle de trois pages à quatre tailles d'écran ; passer le chemin absolu du module Playwright dans `PLAYWRIGHT_MODULE`.
+La base globale v8 a été récupérée depuis la version Sites `c2f3a5509b96789eb10201f16fa7dad37b8b5fae`. La branche `main` du dépôt contenait encore l’ancienne landing Égypte : cet écart explique le volume du diff. Les sources de cette version sont dans `src/` ; `dist/` contient uniquement le résultat généré et ne doit pas être modifié à la main.
 
-## Contact
+## Installation et vérification
 
-Les boutons conduisent à `contact.html`. Le mode `?intent=call` affiche les préférences de rendez-vous. Le formulaire valide les champs et prépare un email encodé à `dalle.matthieu@gmail.com` dans l'application de messagerie du visiteur. Aucun email envoyé automatiquement, aucun enregistrement de données, aucune réservation automatique. Un lien mail direct et une copie de l'adresse sont disponibles.
+Utiliser **Node.js 24** et npm, avec le `package-lock.json` du dépôt.
 
-## Publication
+```sh
+npm ci
+npm run check
+npm run build
+npm run validate
+npm test
+npm run preview:commercial
+```
 
-### Netlify
+L’aperçu complet est disponible sur [http://127.0.0.1:4322/fr/](http://127.0.0.1:4322/fr/) et [http://127.0.0.1:4322/en/](http://127.0.0.1:4322/en/). Le port peut être changé avec `PORT=4323 npm run preview:commercial`. Reconstruire après modification des sources pour actualiser cet aperçu.
 
-Import this GitHub repository into Netlify. The included `netlify.toml` sets `dist` as the publish directory, so no build command is required for this static site.
+`npm run check` vérifie Astro et TypeScript ; `npm run validate` contrôle les contenus et leurs relations ; `npm test` exécute les tests fonctionnels, dont un serveur HTTP local temporaire. Le serveur de développement `npm run dev` permet de travailler sur l’interface, mais ne fournit pas seul l’API de contact. Les contrôles visuels, clavier et PDF complètent ces commandes.
 
-Projet Sites : `appgprj_6ab15a220b088191bf0b7955ac8f9119`.
-Version 1 : commit `b1ce1ee0af29ef36b1edcffa512ef71fd3ce1d1d`.
-URL : https://unmissabl-egypt.hjrf68hwnt.chatgpt.site
+## Parcours commerciaux
 
-Les sources validées ont été poussées dans le dépôt d'hébergement. Les accès publics et le raccordement final du domaine restent à finaliser ; voir `DOMAIN-SETUP.md`. Aucune clé d'accès n'est conservée dans le projet.
+- Pages de prospection : `/fr/solutions/` et `/en/solutions/`, avec variantes `hotels`, `golf`, `resorts`, `automotive` et `equestrian`.
+- Destinations : Égypte, fenêtres d’octobre et décembre 2026 ; France — Côte d’Azur, printemps 2027. Octobre est identifié comme une fenêtre passée, sans affirmer qu’une production a eu lieu. L’Islande a été retirée.
+- Proposition personnalisable : `/fr/proposal/` et `/en/proposal/`. Renseigner les montants et le périmètre, puis utiliser « Imprimer / enregistrer en PDF ». Aucun prix manquant n’est présenté comme gratuit.
+- Formulaire : `/fr/contact/` et `/en/contact/`, également intégré aux pages commerciales avec leur contexte.
 
-## Médias et attribution
+Voir [les parcours de prospection](docs/commercial-landings.md) et [le fonctionnement des propositions](docs/proposal-template.md). Les propositions ne sont pas indexées, mais ne sont pas protégées par une authentification. Les brouillons sont exportés volontairement en JSON ; aucun envoi au prospect n’est automatique.
 
-Les images d'Égypte sont des photographies Unsplash indépendantes, pas des réalisations de l'expédition à venir. Sources et crédits publics dans `dist/credits.html`. Les projets d’Alex proviennent des pages officielles Alexon Media. Les projets de Samuel et cinq logos ont été extraits des deux PDF fournis par Matthieu. Les deux projets de CJ sont explicitement sélectionnés sur bio.site/cjblardony ; les logos Mazda et DJI viennent des sites officiels de ces marques. Les références restent attribuées aux portfolios individuels, et le rôle exact de CJ sur Mazda n’est pas supposé. La sélection comporte six projets visibles et quatre autres dans une section dépliable.
+## Contact local et réception réelle
+
+Dans l’aperçu local, un vrai POST `/api/contact` valide le brief et l’enregistre dans **`.local/contacts/`**, hors des fichiers publics, avec permissions restreintes. Ce dossier est ignoré par Git. La confirmation indique clairement qu’aucun email n’est envoyé. Utiliser des coordonnées fictives et supprimer les captures après vérification. Aucune clé n’est nécessaire pour ce parcours local.
+
+La réception réelle est préparée dans une fonction Netlify : validation serveur, champ leurre, contrôle d’origine, vérification Cloudflare Turnstile et envoi via Resend. Les tentatives sont limitées et les reprises d’envoi utilisent une clé d’idempotence. Une configuration incomplète ou une erreur fournisseur ne produit aucune fausse confirmation de succès.
+
+### Configuration manuelle avant activation
+
+Le fichier [.env.example](.env.example) liste les six variables requises. Les renseigner dans le contexte d’hébergement autorisé ; ne jamais committer de clés.
+
+| Variable | Usage |
+|---|---|
+| `PUBLIC_TURNSTILE_SITE_KEY` | Clé publique intégrée au build ; reconstruire après modification. |
+| `TURNSTILE_SECRET_KEY` | Secret du même widget, réservé à la fonction. |
+| `RESEND_API_KEY` | Clé d’envoi Resend, réservée à la fonction. |
+| `CONTACT_FROM_EMAIL` | Expéditeur autorisé sur un domaine vérifié. |
+| `CONTACT_TO_EMAIL` | Boîte de réception réellement surveillée. |
+| `CONTACT_ALLOWED_ORIGINS` | Origines HTTPS exactes, séparées par des virgules, sans slash final. |
+
+Le fichier `netlify.toml` prépare Node 24, `npm run build`, la publication de `dist/` et les fonctions de `netlify/functions/`. Après validation de la publication : configurer le widget Turnstile et ses domaines, vérifier le domaine expéditeur Resend, renseigner les variables, compléter les informations légales et de confidentialité, puis contrôler la réception effective d’un brief fictif et les protections anti-spam. Aucune de ces configurations cloud n’a été effectuée dans cette livraison.
+
+**ChatGPT Sites sert le site statique actuel et n’exécute pas cette fonction Netlify.** Envoyer seulement `dist/` sur cette plateforme ne rendrait pas le formulaire opérationnel. Toute autre cible nécessite un adaptateur serveur avant activation.
+
+La procédure détaillée et les sources techniques figurent dans [la configuration du contact](docs/contact-configuration.md).
+
+## Structure et contenus
+
+- `src/components/` : interface, lecteurs, formulaire et proposition.
+- `src/data/` : projets, talents, secteurs, destinations, médias et données commerciales.
+- `src/i18n/` : textes français et anglais ; langues et réglages communs dans `src/data/site.ts`.
+- `public/` : fichiers servis ; `docs/research/` : provenance des médias et recherches.
+- `server/` et `netlify/functions/` : traitement du contact et adaptateur d’hébergement.
+- `scripts/`, `tests/` : validation, aperçu et tests.
+
+Les références antérieures restent attribuées aux talents et ne doivent pas être présentées comme des productions réalisées par Unmissabl. Conserver les sources, crédits et périmètres des chiffres lors de toute modification. Les conditions, disponibilités, droits et montants de chaque proposition doivent être validés avant transmission au prospect.

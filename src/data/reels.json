@@ -1,0 +1,168 @@
+[
+  {
+    "id": "signature",
+    "title": {
+      "fr": "Signature",
+      "en": "Signature"
+    },
+    "description": {
+      "fr": "Notre recommandation : une sélection rythmée de films de marque, d'hospitalité et de voyages.",
+      "en": "Our recommendation: a fast-paced selection of brand, hospitality and travel films."
+    },
+    "src": "/media/reels/signature.mp4",
+    "mobileSrc": "/media/reels/signature-mobile.mp4",
+    "poster": "/media/reels/signature-poster.webp",
+    "duration": 16.5,
+    "credits": [
+      {
+        "name": "Rayan Claverol",
+        "sourceUrl": "https://rayanclaverol.com/",
+        "projectId": "rayan-showreel"
+      },
+      {
+        "name": "Robin Chills · Visit Dubai",
+        "sourceUrl": "https://www.robinchills.com/",
+        "projectId": "robin-dubai"
+      },
+      {
+        "name": "Samuel Kwan",
+        "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+        "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e"
+      },
+      {
+        "name": "Duarte · Royal Rides",
+        "sourceUrl": "https://www.creatummedia.com/project/royal-rides",
+        "projectId": "duarte-creatum-royal-rides-1"
+      },
+      {
+        "name": "Samuel Kwan · Go Wild",
+        "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+        "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2"
+      },
+      {
+        "name": "Tom Pacelli",
+        "sourceUrl": "https://www.tompacelli.com/content/",
+        "projectId": "tom-2025-webshowreel"
+      },
+      {
+        "name": "Chuck Dumont",
+        "sourceUrl": "https://dumontfilms.ca/",
+        "projectId": "chuck-dumont-homepage-showreel"
+      },
+      {
+        "name": "Bahri Najm",
+        "sourceUrl": "https://bahrinajm.com/",
+        "projectId": "bahri-najm-socotra-hero"
+      },
+      {
+        "name": "Samuel Kwan · Columbia",
+        "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+        "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63"
+      }
+    ]
+  },
+  {
+    "id": "destinations",
+    "title": {
+      "fr": "Destinations",
+      "en": "Destinations"
+    },
+    "description": {
+      "fr": "Une ouverture immersive : paysages, villes et expériences à travers les regards du collectif.",
+      "en": "An immersive opening: landscapes, cities and experiences through the collective's eyes."
+    },
+    "src": "/media/reels/destinations.mp4",
+    "mobileSrc": "/media/reels/destinations-mobile.mp4",
+    "poster": "/media/reels/destinations-poster.webp",
+    "duration": 19.0,
+    "credits": [
+      {
+        "name": "Chuck Dumont",
+        "sourceUrl": "https://dumontfilms.ca/",
+        "projectId": "chuck-dumont-homepage-showreel"
+      },
+      {
+        "name": "Rayan Claverol",
+        "sourceUrl": "https://rayanclaverol.com/",
+        "projectId": "rayan-showreel"
+      },
+      {
+        "name": "Bahri Najm",
+        "sourceUrl": "https://bahrinajm.com/",
+        "projectId": "bahri-najm-socotra-hero"
+      },
+      {
+        "name": "Robin Chills · Visit Dubai",
+        "sourceUrl": "https://www.robinchills.com/",
+        "projectId": "robin-dubai"
+      },
+      {
+        "name": "Samuel Kwan · Go Wild",
+        "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+        "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2"
+      },
+      {
+        "name": "Samuel Kwan · Columbia",
+        "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+        "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63"
+      }
+    ]
+  },
+  {
+    "id": "brands",
+    "title": {
+      "fr": "Marques en mouvement",
+      "en": "Brands in motion"
+    },
+    "description": {
+      "fr": "Des gestes, des produits et du mouvement : une proposition plus publicitaire, au montage resserré.",
+      "en": "Craft, products and movement: a tighter edit with a stronger advertising focus."
+    },
+    "src": "/media/reels/brands.mp4",
+    "mobileSrc": "/media/reels/brands-mobile.mp4",
+    "poster": "/media/reels/brands-poster.webp",
+    "duration": 14.75,
+    "credits": [
+      {
+        "name": "Duarte · Royal Rides",
+        "sourceUrl": "https://www.creatummedia.com/project/royal-rides",
+        "projectId": "duarte-creatum-royal-rides-1"
+      },
+      {
+        "name": "Samuel Kwan",
+        "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+        "projectId": "samuel-kwan-1c495ee89c0b4bd6900901e02f9c320e"
+      },
+      {
+        "name": "Samuel Kwan · Columbia",
+        "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+        "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63"
+      },
+      {
+        "name": "Tom Pacelli",
+        "sourceUrl": "https://www.tompacelli.com/content/",
+        "projectId": "tom-2025-webshowreel"
+      },
+      {
+        "name": "Samuel Kwan · Go Wild",
+        "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+        "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2"
+      },
+      {
+        "name": "Robin Chills · Visit Dubai",
+        "sourceUrl": "https://www.robinchills.com/",
+        "projectId": "robin-dubai"
+      },
+      {
+        "name": "Chuck Dumont",
+        "sourceUrl": "https://dumontfilms.ca/",
+        "projectId": "chuck-dumont-homepage-showreel"
+      },
+      {
+        "name": "Duarte · Porsche Singer",
+        "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+        "projectId": "duarte-adobe-fqyvsjfqfuj"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+---
+import BrandArtwork from './BrandArtwork.astro';
+import {href,type Lang} from '../data/site';
+import {projects} from '../data/projects';
+type Brand={id:string;name:string;logo?:string|null;logoTreatment?:string;sourceUrl:string;projectIds:string[];creatorIds:string[];sectorIds:string[];evidence:string;note?:string};
+const {brand,lang,sector}=Astro.props as {brand:Brand;lang:Lang;sector?:string};
+const related=brand.projectIds.map(id=>projects.find(p=>p.id===id)).filter(Boolean);
+const first=(sector?related.find(p=>p!.sectors.includes(sector)):related[0])||related[0];
+const target=first?href(lang,'projects/'+first.id):href(lang,'credits')+'#brand-'+brand.id;
+const action=first?(lang==='fr'?'Voir la réalisation':'View the project'):(lang==='fr'?'Voir les crédits':'View credits');
+---
+<a class:list={['brand-mark',{'brand-mark-text':!brand.logo,'brand-mark-original':brand.logoTreatment==='original'}]} href={target} aria-label={`${brand.name} — ${action}`} title={`${brand.name} — ${action}`} data-brand={brand.id}>
+ {brand.logo?<BrandArtwork brand={brand}/>:<span>{brand.name}</span>}
+
+</a>

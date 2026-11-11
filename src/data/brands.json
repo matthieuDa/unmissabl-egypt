@@ -1,0 +1,2069 @@
+[
+  {
+    "id": "porsche",
+    "name": "Porsche",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/porsche-wordmark-official.png",
+    "logoSourceUrl": "https://cdn.ui.porsche.com/ms-teams/porsche-wordmark-black.png",
+    "note": "Logo présent dans les références Creatum. Les films Singer ne prouvent pas un contrat direct avec Porsche.",
+    "entityType": "brand-or-organization",
+    "logoTreatment": "original"
+  },
+  {
+    "id": "puma",
+    "name": "Puma",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/puma/",
+    "projectIds": [
+      "tom-puma"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/puma.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Puma-logo-(text).svg"
+  },
+  {
+    "id": "four-seasons",
+    "name": "Four Seasons",
+    "sourceUrl": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+    "projectIds": [
+      "samuel-kwan-76d126f1cdae492f971cf01e0c16764c",
+      "samuel-kwan-e69d32ce332f4aecb0c60b70c08ed0a4"
+    ],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "hospitality",
+      "food"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/four-seasons.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "rosewood",
+    "name": "Rosewood",
+    "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+    "projectIds": [
+      "samuel-kwan-236bfe8ca0454367b3e2c46b12c59ac3",
+      "samuel-kwan-8218e39818084803818865e4ff74b712",
+      "samuel-kwan-78dba1769d554fdf8de6d88601739faf"
+    ],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "hospitality",
+      "food"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/rosewood.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "qatar-airways",
+    "name": "Qatar Airways",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [
+      "robin-qatar-doha"
+    ],
+    "creatorIds": [
+      "robin-chills",
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "aviation",
+      "travel"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/qatar-airways.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "etihad",
+    "name": "Etihad",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [
+      "robin-etihad"
+    ],
+    "creatorIds": [
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "aviation",
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/etihad.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Etihad-airways-logo.svg"
+  },
+  {
+    "id": "hyundai",
+    "name": "Hyundai",
+    "sourceUrl": "https://dumontfilms.ca/projects/hyundai-ioniq-5",
+    "projectIds": [
+      "chuck-dumont-hyundai-ioniq-5"
+    ],
+    "creatorIds": [
+      "chuck-dumont",
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/hyundai.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "mazda",
+    "name": "Mazda",
+    "sourceUrl": "https://www.youtube.com/watch?v=ttJeN5mkZbM",
+    "projectIds": [
+      "cj-mazda"
+    ],
+    "creatorIds": [
+      "cj-blardony"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/mazda.svg",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "levis",
+    "name": "Levi’s",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/levis/",
+    "projectIds": [
+      "tom-levis"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/levis.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Levis-logo-quer.svg"
+  },
+  {
+    "id": "dji",
+    "name": "DJI",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [
+      "robin-dji-lofoten"
+    ],
+    "creatorIds": [
+      "robin-chills",
+      "chuck-dumont",
+      "samuel-kwan",
+      "cj-blardony"
+    ],
+    "sectorIds": [],
+    "evidence": "project",
+    "logo": "/media/logos/dji.svg",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "arcteryx",
+    "name": "Arc’teryx",
+    "sourceUrl": "https://dumontfilms.ca/projects/arcteryx-montreal",
+    "projectIds": [
+      "chuck-dumont-arcteryx-montreal"
+    ],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/arcteryx-official.svg",
+    "logoTreatment": "monochrome"
+  },
+  {
+    "id": "asics",
+    "name": "ASICS",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/asics-official.svg",
+    "logoTreatment": "original"
+  },
+  {
+    "id": "hilton",
+    "name": "Hilton",
+    "sourceUrl": "https://ducreates.myportfolio.com/events",
+    "projectIds": [
+      "duarte-adobe-krvncm8vcwn"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/hilton-official.png",
+    "logoTreatment": "original"
+  },
+  {
+    "id": "corona",
+    "name": "Corona",
+    "sourceUrl": "https://dumontfilms.ca/projects/corona",
+    "projectIds": [
+      "chuck-dumont-corona"
+    ],
+    "creatorIds": [
+      "chuck-dumont",
+      "alexandre-buisson"
+    ],
+    "sectorIds": [
+      "food"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/corona.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "radisson",
+    "name": "Radisson",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/radisson/",
+    "projectIds": [
+      "tom-radisson"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/radisson.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Radisson_Hotels_logo.svg"
+  },
+  {
+    "id": "emaar",
+    "name": "Emaar",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "architecture"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/emaar.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emaar_logo.svg"
+  },
+  {
+    "id": "elewana-collection",
+    "name": "Elewana Collection",
+    "sourceUrl": "https://dumontfilms.ca/projects/elewana-collection",
+    "projectIds": [
+      "elewana-collection"
+    ],
+    "creatorIds": [
+      "chuck-dumont",
+      "alexandre-buisson"
+    ],
+    "sectorIds": [
+      "hospitality",
+      "travel"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/elewana.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "jetex",
+    "name": "Jetex",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [
+      "robin-jetex"
+    ],
+    "creatorIds": [
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "aviation"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/jetex-official.svg",
+    "logoTreatment": "original"
+  },
+  {
+    "id": "24h-series",
+    "name": "24H Series",
+    "sourceUrl": "https://ducreates.myportfolio.com/24h-series-barcelona",
+    "projectIds": [
+      "duarte-adobe-msf8uhppgqv"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/24h-series.png",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "30sundays",
+    "name": "30SUNDAYS",
+    "sourceUrl": "https://www.behance.net/gallery/107546913/30SUNDAYS-Shoot-1-(W-Amman)",
+    "projectIds": [
+      "zaid-wazzan-behance-107546913"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "abu-dhabi-butterfly-gardens",
+    "name": "Abu Dhabi Butterfly Gardens",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "adai",
+    "name": "ADAI",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "alsukhon-jewelry",
+    "name": "AlSukhon Jewelry",
+    "sourceUrl": "https://www.behance.net/gallery/116879129/AlSukhon-Jewelry",
+    "projectIds": [
+      "zaid-wazzan-behance-116879129"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "jewellery"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/alsukhon-jewelry.png",
+    "logoSourceUrl": "https://www.alsukhon.com/wp-content/themes/alsukhon-shop/assets/img/alsukhun_v2.png"
+  },
+  {
+    "id": "aleop",
+    "name": "Aléop",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/aleop/",
+    "projectIds": [
+      "tom-aleop"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/aleop.svg",
+    "logoSourceUrl": "https://aleop.paysdelaloire.fr/themes/custom/aleop/logo.svg"
+  },
+  {
+    "id": "amber-rally",
+    "name": "Amber Rally",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "american-express",
+    "name": "American Express",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/amex/",
+    "projectIds": [
+      "tom-amex"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "project",
+    "logo": "/media/logos/american-express.png",
+    "logoTreatment": "original",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "anantara",
+    "name": "Anantara",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/anantara.png",
+    "logoTreatment": "original",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "atlantis",
+    "name": "Atlantis Dubai",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/atlantis.png",
+    "logoSourceUrl": "https://www.atlantis.com/dubai/atlantis-the-palm"
+  },
+  {
+    "id": "audi",
+    "name": "Audi",
+    "sourceUrl": "https://ducreates.myportfolio.com/events",
+    "projectIds": [
+      "duarte-adobe-f4pcdve-a3k"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/audi.jpg",
+    "logoTreatment": "original",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "autodromo-algarve",
+    "name": "Autódromo Internacional do Algarve",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/autodromo-algarve.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "baron-motorsport",
+    "name": "Baron Motorsport",
+    "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+    "projectIds": [
+      "duarte-adobe-gwsmd67kcsz"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "beautiful-destinations",
+    "name": "Beautiful Destinations",
+    "sourceUrl": "https://www.tompacelli.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/beautiful-destinations.png",
+    "logoTreatment": "original",
+    "note": "Collaboration de production / agence citée dans le portfolio de Tom Pacelli ; pas une relation client direct UNMISSABL.",
+    "entityType": "agency-or-production"
+  },
+  {
+    "id": "blenders-eyewear",
+    "name": "Blenders Eyewear",
+    "sourceUrl": "https://dumontfilms.ca/projects",
+    "projectIds": [],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/blenders-eyewear.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "bmw",
+    "name": "BMW",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/bmw.png",
+    "entityType": "brand-or-organization",
+    "logoTreatment": "original"
+  },
+  {
+    "id": "buena-onda",
+    "name": "Buena Onda Communication",
+    "sourceUrl": "https://dumontfilms.ca/projects/accueillez-un-stagiaire",
+    "projectIds": [],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "agency-or-production"
+  },
+  {
+    "id": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "sourceUrl": "https://www.sanctuarycreatives.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "aviation",
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/cathay.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "centrakor",
+    "name": "Centrakor",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/centrakor.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "chanel",
+    "name": "Chanel",
+    "sourceUrl": "https://www.sanctuarycreatives.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "fashion",
+      "jewellery"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/chanel.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "charentes-tourisme",
+    "name": "Charentes Tourisme",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/charentestourism/",
+    "projectIds": [
+      "tom-charentestourism"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/charentes-tourisme.png",
+    "logoSourceUrl": "https://charentestourisme.com/wp-content/uploads/2019/02/LOGO-CT.png"
+  },
+  {
+    "id": "columbia-sportswear",
+    "name": "Columbia Sportswear",
+    "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+    "projectIds": [
+      "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+      "duarte-creatum-columbia-1"
+    ],
+    "creatorIds": [
+      "samuel-kwan",
+      "duarte"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/columbia-sportswear.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "cortina-tourism",
+    "name": "Cortina Tourism Board",
+    "sourceUrl": "https://www.creatummedia.com/project/cortina",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "note": "Fiche publiée par Creatum ; film public inexploitable, pas de lecteur proposé.",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/cortina-marketing.png",
+    "logoSourceUrl": "https://www.cortinamarketing.it/wp-content/uploads/2019/03/CORTINA-MARKETING_BIANCO.png"
+  },
+  {
+    "id": "crowne-plaza",
+    "name": "Crowne Plaza",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/crowne-plaza.jpg",
+    "logoTreatment": "original",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "curlshood",
+    "name": "CurlsHood",
+    "sourceUrl": "https://www.behance.net/gallery/116875213/CurlsHood-Planner",
+    "projectIds": [],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "decathlon",
+    "name": "Decathlon",
+    "sourceUrl": "https://rayanclaverol.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "rayan-claverol"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/decathlon.svg",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "duo-curio-collection",
+    "name": "Duo · Curio Collection by Hilton",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/duo-curio-collection.jpg",
+    "logoTreatment": "original",
+    "note": "Établissement Duo Lisbonne de Curio Collection by Hilton ; référence d’établissement, distincte du groupe hôtelier.",
+    "entityType": "property",
+    "parentBrandId": "hilton"
+  },
+  {
+    "id": "esc-online",
+    "name": "ESC Online",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/esc-online.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "eva-vr",
+    "name": "EVA VR",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "expedia",
+    "name": "Expedia",
+    "sourceUrl": "https://www.tompacelli.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/expedia.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "eyewa",
+    "name": "EYEWA",
+    "sourceUrl": "https://www.behance.net/gallery/107547361/EYEWA-30SUNDAYS-Shoot-2-(Boulevard)",
+    "projectIds": [],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "fact-magazine",
+    "name": "Fact Magazine",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/fact-magazine.png",
+    "logoSourceUrl": "https://bymatiss.com/"
+  },
+  {
+    "id": "fanillah",
+    "name": "Fanillah",
+    "sourceUrl": "https://www.behance.net/gallery/93173051/Fanillah-Streetwear",
+    "projectIds": [],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "felidae",
+    "name": "Felidae Clothing",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/felidae.png",
+    "logoSourceUrl": "https://bymatiss.com/"
+  },
+  {
+    "id": "ferrari-challenge",
+    "name": "Ferrari Challenge · Trofeo Pirelli",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/ferrari-challenge.png",
+    "logoTreatment": "original",
+    "note": "Série sportive Ferrari Challenge / Trofeo Pirelli ; ne pas présenter comme contrat direct avec le constructeur Ferrari.",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "fisom",
+    "name": "FISOM",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "fluid-focus-freedive",
+    "name": "Fluid Focus Freedive",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/fluidfocusfreediving/",
+    "projectIds": [
+      "tom-fluidfocusfreediving"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "fnac-live",
+    "name": "Fnac Live",
+    "sourceUrl": "https://ducreates.myportfolio.com/festival",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "fotobildes",
+    "name": "Fotobildes",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "gedlich-racing",
+    "name": "Gedlich Racing",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/gedlich-racing.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "go-wild-hk",
+    "name": "Go Wild HK",
+    "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+    "projectIds": [
+      "samuel-kwan-c1aeca96273a4149b4964482386d96f2"
+    ],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "fashion",
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "sourceUrl": "https://www.sanctuarycreatives.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/google.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "groupe-malo",
+    "name": "Groupe Malo",
+    "sourceUrl": "https://dumontfilms.ca/projects/malo-college-st-sacrament",
+    "projectIds": [
+      "chuck-dumont-malo-college-st-sacrament"
+    ],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "architecture"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/groupe-malo.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "gt-open",
+    "name": "GT Open",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/gt-open.png",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "gt-winter-series",
+    "name": "GT Winter Series",
+    "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "haifa-khalid",
+    "name": "Haifa Khalid",
+    "sourceUrl": "https://www.behance.net/gallery/100076401/Jeans-Lace-summer20-haifa-khalid-fashion-designer",
+    "projectIds": [],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC",
+    "sourceUrl": "https://www.sanctuarycreatives.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/hsbc.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "indotrip-designer",
+    "name": "IndoTrip Designer",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/eastjava/",
+    "projectIds": [
+      "tom-eastjava"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "industria-club",
+    "name": "Industria Club",
+    "sourceUrl": "https://ducreates.myportfolio.com/festival",
+    "projectIds": [
+      "duarte-adobe-lt3faj4ucdc"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "insta360",
+    "name": "Insta360",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/insta360/",
+    "projectIds": [
+      "tom-insta360-1",
+      "tom-insta360-2"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "project",
+    "logo": "/media/logos/insta360.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "intercontinental",
+    "name": "InterContinental",
+    "sourceUrl": "https://ducreates.myportfolio.com/restaurants",
+    "projectIds": [
+      "duarte-akla-lisbon"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "food",
+      "hospitality"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/intercontinental.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "iscom",
+    "name": "ISCOM",
+    "sourceUrl": "https://fr.linkedin.com/posts/marceau-thevenin_des-montages-iphone-%C3%A0-ma-premi%C3%A8re-pub-tv-activity-7374742033971974144-bGOo",
+    "projectIds": [],
+    "creatorIds": [
+      "marceau-thevenin"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "kastuesi",
+    "name": "kASTuesi",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "food"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "kessel",
+    "name": "Kessel",
+    "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "kiabi",
+    "name": "Kiabi",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/kiabi/",
+    "projectIds": [
+      "tom-kiabi"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "kiliwarrior-expeditions",
+    "name": "Kiliwarrior Expeditions",
+    "sourceUrl": "https://dumontfilms.ca/projects/kiliwarrior-expeditions",
+    "projectIds": [
+      "chuck-dumont-kiliwarrior-expeditions"
+    ],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/kiliwarrior-expeditions.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "landmark",
+    "name": "Landmark",
+    "sourceUrl": "https://www.sanctuarycreatives.com/landmark",
+    "projectIds": [
+      "samuel-kwan-2d1c3c05ffa84f4a82ae28e3c2c4639a"
+    ],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "architecture"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "latvijas-valsts-mezi",
+    "name": "Latvijas Valsts Meži",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/latvijas-valsts-mezi.png",
+    "logoSourceUrl": "https://bymatiss.com/"
+  },
+  {
+    "id": "leki",
+    "name": "LEKI",
+    "sourceUrl": "https://dumontfilms.ca/projects",
+    "projectIds": [],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/leki.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "lexias-hostels",
+    "name": "Lexias Hostels",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/lexias-hostels.png",
+    "entityType": "property"
+  },
+  {
+    "id": "lima-empanadas",
+    "name": "Lima Empanadas",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "food"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "luscious-bracelets",
+    "name": "Luscious Bracelets",
+    "sourceUrl": "https://www.behance.net/gallery/118227397/Luscious-Bracelets-photoshoot",
+    "projectIds": [
+      "zaid-wazzan-behance-118227397"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "jewellery"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "lvmh",
+    "name": "LVMH",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/lvmh.png",
+    "note": "Contenu interne décrit par Tom Pacelli ; aucun film public associé.",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "magil-tisseur",
+    "name": "Magil Tisseur",
+    "sourceUrl": "https://dumontfilms.ca/projects/royalmount-magil-tisseur",
+    "projectIds": [
+      "chuck-dumont-royalmount-magil-tisseur"
+    ],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "architecture"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/magil-tisseur.png",
+    "note": "Identité conjointe Magil Tisseur du projet Royalmount.",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "mandarin-oriental",
+    "name": "Mandarin Oriental",
+    "sourceUrl": "https://www.sanctuarycreatives.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/mandarin-oriental.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "marvelous-island",
+    "name": "Marvelous Island",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/marvelous/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "mercedes-benz",
+    "name": "Mercedes-Benz",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/mercedes-benz.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "michelin-voyages",
+    "name": "Michelin Voyages",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "note": "Aftermovie de lancement de livre réalisé pour Les Coflocs, selon Tom Pacelli.",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "mikimoto",
+    "name": "Mikimoto",
+    "sourceUrl": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+    "projectIds": [
+      "samuel-kwan-e69d32ce332f4aecb0c60b70c08ed0a4"
+    ],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "jewellery"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/mikimoto.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mikimoto_logo.svg"
+  },
+  {
+    "id": "mini",
+    "name": "MINI",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/mini.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "musicbed",
+    "name": "Musicbed",
+    "sourceUrl": "https://dumontfilms.ca/projects/musicbed",
+    "projectIds": [
+      "chuck-dumont-musicbed"
+    ],
+    "creatorIds": [
+      "chuck-dumont",
+      "robin-chills",
+      "rayan-claverol"
+    ],
+    "sectorIds": [],
+    "evidence": "project",
+    "logo": "/media/logos/musicbed.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "nadeen-rasekh-designs",
+    "name": "Nadeen Rasekh designs",
+    "sourceUrl": "https://www.behance.net/gallery/116879445/Yasmeen-Quttami-ft-Nadeen-Rasekh-designs",
+    "projectIds": [
+      "zaid-wazzan-behance-116879445"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "nomatic",
+    "name": "Nomatic",
+    "sourceUrl": "https://dumontfilms.ca/projects/nomatic-bags",
+    "projectIds": [
+      "chuck-dumont-nomatic-bags"
+    ],
+    "creatorIds": [
+      "chuck-dumont",
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "fashion",
+      "travel"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/nomatic.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "nouvelle-aquitaine",
+    "name": "Nouvelle-Aquitaine",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/nouvelle-aquitaine.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "nova-era-beach-party",
+    "name": "Nova Era Beach Party",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/novaerabeachparty/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "novotel",
+    "name": "Novotel",
+    "sourceUrl": "https://rayanclaverol.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "rayan-claverol"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/novotel.svg",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "nuamore",
+    "name": "Nuamore",
+    "sourceUrl": "https://rayanclaverol.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "rayan-claverol"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/nuamore.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "omega",
+    "name": "Omega",
+    "sourceUrl": "https://www.sanctuarycreatives.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "jewellery"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/omega.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "onefinestay",
+    "name": "onefinestay",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/onefinestay/",
+    "projectIds": [
+      "tom-onefinestay"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "architecture",
+      "hospitality"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "pacific-high",
+    "name": "Pacific High",
+    "sourceUrl": "https://rayanclaverol.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "rayan-claverol"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/pacific-high.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "padi",
+    "name": "PADI",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/redseapadi/",
+    "projectIds": [
+      "tom-redseapadi"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/padi.svg",
+    "logoSourceUrl": "https://www.padi.com/themes/custom/bootstrap_padi/public/images/logo_padi_light.svg"
+  },
+  {
+    "id": "paka-festival",
+    "name": "PAKA Festival",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/pakafestival/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "pedra-do-couto",
+    "name": "Pedra Do Couto",
+    "sourceUrl": "https://ducreates.myportfolio.com/festival",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "pescosta-chalet",
+    "name": "Pescosta Chalet Luxury Living",
+    "sourceUrl": "https://www.creatummedia.com/project/luxury-chalet",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "entityType": "property"
+  },
+  {
+    "id": "planet-donuts",
+    "name": "Planet Donuts",
+    "sourceUrl": "https://www.behance.net/gallery/118226137/Planet-Donuts-Shoot-1",
+    "projectIds": [
+      "zaid-wazzan-behance-118226137"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "food"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "porsche-sprint-challenge-iberica",
+    "name": "Porsche Sprint Challenge Iberica",
+    "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+    "projectIds": [
+      "duarte-adobe-e8egaxc99ve"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/porsche-sprint-challenge-iberica.jpg",
+    "logoTreatment": "original",
+    "entityType": "event-or-series",
+    "parentBrandId": "porsche"
+  },
+  {
+    "id": "race-ready",
+    "name": "Race Ready",
+    "sourceUrl": "https://ducreates.myportfolio.com/brands",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/race-ready.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "raya-bsheirat",
+    "name": "Raya Bsheirat",
+    "sourceUrl": "https://www.behance.net/gallery/106774221/Raya-Bsheirat-fashion-designer",
+    "projectIds": [],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "red-bull",
+    "name": "Red Bull",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/redbull/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "food",
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "note": "Activation via Boomerang ; montage personnel additionnel du réalisateur, pas le master officiel de la marque.",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/red-bull.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_Red_bull.svg"
+  },
+  {
+    "id": "red-sea-global",
+    "name": "Red Sea Global",
+    "sourceUrl": "https://www.tompacelli.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/red-sea-global.png",
+    "note": "Groupe cité par logo sur le portfolio de Tom Pacelli ; Visit Red Sea est conservé comme destination/marque distincte.",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "royal-rides",
+    "name": "Royal Rides",
+    "sourceUrl": "https://www.creatummedia.com/project/royal-rides",
+    "projectIds": [
+      "duarte-creatum-royal-rides-1"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "retromobile",
+    "name": "Salon Rétromobile",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/retromobile.png",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "salsa-ogre",
+    "name": "Salsa Ogre",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "shiseido",
+    "name": "Shiseido",
+    "sourceUrl": "https://www.sanctuarycreatives.com/shiseido",
+    "projectIds": [],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/shiseido.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Shiseido_logo.svg"
+  },
+  {
+    "id": "signee-jewelry",
+    "name": "Signee Jewelry",
+    "sourceUrl": "https://www.behance.net/gallery/118225965/Signee-Jewelry-shoot-3",
+    "projectIds": [
+      "zaid-wazzan-behance-118225965",
+      "zaid-wazzan-behance-116876101",
+      "zaid-wazzan-behance-116875609"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "jewellery"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "singer",
+    "name": "Singer",
+    "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+    "projectIds": [
+      "duarte-adobe-fqyvsjfqfuj"
+    ],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "note": "Singer est le sujet nommé de la campagne à Portimão ; le commanditaire contractuel n’est pas établi.",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "siro",
+    "name": "SIRO",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [
+      "hospitality"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "socksat",
+    "name": "Socksat",
+    "sourceUrl": "https://www.behance.net/gallery/118226489/(Socksat)-Lifestyle-Photoshoots-pt1",
+    "projectIds": [
+      "zaid-wazzan-behance-118226489"
+    ],
+    "creatorIds": [
+      "zaid-wazzan"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "sony",
+    "name": "Sony Electronics",
+    "sourceUrl": "https://www.creatummedia.com/project/sony",
+    "projectIds": [],
+    "creatorIds": [
+      "duarte"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "note": "Fiche client publiée par Creatum, mais pas de film public exploitable dans cette version du portfolio.",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "stereoparc",
+    "name": "Stereoparc Festival",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/stereoparc/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "tarn-et-garonne-tourisme",
+    "name": "Tarn-et-Garonne Tourisme",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/tarngaronne/",
+    "projectIds": [
+      "tom-tarngaronne"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/tarn-et-garonne-tourisme.svg",
+    "logoSourceUrl": "https://www.tourisme-tarnetgaronne.fr/app/themes/theme_customer/public/images/logo.29ba3ab721a6426a.svg"
+  },
+  {
+    "id": "the-peninsula",
+    "name": "The Peninsula",
+    "sourceUrl": "https://www.sanctuarycreatives.com/peninsula-hong-kong",
+    "projectIds": [
+      "samuel-kwan-507de54c49f240b1a7f2d27c44231ab1",
+      "samuel-kwan-467cf31c65464fd180f8b2660a3d02d6"
+    ],
+    "creatorIds": [
+      "samuel-kwan"
+    ],
+    "sectorIds": [
+      "hospitality",
+      "food"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/the-peninsula.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:ThePeninsulaHotelsLogo.svg"
+  },
+  {
+    "id": "tisseur",
+    "name": "Tisseur",
+    "sourceUrl": "https://dumontfilms.ca/projects/tisseur-bureau-fpv",
+    "projectIds": [
+      "chuck-dumont-tisseur-bureau-fpv"
+    ],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "architecture"
+    ],
+    "evidence": "project",
+    "logo": "/media/logos/tisseur.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "tourism-australia",
+    "name": "Tourism Australia",
+    "sourceUrl": "https://www.tompacelli.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/tourism-australia.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "uniroc",
+    "name": "Uniroc",
+    "sourceUrl": "https://dumontfilms.ca/projects",
+    "projectIds": [],
+    "creatorIds": [
+      "chuck-dumont"
+    ],
+    "sectorIds": [
+      "architecture"
+    ],
+    "evidence": "portfolio",
+    "logo": "/media/logos/uniroc.png",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "vingummi",
+    "name": "Vingummi",
+    "sourceUrl": "https://bymatiss.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "matiss-skujins"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "vintage-fun-cup-tour",
+    "name": "Vintage Fun Cup Tour",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/vintagefuncuptour/",
+    "projectIds": [
+      "tom-vintagefuncuptour-2"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "entityType": "event-or-series"
+  },
+  {
+    "id": "visit-dubai",
+    "name": "Visit Dubai",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [
+      "robin-dubai"
+    ],
+    "creatorIds": [
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "visit-ras-al-khaimah",
+    "name": "Visit Ras Al Khaimah",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "visit-red-sea",
+    "name": "Visit Red Sea",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/redseapadi/",
+    "projectIds": [
+      "tom-redseapadi"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "parentBrandId": "red-sea-global"
+  },
+  {
+    "id": "visit-venezuela",
+    "name": "Visit Venezuela",
+    "sourceUrl": "https://www.robinchills.com/",
+    "projectIds": [],
+    "creatorIds": [
+      "robin-chills"
+    ],
+    "sectorIds": [
+      "travel"
+    ],
+    "evidence": "portfolio",
+    "entityType": "brand-or-organization"
+  },
+  {
+    "id": "vl",
+    "name": "VL",
+    "sourceUrl": "https://www.tompacelli.com/content/",
+    "projectIds": [],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [],
+    "evidence": "portfolio",
+    "logo": "/media/logos/vl.png",
+    "entityType": "agency-or-production"
+  },
+  {
+    "id": "volkswagen",
+    "name": "Volkswagen",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/volkswagenxlescoflocs/",
+    "projectIds": [
+      "tom-volkswagenxlescoflocs"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "automotive"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/volkswagen.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_logo_2019.svg"
+  },
+  {
+    "id": "zalando",
+    "name": "Zalando",
+    "sourceUrl": "https://www.tompacelli.com/portfolio/levis/",
+    "projectIds": [
+      "tom-levis"
+    ],
+    "creatorIds": [
+      "tom-pacelli"
+    ],
+    "sectorIds": [
+      "fashion"
+    ],
+    "evidence": "project",
+    "entityType": "brand-or-organization",
+    "logo": "/media/logos/zalando.svg",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Zalando_Logo_2024.svg"
+  }
+]
