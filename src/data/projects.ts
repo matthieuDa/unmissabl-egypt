@@ -1,3 +1,5 @@
+import {rivieraProjects} from './riviera-projects';
+import {siroProject} from './siro-project';
 import inventoryA from '../../docs/research/media-inventory-a.json';
 import inventoryB from '../../docs/research/media-inventory-b.json';
 import localMedia from './local-media.json';
@@ -26,7 +28,7 @@ export const projects:Project[]=[{
  // a portrait source labelled 1080 is not treated as a 1920px landscape film.
  const video=r.status==='verified' && r.videoUrl && !r.videoUrl.includes('dropbox')?r.videoUrl.replace('/720p/mp4/','/1080p/mp4/'):undefined;
  return {id:r.id,title:r.title,client:personal?'Ferrari — Madeira':portfolioOnly?r.title:r.client!,creatorIds:[r.creatorId],sourceUrl:r.sourceUrl,videoUrl:video,embedUrl:r.embedUrl?.replace('www.youtube.com/embed','www.youtube-nocookie.com/embed'),poster:local[r.id],sectors:r.sectors,format:r.format.includes('vertical')?'social':r.format.includes('photo')?'photo':'film',location:r.location?{label:{fr:r.location.label,en:locationNames[r.location.label]||r.location.label},country:{fr:r.location.country,en:locationNames[r.location.country]||r.location.country},lat:r.location.lat,lon:r.location.lon}:undefined,credit,production,gallery:[],personal,portfolioOnly,description:personal?{fr:'Un film personnel autour d’une Ferrari dans les paysages de Madère. Une expression du regard de Creatum, sans commande de Ferrari.',en:'A personal film featuring a Ferrari in Madeira’s landscapes. A showcase of Creatum’s perspective, not a Ferrari commission.'}:{fr:`${r.title}. Une référence du collectif pour découvrir une approche du film, de l’image et de la marque.`,en:`${r.title}. Explore this portfolio reference through its film, imagery and approach to the brand.`}};
-}),...(catalogueProjects as Project[])];
+}),...(catalogueProjects as Project[]),...rivieraProjects,siroProject];
 // Editorial overrides retain the original portfolio attribution and documented place.
 const places:Record<string,[string,string,number,number]>={'robin-dubai':['Dubaï','Dubai',25.2,55.27],'tom-radisson':['Bangkok','Bangkok',13.75,100.5],'robin-qatar-doha':['Doha','Doha',25.29,51.53],'robin-dji-lofoten':['Lofoten','Lofoten',68.2,13.6]};
 for(const p of projects){const loc=places[p.id];if(loc)p.location={label:{fr:loc[0],en:loc[1]},country:{fr:loc[0],en:loc[1]},lat:loc[2],lon:loc[3]};}

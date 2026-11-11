@@ -340,5 +340,39 @@
       "width": 1280,
       "height": 720
     }
+  ],
+  "/media/previews/haras-prepinson-1280.mp4": [
+    {
+      "src": "/media/previews/haras-prepinson-640.mp4",
+      "width": 640,
+      "height": 286
+    },
+    {
+      "src": "/media/previews/haras-prepinson-1280.mp4",
+      "width": 1280,
+      "height": 572
+    },
+    {
+      "src": "/media/previews/haras-prepinson-1920.mp4",
+      "width": 1920,
+      "height": 858
+    }
+  ],
+  "/media/previews/sector-hospitality-1280.mp4": [
+    {
+      "src": "/media/previews/sector-hospitality-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/sector-hospitality-960.mp4",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "src": "/media/previews/sector-hospitality-1280.mp4",
+      "width": 1280,
+      "height": 720
+    }
   ]
 }

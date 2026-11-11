@@ -1,4 +1,6 @@
-# Validation — 11 novembre 2026
+# Validation initiale — 11 novembre 2026
+
+Cette première passe précède la correction de l’architecture commerciale. Voir `validation-riviera-2026-11-11.md` pour l’état actuel.
 
 Périmètre : site global récupéré depuis la version v8, nouveaux parcours commerciaux FR/EN, calendrier, contact et proposition. Aucun déploiement ni email externe. Les tests utilisent des données fictives.
 

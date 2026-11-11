@@ -25,7 +25,7 @@ L’aperçu complet est disponible sur [http://127.0.0.1:4322/fr/](http://127.0.
 
 ## Parcours commerciaux
 
-- Pages de prospection : `/fr/solutions/` et `/en/solutions/`, avec variantes `hotels`, `golf`, `resorts`, `automotive` et `equestrian`.
+- Prospection par voyage : `/fr/destinations/france/` et `/en/destinations/france/`, avec onglets Hôtels & yachting, Automobile, Golf et Haras. Le paramètre `?sector=...` ouvre directement le bon projet ; voir les liens dans le guide commercial. Les anciennes pages `/solutions/...` ont été retirées.
 - Destinations : Égypte, fenêtres d’octobre et décembre 2026 ; France — Côte d’Azur, printemps 2027. Octobre est identifié comme une fenêtre passée, sans affirmer qu’une production a eu lieu. L’Islande a été retirée.
 - Proposition personnalisable : `/fr/proposal/` et `/en/proposal/`. Renseigner les montants et le périmètre, puis utiliser « Imprimer / enregistrer en PDF ». Aucun prix manquant n’est présenté comme gratuit.
 - Formulaire : `/fr/contact/` et `/en/contact/`, également intégré aux pages commerciales avec leur contexte.

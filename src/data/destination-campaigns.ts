@@ -9,8 +9,8 @@ export const destinationCampaigns = {
  france:{
   image:'/media/cote-azur-nice.webp',credit:{fr:'Nice · Shalev Cohen / Unsplash · image de destination',en:'Nice · Shalev Cohen / Unsplash · destination image'},
   headline:{fr:'Votre prochaine campagne. Sur la Côte d’Azur.',en:'Your next campaign. On the Côte d’Azur.'},
-  intro:{fr:'Printemps 2027. Hôtels, resorts, golfs et campagnes de marque : réunir les bons talents autour de vos lieux et de vos expériences.',en:'Spring 2027. Hotels, resorts, golf clubs and brand campaigns: bring the right talent to your locations and experiences.'},
+  intro:{fr:'Printemps 2027. Nous réunissons hôtels, acteurs du yachting, marques automobiles, golfs et haras autour d’une production commune. Chaque projet commence par un échange avec vous.',en:'Spring 2027. We are bringing hotels, yachting partners, automotive brands, golf clubs and stud farms together around a shared production. Every project starts with a conversation with you.'},
   settings:{fr:[['Art de vivre & hospitalité','Hôtels, tables et destinations : saisir ce qui rend l’expérience de votre lieu reconnaissable.'],['Domaines & expériences','Golfs, haras et resorts : raconter les lieux et les activités, avec les équipes qui les font vivre.'],['Littoral & grands espaces','Voyage, automobile et outdoor : choisir les décors azuréens qui servent votre histoire et vos usages.']],en:[['Lifestyle & hospitality','Hotels, restaurants and destinations: capture what makes the experience of your place distinctive.'],['Estates & experiences','Golf clubs, stud farms and resorts: tell the story of places and activities alongside the people who bring them to life.'],['Coast & open landscapes','Travel, automotive and outdoor: choose Côte d’Azur settings that serve your story and channels.']]},
-  projects:['tom-charentestourism','tom-levis'],
+  projects:['matiss-siro-za-abeel','duarte-creatum-royal-rides-1','haras-de-prepinson'],
  }
 };

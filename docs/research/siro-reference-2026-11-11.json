@@ -1,0 +1,25 @@
+{
+  "id": "matiss-siro-za-abeel",
+  "checkedAt": "2026-11-11",
+  "sourcePage": "https://bymatiss.com/",
+  "originalInventory": "docs/research/media-inventory-a.json",
+  "originalEntryTitle": "SIRO Za'abeel — Hotel Marketing Media Production",
+  "sourceVideo": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1788962875590-7uitj1?alt=media",
+  "recoveredPreviewProvenance": "docs/research/sector-previews-2026-10-12.json",
+  "localPreview": "/media/previews/sector-hospitality-1280.mp4",
+  "poster": "/media/previews/sector-hospitality.webp",
+  "responsiveSourceKey": "sector-hospitality",
+  "creatorId": "matiss-skujins",
+  "publicCredit": "Matiss Skujins. Portfolio preview for SIRO One Za’abeel.",
+  "creditLimit": "The portfolio identifies the creator and project but does not specify an individual direction, camera or editing role. No such role is asserted.",
+  "inspection": {
+    "tool": "ffprobe",
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "durationSeconds": 5.24,
+    "visual": "Frame at three seconds inspected: a hotel suite with dining and lounge areas, large windows and the Dubai skyline. No baked-in black bars visible in that frame. It is suitable as hospitality proof.",
+    "completeness": "Short portfolio preview, not the complete campaign film. Displayed and described as an excerpt."
+  },
+  "sourceFetchNote": "The official portfolio homepage was reachable on 2026-11-11. The current change reuses existing, previously recovered local preview media; it does not claim a new download or a current successful fetch of the remote CDN video."
+}

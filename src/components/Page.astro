@@ -3,9 +3,6 @@ import {destinationCampaigns} from '../data/destination-campaigns';
 import DestinationPage from './DestinationPage.astro';
 import Reach from './Reach.astro';
 import Proposal from './Proposal.astro';
-import CommercialLanding from './CommercialLanding.astro';
-import CommercialDirectory from './CommercialDirectory.astro';
-import {commercialSectorById} from '../data/commercial';
 import ProductionOffers from './ProductionOffers.astro';
 import Proof from './Proof.astro';
 import brands from '../data/brands.json';
@@ -20,21 +17,19 @@ import {talents,destinations} from '../data/editorial';
 import {href,tx,type Lang} from '../data/site';
 const {lang,path=''}=Astro.props as {lang:Lang;path:string};
 const [kind,id]=path.split('/');
-const commercial=kind==='solutions'?commercialSectorById(id):undefined;
 const project=projectById(id);const sector=liveSectors.find(s=>s.id===id);const destination=destinations.find(d=>d.id===id);
 const picks=sector?projects.filter(p=>p.sectors.includes(sector.id)&&!p.portfolioOnly):projects;
 const heroPicks:Record<string,string>={travel:'samuel-kwan-13f1b1ebf6bd49279b59821517b45d63',food:'samuel-kwan-8218e39818084803818865e4ff74b712',fashion:'tom-levis',automotive:'duarte-creatum-royal-rides-1',aviation:'robin-jetex',jewellery:'zaid-wazzan-behance-116879129',architecture:'chuck-dumont-royalmount-magil-tisseur'};
 const landingHero=sector?projectById(heroPicks[sector.id])||picks[0]:picks[0];
 const home=!kind;const landing=kind==='sectors'&&!!sector;
-const title=kind==='proposal'?(lang==='fr'?'Votre proposition commerciale':'Your commercial proposal'):kind==='solutions'?(commercial?.title[lang]||(lang==='fr'?'Votre activité, notre prochaine production':'Your industry, our next production')):home?tx(lang,'the-world-as-your-stage-your-brand-in-the-spotli-16b89'):project?.title||sector?.name[lang]||destination?.name[lang]||({work:tx(lang,'our-talents-work-fc1ec'),atlas:tx(lang,'one-collective-one-world-f856c'),sectors:tx(lang,'a-world-for-every-brand-99a85'),collective:tx(lang,'perspectives-that-make-a-difference-224fb'),destinations:tx(lang,'our-next-journeys-5df58'),bespoke:tx(lang,'your-place-your-moment-2946c'),contact:tx(lang,'let-s-talk-about-your-project-e9aab'),credits:tx(lang,'credits-sources-a533f'),privacy:tx(lang,'privacy-89314'),intro:lang==='fr'?'Les films d’introduction':'Intro films',selections:tx(lang,'a-selection-for-your-brand-a258a')} as Record<string,string>)[kind]||'Unmissabl';
+const title=kind==='proposal'?(lang==='fr'?'Votre proposition commerciale':'Your commercial proposal'):home?tx(lang,'the-world-as-your-stage-your-brand-in-the-spotli-16b89'):project?.title||sector?.name[lang]||destination?.name[lang]||({work:tx(lang,'our-talents-work-fc1ec'),atlas:tx(lang,'one-collective-one-world-f856c'),sectors:tx(lang,'a-world-for-every-brand-99a85'),collective:tx(lang,'perspectives-that-make-a-difference-224fb'),destinations:tx(lang,'our-next-journeys-5df58'),bespoke:tx(lang,'your-place-your-moment-2946c'),contact:tx(lang,'let-s-talk-about-your-project-e9aab'),credits:tx(lang,'credits-sources-a533f'),privacy:tx(lang,'privacy-89314'),intro:lang==='fr'?'Les films d’introduction':'Intro films',selections:tx(lang,'a-selection-for-your-brand-a258a')} as Record<string,string>)[kind]||'Unmissabl';
 const selectionData=selections.find(s=>s.id===id)||selections[0];
 const selection=selectionData.projectIds.map(id=>projectById(id)).filter((p):p is NonNullable<typeof p>=>!!p);
 ---
-<SiteLayout lang={lang} path={path} title={title} description={commercial?.description[lang]||sector?.description[lang]||project?.description[lang]||destination?.description[lang]} hero={home||landing||!!commercial} noindex={kind==='selections'||kind==='intro'||kind==='proposal'} image={commercial?projectById(commercial.heroProject)!.poster:destination?destinationCampaigns[destination.id as keyof typeof destinationCampaigns].image:project?.poster||picks[0].poster} intro={home||landing}>
+<SiteLayout lang={lang} path={path} title={title} description={sector?.description[lang]||project?.description[lang]||destination?.description[lang]} hero={home||landing} noindex={kind==='selections'||kind==='intro'||kind==='proposal'} image={destination?destinationCampaigns[destination.id as keyof typeof destinationCampaigns].image:project?.poster||picks[0].poster} intro={home||landing}>
 {home&&<>
  <Hero lang={lang}/>
  <BrandLogos lang={lang}/>
- <CommercialDirectory lang={lang} compact/>
  <section class="section light" id="sectors"><div class="sector-intro"><h2>{tx(lang,'your-world-our-next-destination-0671d')}</h2><p>{tx(lang,'an-international-collective-of-filmmakers-photog-56cb8')}</p></div><SectorGallery lang={lang}/></section>
  <ProductionOffers lang={lang}/>
  <Proof lang={lang}/>
@@ -58,6 +53,5 @@ const selection=selectionData.projectIds.map(id=>projectById(id)).filter((p):p i
 {kind==='privacy'&&<section class="section light page-opening prose"><h1>{title}</h1><h2>{tx(lang,'this-version-is-a-local-demonstration-e8cdd')}</h2><p>{tx(lang,'the-form-does-not-send-an-enquiry-fields-stay-in-6d635')}</p><h2>{tx(lang,'videos-external-services-a2dbb')}</h2><p>{tx(lang,'youtube-players-and-externally-hosted-films-load-8cbb4')}</p><h2>{tx(lang,'local-preferences-52463')}</h2><p>{tx(lang,'a-temporary-sessionstorage-flag-prevents-the-int-7e54e')}</p><p>{tx(lang,'retention-periods-the-data-controller-and-the-fo-d0991')}</p></section>}
 {kind==='intro'&&<IntroFilms lang={lang}/>}
 {kind==='proposal'&&<Proposal lang={lang}/>}
-{kind==='solutions'&&(commercial?<CommercialLanding lang={lang} sector={commercial}/>:<CommercialDirectory lang={lang}/>)}
 {kind==='404'&&<section class="section light page-opening"><h1>{tx(lang,'another-way-forward-fca87')}</h1><p>{tx(lang,'this-page-could-not-be-found-explore-the-films-a-00fc9')}</p><a class="text-link" href={href(lang)}>{tx(lang,'back-to-home-ff242')}<Icon/></a></section>}
 </SiteLayout>

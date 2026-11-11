@@ -256,6 +256,7 @@ export const talents: Talent[] = [
 ];
 
 export const sectors: Sector[] = [
+ {id:'equestrian',name:{fr:'Équitation',en:'Equestrian'},headline:{fr:'Les métiers du cheval.',en:'The equestrian world.'},description:{fr:'Films de haras, portraits et entraînement.',en:'Stud-farm films, portraits and training.'},needs:{fr:['Présenter un domaine et son travail'],en:['Introduce an estate and its work']},formats:{fr:['Film','Photographie'],en:['Film','Photography']}},
   {
     id: 'hospitality',
     name: { fr: 'Hôtellerie', en: 'Hospitality' },

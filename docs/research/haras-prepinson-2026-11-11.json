@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-11-11",
+  "projectId": "haras-de-prepinson",
+  "portfolioPage": "https://www.alexonmedia.com/productions/harasdeprepinson",
+  "portfolioDirectory": "https://www.alexonmedia.com/productions",
+  "portfolioTitle": "Haras de Prepinson",
+  "portfolioClient": "Maison de Prepinson",
+  "originalCredits": [
+    {
+      "role": "Director, Filmmaker & Editor",
+      "name": "Alexon"
+    },
+    {
+      "role": "Drone Operator",
+      "name": "Alexon"
+    },
+    {
+      "role": "FPV Drone",
+      "name": "Alexon & Tim Ohler"
+    },
+    {
+      "role": "Production & Local Agency",
+      "name": "Papilio Productions"
+    },
+    {
+      "role": "Talent",
+      "name": "Eva Schiller"
+    }
+  ],
+  "publicCreditPolicy": "Public credits name people. The original production company is retained here as provenance, following the user’s editorial request.",
+  "location": {
+    "label": "Ortho, Belgique",
+    "address": "Ortho 24, 6983 La Roche-en-Ardenne, Belgium",
+    "lat": 50.1284709,
+    "lon": 5.6128915,
+    "source": "https://www.prepinson.com/contact-us/",
+    "evidence": "Official JSON-LD LocalBusiness #haras; distinct from #houses coordinates. This is an existing Belgian reference, not a Côte d’Azur production."
+  },
+  "film": {
+    "url": "https://www.youtube.com/watch?v=9Aia_hPqXVU",
+    "title": "The Haras de Prepinson",
+    "channel": "Alexon",
+    "uploadedAt": "2025-03-19",
+    "durationSeconds": 94,
+    "nativeDownloadedFormat": "137",
+    "width": 1920,
+    "height": 858,
+    "codec": "H.264",
+    "sourceBytes": 36132262
+  },
+  "otherOfficialFilms": [
+    {
+      "url": "https://www.youtube.com/watch?v=EUJ684JrVdo",
+      "title": "FPV Tour | Haras de Prepinson",
+      "durationSeconds": 210
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=T7-DMx4WmDc",
+      "title": "A Burning Passion | Haras de Prepinson",
+      "durationSeconds": 92
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aj0f_PkbRpM",
+      "title": "From Vision to Reality | Haras de Prepinson",
+      "durationSeconds": 79
+    }
+  ],
+  "officialPreview": {
+    "url": "https://d128kbp85lo7cj.cloudfront.net/productions/harasDePrepinson/preview.webm",
+    "width": 960,
+    "height": 540,
+    "durationSeconds": 5.584,
+    "used": false,
+    "reason": "The official preview is native 540p. A local excerpt from the authorized public HD film gives a sharper large-card preview without upscaling."
+  },
+  "previewExcerpt": {
+    "startSeconds": 1,
+    "durationSeconds": 12,
+    "audio": false,
+    "crop": false,
+    "upscaled": false,
+    "encoding": "H.264, yuv420p, CRF 20, faststart",
+    "variants": [
+      {
+        "src": "/media/previews/haras-prepinson-640.mp4",
+        "width": 640,
+        "height": 286
+      },
+      {
+        "src": "/media/previews/haras-prepinson-1280.mp4",
+        "width": 1280,
+        "height": 572
+      },
+      {
+        "src": "/media/previews/haras-prepinson-1920.mp4",
+        "width": 1920,
+        "height": 858
+      }
+    ]
+  },
+  "posters": [
+    {
+      "src": "/media/haras-prepinson.webp",
+      "atSeconds": 75
+    },
+    {
+      "src": "/media/haras-prepinson-detail.webp",
+      "atSeconds": 9
+    },
+    {
+      "src": "/media/haras-prepinson-domain.webp",
+      "atSeconds": 45
+    },
+    {
+      "src": "/media/haras-prepinson-arena.webp",
+      "atSeconds": 63
+    }
+  ],
+  "verification": "Portfolio HTML, structured credits and direct preview URL inspected. YouTube public metadata checked. HD film downloaded; contact sheet and poster visually inspected. Source contains no embedded letterboxing; preview keeps native aspect. Public display remains credited to Alexandre Buisson with actual Belgian location."
+}

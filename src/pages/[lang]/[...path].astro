@@ -1,10 +1,9 @@
 ---
 import Page from '../../components/Page.astro';
 import {projects,liveSectors} from '../../data/projects';
-import {commercialSectors} from '../../data/commercial';
 import {destinations} from '../../data/editorial';
 import {locales,type Lang} from '../../data/site';
-export function getStaticPaths(){const paths=['solutions','proposal',...commercialSectors.map(s=>'solutions/'+s.id),'','404','work','atlas','collective','destinations','sectors','contact','bespoke','credits','privacy','intro','selections/hospitality',...projects.map(p=>'projects/'+p.id),...liveSectors.map(s=>'sectors/'+s.id),...destinations.map(d=>'destinations/'+d.id)];return locales.flatMap(lang=>paths.map(path=>({params:{lang,path:path||undefined},props:{lang,path}})));}
+export function getStaticPaths(){const paths=['proposal','','404','work','atlas','collective','destinations','sectors','contact','bespoke','credits','privacy','intro','selections/hospitality',...projects.map(p=>'projects/'+p.id),...liveSectors.map(s=>'sectors/'+s.id),...destinations.map(d=>'destinations/'+d.id)];return locales.flatMap(lang=>paths.map(path=>({params:{lang,path:path||undefined},props:{lang,path}})));}
 const {lang,path}=Astro.props as {lang:Lang;path:string};
 ---
 <Page lang={lang} path={path}/>

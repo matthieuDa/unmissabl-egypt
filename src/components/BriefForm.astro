@@ -48,6 +48,13 @@ const sitekey=import.meta.env.PUBLIC_TURNSTILE_SITE_KEY||'';
   const sectors=root.dataset.lang==='fr'?{hospitality:'Hôtellerie',hotels:'Hôtels',golf:'Golf',resorts:'Resorts',automotive:'Automobile',equestrian:'Haras'}:{hospitality:'Hospitality',hotels:'Hotels',golf:'Golf',resorts:'Resorts',automotive:'Automotive',equestrian:'Stud farms'};
   for(const name of ['sector','destination','project']){const raw=(query.get(name)||'').replace(/[\u0000-\u001f\u007f]/g,' ').trim().slice(0,160);if(!raw)continue;const dictionary:Record<string,string>=name==='destination'?destinations:name==='sector'?sectors:{};const value=dictionary[raw]||raw;input(name)!.value=value;hints.push(value);if(name==='destination'&&!input('location')!.value)input('location')!.value=value;}
   if(hints.length){const summary=root.querySelector<HTMLElement>('[data-context-summary]')!;summary.textContent=words.context+' — '+hints.join(' · ');summary.hidden=false;}
+  document.addEventListener('unmissabl:trip-context',((event:CustomEvent<{sector:string;destination:string;period:string}>)=>{
+   const detail=event.detail;if(detail.destination!=='france')return;
+   const destination=destinations.france;input('sector')!.value=detail.sector;input('destination')!.value=destination;
+   if(!input('location')!.value)input('location')!.value=destination;
+   if(!input('shoot-period')!.value)input('shoot-period')!.value=detail.period;
+   const summary=root.querySelector<HTMLElement>('[data-context-summary]')!;summary.textContent=words.context+' — '+[destination,detail.period,detail.sector].join(' · ');summary.hidden=false;
+  }) as EventListener);
   if(local){root.querySelector<HTMLElement>('[data-local-note]')!.hidden=false;button.disabled=false;}
   else if(!key){notify(words.unavailable,true);button.disabled=true;}
   else {
@@ -71,7 +78,7 @@ const sitekey=import.meta.env.PUBLIC_TURNSTILE_SITE_KEY||'';
    }catch{notify(words.error,true);}finally{sending=false;challengeReady=local;button.disabled=sent||!local;label.textContent=words.prepare;form.removeAttribute('aria-busy');if(widget&&global.turnstile)global.turnstile.reset(widget);status.focus({preventScroll:true});}
   });
   form.addEventListener('input',()=>{if(sent){sent=false;button.disabled=sending||!challengeReady;status.hidden=true;}});
- });}
+ });document.dispatchEvent(new Event('unmissabl:brief-ready'));}
  setupBriefForms();document.addEventListener('astro:page-load',setupBriefForms);
 </script>
 <style>
