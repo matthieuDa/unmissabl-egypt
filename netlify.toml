@@ -75,3 +75,10 @@
   from = "/en/solutions/equestrian/"
   to = "/en/destinations/france/?sector=equestrian#projets"
   status = 301
+
+# Send link preview crawlers directly to the French homepage.
+[[redirects]]
+  from = "/"
+  to = "/fr/"
+  status = 301
+  force = true
