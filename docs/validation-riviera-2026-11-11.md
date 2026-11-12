@@ -1,5 +1,7 @@
 # Correction de la prospection — Côte d’Azur
 
+La vérification navigateur en attente ci-dessous a été reprise le 12 novembre : voir [la validation finale](validation-finale-2026-11-12.md).
+
 ## Architecture corrigée
 
 Les invitations par activité sont sur `/fr/destinations/france/` et `/en/destinations/france/`, pour le printemps 2027. Les pages génériques `/solutions/...` ont été retirées. Les anciens liens de cette prévisualisation sont conservés par redirection interne. La navigation globale renvoie à nouveau vers les références sectorielles.

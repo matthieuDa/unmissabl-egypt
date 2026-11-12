@@ -10,3 +10,10 @@
  .proposal-document{border:0!important;padding:0!important;margin:0!important;width:100%!important;font-size:10pt;overflow:visible!important}
  .proposal-document-header{display:flex!important;break-inside:avoid;padding-bottom:8mm}.proposal-client{margin:8mm 0 6mm}.proposal-client h2{font-size:26pt}.proposal-document h3{break-after:avoid}.proposal-document section{margin:6mm 0}.proposal-document section p{font-size:10pt;line-height:1.55}.proposal-facts{break-inside:avoid;gap:4mm;margin:5mm 0 8mm}.proposal-table{font-size:9pt}.proposal-table th{font-size:8pt}.proposal-table thead{display:table-header-group}.proposal-table tr{break-inside:avoid}.proposal-table td{padding:3mm 1.5mm}.proposal-totals{break-inside:avoid}.proposal-document-footer{display:block!important;break-inside:avoid;margin-top:8mm;padding-top:5mm}.proposal-document-footer p{font-size:8pt}.proposal-document *{text-shadow:none!important;box-shadow:none!important;animation:none!important}
 }
+/* Keep a section title with its terms in Safari's print engine. */
+@media print{
+ .proposal-document section{break-inside:avoid;page-break-inside:avoid}
+ .proposal-document h3{page-break-after:avoid}
+ .proposal-table{page-break-inside:auto}
+ .proposal-table tr,.proposal-document-footer,.proposal-totals{page-break-inside:avoid}
+}
