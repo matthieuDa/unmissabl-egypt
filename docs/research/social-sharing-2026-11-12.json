@@ -1,0 +1,10 @@
+{
+  "asset": "/social/unmissabl-cinematic-v1.jpg",
+  "source": "/media/elewana-suite.webp",
+  "project": "elewana-collection",
+  "sourcePage": "https://dumontfilms.ca/projects/elewana-collection",
+  "credits": "Existing authorized portfolio photograph. Original project credits remain on the internal Elewana Collection project page.",
+  "design": "Single full-frame photograph, existing lowercase Manrope 650 white wordmark. No synthetic imagery or retouching; resized and cropped to 1200 x 630.",
+  "generator": "scripts/create-sharing-image.py",
+  "scope": "Global homepage FR/EN and root fallback. Other pages retain their own project or destination image. Root permanently redirects to /fr/ on Netlify. No claim of a verified WhatsApp preview or cache refresh."
+}

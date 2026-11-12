@@ -5,13 +5,14 @@ import '../styles/global.css';
 import '../styles/cinematic.css';
 import '../styles/atlas.css';
 import Intro from '../components/Intro.astro';
+import ShareMeta from '../components/ShareMeta.astro';
 import Icon from '../components/Icon.astro';
 import {site,locales,defaultLocale,languageNames,href,tx,navigation,type Lang} from '../data/site';
 import {liveSectors} from '../data/projects';
 const {lang,title,description,path='',hero=false,noindex=false,image='/media/elewana-suite.webp',intro=false}=Astro.props as {lang:Lang;title:string;description?:string;path?:string;hero?:boolean;noindex?:boolean;image?:string;intro?:boolean};
 const n=navigation[lang];
 ---
-<!doctype html><html lang={lang}><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#0c0d0d"/><title>{title} — Unmissabl</title><meta name="description" content={description||tx(lang,'an-international-filmmaking-collective-films-pho-a1810')}/><meta name="robots" content={site.demo||noindex?'noindex, nofollow':'index, follow'}/><link rel="canonical" href={site.url+href(lang,path)}/><>{locales.map(locale=><link rel="alternate" hreflang={locale} href={site.url+href(locale,path)}/>)}</><link rel="alternate" hreflang="x-default" href={site.url+href(defaultLocale,path)}/><meta property="og:title" content={title+' — Unmissabl'}/><meta property="og:description" content={description||tx(lang,'the-world-as-your-stage-your-brand-in-the-spotli-16b89')}/><meta property="og:image" content={site.url+image}/><meta property="og:url" content={site.url+href(lang,path)}/><meta property="og:type" content="website"/><meta property="og:locale" content={lang==='fr'?'fr_FR':'en_GB'}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/></head>
+<!doctype html><html lang={lang}><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#0c0d0d"/><title>{title} — Unmissabl</title><meta name="description" content={description||tx(lang,'an-international-filmmaking-collective-films-pho-a1810')}/><meta name="robots" content={site.demo||noindex?'noindex, nofollow':'index, follow'}/><link rel="canonical" href={site.url+href(lang,path)}/><>{locales.map(locale=><link rel="alternate" hreflang={locale} href={site.url+href(locale,path)}/>)}</><link rel="alternate" hreflang="x-default" href={site.url+href(defaultLocale,path)}/><ShareMeta lang={lang} path={path} title={title} description={description||tx(lang,'the-world-as-your-stage-your-brand-in-the-spotli-16b89')} image={image}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/></head>
 <body class:list={[hero?'with-hero':'without-hero']} data-lang={lang}>
 <a class="skip-link" href="#main">{tx(lang,'skip-to-content-ba1ca')}</a>
 {intro&&<Intro lang={lang}/>}
