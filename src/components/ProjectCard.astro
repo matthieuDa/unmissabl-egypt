@@ -1,0 +1,17 @@
+---
+import type {Project} from '../data/projects';
+import {projectCreditLine} from '../data/projects';
+import {href,tx,type Lang} from '../data/site';
+import Icon from './Icon.astro';
+import PreviewVideo from './PreviewVideo.astro';
+const {project:p,lang,large=false}=Astro.props as {project:Project;lang:Lang;large?:boolean};
+---
+<article class:list={['project-card',{large}]} data-project-card data-sectors={p.sectors.join(' ')} data-format={p.format} data-place={p.location?.label[lang]||''}>
+ <a href={href(lang,'projects/'+p.id)} class="project-image" data-card-preview={p.preview||p.videoUrl} data-preview-orientation={p.format==='social'?'portrait':'landscape'} aria-label={tx(lang,'explore-8969b')+' '+p.title}>
+  <img src={p.poster} alt={p.title} loading="lazy" width="1200" height="800"/>
+  {(p.preview||p.videoUrl)&&<PreviewVideo source={p.preview||p.videoUrl!} lang={lang}/>}
+  <span class="project-open"><Icon name="arrow" size={24}/></span>
+  {p.personal&&<span class="image-caption">{tx(lang,'personal-film-b11f7')}</span>}
+ </a>
+ <div class="project-meta"><div><h3><a href={href(lang,'projects/'+p.id)}>{p.client}</a></h3><p>{projectCreditLine(p,lang)}</p></div><span>{p.location?.label[lang]||tx(lang,'collective-portfolio-ad8e2')}</span></div>
+</article>

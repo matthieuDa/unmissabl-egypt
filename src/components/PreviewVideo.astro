@@ -1,0 +1,9 @@
+---
+import variants from '../data/video-variants.json';
+import type {Lang} from '../data/site';
+const {source,lang}=Astro.props as {source:string;lang:Lang};
+const sources=(variants as Record<string,{src:string;width:number;height:number}[]>)[source]||[];
+---
+<video muted playsinline loop preload="none" aria-hidden="true" data-preview-sources={sources.length?JSON.stringify(sources):undefined}></video>
+<span class="preview-loader" role="status"><span aria-hidden="true"></span><span>{lang==='fr'?'Chargement du film':'Loading film'}</span></span>
+<span class="preview-error" role="status">{lang==='fr'?'Aperçu indisponible · découvrir le projet':'Preview unavailable · explore the project'}</span>

@@ -1,0 +1,11 @@
+---
+import {projectById} from '../data/projects';
+import reelData from '../data/reels.json';
+import {href,type Lang} from '../data/site';
+import Icon from './Icon.astro';
+const {lang}=Astro.props as {lang:Lang};
+---
+<section class="section light page-opening intro-comparison">
+ <div class="page-title"><h1>{lang==='fr'?'Trois films\npour ouvrir le site.':'Three films\nto open the site.'}</h1><p>{lang==='fr'?'Trois rythmes, une même exigence d’image. Regardez les montages, puis découvrez votre choix en situation sur l’accueil.':'Three rhythms, one standard of imagery. Watch the edits, then preview your choice on the homepage.'}</p></div>
+ <div class="reel-options">{reelData.map((r,i)=><article><div class="reel-option-title"><h2>{r.title[lang]}</h2>{i===0&&<span>{lang==='fr'?'Notre sélection':'Our selection'}</span>}</div><video data-reel-player controls playsinline preload="none" poster={r.poster} src={r.src}></video><div class="reel-option-copy"><p>{r.description[lang]}</p><a class="text-link" data-choose-reel={r.id} href={href(lang)+'?intro='+r.id}>{lang==='fr'?'Voir sur l’accueil':'Preview on the homepage'}<Icon/></a></div><details><summary>{lang==='fr'?'Sources et crédits du montage':'Edit sources and credits'}</summary><ul>{r.credits.map(c=><li>{projectById(c.projectId)?<a href={href(lang,'projects/'+c.projectId)}>{c.name}</a>:<span>{c.name}</span>}</li>)}</ul></details></article>)}</div>
+</section>

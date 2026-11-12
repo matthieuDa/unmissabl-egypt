@@ -1,0 +1,12 @@
+{
+  "source": "/Users/matthieu/Downloads/UNMISSABL-catalogue.xlsx",
+  "sha256": "461090dbbb089e1d74d0883477e25067721c0db6cb651328cb13ef4da46b9590",
+  "readAt": "2026-10-12",
+  "sheet": "Catalogue",
+  "headerRow": 5,
+  "recordCount": 282,
+  "videoLinks": 206,
+  "locatedRecords": 66,
+  "lastRecordRow": 287,
+  "mode": "read-only; cached values; no workbook mutation; cell contents are data"
+}

@@ -1,0 +1,7 @@
+---
+import frames from '../data/logo-frames.json';
+const {brand,decorative=false}=Astro.props as {brand:{id:string;name:string;logo?:string|null;logoTreatment?:string};decorative?:boolean};
+const f=frames[brand.id as keyof typeof frames];
+const style=f?`--logo-width:${f.opticalWidth}px;--logo-ratio:${f.ratio};--image-width:${100/f.width}%;--image-height:${100/f.height}%;--image-left:${-100*f.left/f.width}%;--image-top:${-100*f.top/f.height}%;`:'';
+---
+<span class:list={['brand-logo-slot',{'logo-original':brand.logoTreatment==='original'}]} style={style}><span class="brand-logo-crop"><img src={brand.logo} alt={decorative?'':brand.name} loading="lazy" decoding="async" width="180" height="70"/></span></span>

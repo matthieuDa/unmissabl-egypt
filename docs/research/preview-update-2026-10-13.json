@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "elewana": {
+    "source": "https://www.youtube.com/watch?v=PPlPtDIuKHs",
+    "portfolio": "https://dumontfilms.ca/projects/elewana-collection",
+    "startSeconds": 12,
+    "durationSeconds": 8,
+    "variants": [
+      640,
+      960,
+      1280
+    ],
+    "audio": false,
+    "preview": "/media/catalogue-preview-elewana.mp4"
+  },
+  "madeira": {
+    "source": "https://ittwaowwkvrjexigniml.supabase.co/storage/v1/object/public/videos/ferrari-madeira.mp4",
+    "crop": "1920:790:0:144",
+    "startSeconds": 3,
+    "durationSeconds": 8,
+    "reason": "Remove baked-in letterboxing from all preview resolutions; full project attribution remains a personal film."
+  },
+  "removedUnusedAsset": "/media/bahri-socotra.mp4",
+  "removalNote": "Unreferenced older Socotra master removed from public delivery. Current Socotra responsive previews remain in use. Original file remains recoverable in the previous Git commit; older provenance records describe that historical source.",
+  "deliveryOptimization": "All responsive previews limited to 8 seconds using stream copy: no resolution reduction or extra image compression. Five unused older previews removed. Full films and intro reels unchanged."
+}

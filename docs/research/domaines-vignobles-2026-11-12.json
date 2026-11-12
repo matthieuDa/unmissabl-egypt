@@ -1,0 +1,148 @@
+{
+  "checkedAt": "2026-11-12",
+  "catalogue": {
+    "source": "UNMISSABL-catalogue.xlsx",
+    "extractedRows": 282,
+    "cachedExtract": "docs/research/catalogue-extracted.json",
+    "matchedRow": "tom-charentestourism",
+    "scope": "Catalogue labels searched, then original public films visually inspected. No verified FPV vineyard fly-through was found; this is not a claim that none exists in the collective."
+  },
+  "publicCreditPolicy": "Public credits name people. Original production attribution is retained here. Reference locations are not presented as Côte d’Azur productions.",
+  "estates": {
+    "projectId": "maison-de-prepinson-fpv",
+    "portfolioPage": "https://www.alexonmedia.com/productions/maisondeprepinson",
+    "client": "Maison de Prépinson",
+    "originalCredits": {
+      "Director, Filmmaker & Editor": "Alexon",
+      "Drone Operator": "Alexon",
+      "FPV Drone": "Alexon & Tim Ohler",
+      "Production & Local Agency": "Papilio Productions",
+      "Talent": "Eva Schiller & Matthieu Dalle-Berardinelli"
+    },
+    "film": {
+      "url": "https://www.youtube.com/watch?v=TKroMAx3Tqs",
+      "title": "FPV Tour | La Maison Prepinson",
+      "channel": "Alexon",
+      "uploadedAt": "2025-03-19",
+      "durationSeconds": 186,
+      "downloadedFormat": "137",
+      "width": 1920,
+      "height": 1080,
+      "sourceBytes": 81147635
+    },
+    "location": {
+      "label": "Ortho, Belgique",
+      "lat": 50.126626,
+      "lon": 5.6133845,
+      "source": "https://www.prepinson.com/contact-us/",
+      "evidence": "Official LocalBusiness JSON-LD #houses, distinct from the neighbouring #haras coordinates."
+    },
+    "excerpt": {
+      "startSeconds": 114,
+      "durationSeconds": 10,
+      "description": "One continuous FPV approach from the garden towards and into the house. No invented vineyard context.",
+      "audio": false,
+      "crop": false,
+      "upscaled": false,
+      "encoding": "H.264, CRF 21, faststart",
+      "variants": [
+        {
+          "src": "/media/previews/maison-prepinson-fpv-640.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/media/previews/maison-prepinson-fpv-1280.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/previews/maison-prepinson-fpv-1920.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "stills": [
+      {
+        "src": "/media/maison-prepinson-fpv.webp",
+        "atSeconds": 114
+      },
+      {
+        "src": "/media/maison-prepinson-fpv-interior.webp",
+        "atSeconds": 126
+      },
+      {
+        "src": "/media/maison-prepinson-fpv-reception.webp",
+        "atSeconds": 54
+      }
+    ]
+  },
+  "vineyards": {
+    "projectId": "tom-charentestourism",
+    "referencePlace": "Domaine & Distillerie Brillouet",
+    "portfolioPage": "https://www.tompacelli.com/portfolio/charentestourism/",
+    "originalClient": "Charentes Tourisme / Région Nouvelle-Aquitaine",
+    "directBrillouetCommissionEstablished": false,
+    "film": {
+      "url": "https://www.youtube.com/watch?v=2JTm84ksxo8",
+      "title": "LES CHARENTES, NOS PÉPITES!",
+      "channel": "Les Coflocs",
+      "uploadedAt": "2024-09-26",
+      "durationSeconds": 217,
+      "downloadedFormat": "137",
+      "width": 1920,
+      "height": 1080,
+      "sourceBytes": 112544098
+    },
+    "creator": "Tom Pacelli",
+    "sourceRole": "Published in Tom Pacelli’s portfolio; detailed role remains the original project credit rather than an invented individual role.",
+    "placeVerification": {
+      "source": "https://www.royanatlantique.fr/producteurs-locaux/domaine-et-distillerie-brillouet-saint-romain-de-benet/",
+      "evidence": "Official tourism producer page describes vineyards, Cognac, Pineau, wines, cellar visits and tastings at Saint-Romain-de-Benet. Film lower thirds identify Domaine & Distillerie Brillouet; the approximate Royan label is retained within the original image."
+    },
+    "excerpt": {
+      "segments": [
+        {
+          "startSeconds": 94.08,
+          "endSeconds": 95.04,
+          "subject": "Jean-Marc Brillouet with copper stills; on-screen domain identification"
+        },
+        {
+          "startSeconds": 100.72,
+          "endSeconds": 103.68,
+          "subject": "Barrel cellar, visitor and tasting; on-screen Distillerie Brillouet identification"
+        }
+      ],
+      "durationSeconds": 3.92,
+      "audio": false,
+      "crop": false,
+      "upscaled": false,
+      "encoding": "H.264, CRF 20, faststart",
+      "variants": [
+        {
+          "src": "/media/previews/charentes-distillerie-640.mp4",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/media/previews/charentes-distillerie-1280.mp4",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/previews/charentes-distillerie-1920.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "verification": "Encoded preview inspected frame-by-frame at 0.2 second intervals. Cuts tightened to exclude adjacent cycling and restaurant shots from the original tourism montage."
+    },
+    "poster": {
+      "src": "/media/charentes-distillerie.webp",
+      "atSeconds": 102
+    },
+    "presentation": "Explicitly labelled as an excerpt of Charentes Tourisme. Links to the existing internal full project. Shows cellar/craft only: no FPV or vineyard aerial claim; future FPV is conditional on location and shoot conditions."
+  },
+  "removed": "Golf prospect tab removed because no accurate golf video is documented. Old golf solution links fall back to the France hotel invitation."
+}

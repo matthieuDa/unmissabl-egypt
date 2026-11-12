@@ -1,0 +1,221 @@
+[
+  {
+    "id": "duarte-adobe-fqyvsjfqfuj",
+    "sourcePage": "https://ducreates.myportfolio.com/car-videography",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-porsche-portimao.mp4",
+    "poster": "/media/catalogue-poster-porsche-portimao.webp",
+    "publicPlayer": "https://www-ccv.adobe.io/v1/player/ccv/FqyVsjFQFuJ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+    "sourceVariant": "1080x1920",
+    "segmentStartIndex": 0,
+    "segmentCount": 2,
+    "sourceKind": "public-adobe-hls",
+    "sourceDimensions": [
+      1080,
+      1920
+    ],
+    "durationSeconds": 10,
+    "bytes": 9049893,
+    "sha256": "87475f5e3888f36cad73d831654372e706fec00a2a073d80aa21b0912ffb48d6",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "duarte-adobe-axobevrnc_n",
+    "sourcePage": "https://ducreates.myportfolio.com/restaurants",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-akla-lisbon.mp4",
+    "poster": "/media/catalogue-poster-akla-lisbon.webp",
+    "publicPlayer": "https://www-ccv.adobe.io/v1/player/ccv/AXobeVrNC_n/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+    "sourceVariant": "1080x1920",
+    "segmentStartIndex": 0,
+    "segmentCount": 3,
+    "sourceKind": "public-adobe-hls",
+    "sourceDimensions": [
+      1080,
+      1920
+    ],
+    "durationSeconds": 10,
+    "bytes": 7012879,
+    "sha256": "c28165cc441983aa146e8dc25b0751a5c0fa2416d960d05082d0a80fb010fea2",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "duarte-adobe-msf8uhppgqv",
+    "sourcePage": "https://ducreates.myportfolio.com/24h-series-barcelona",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-24h-barcelona.mp4",
+    "poster": "/media/catalogue-poster-24h-barcelona.webp",
+    "publicPlayer": "https://www-ccv.adobe.io/v1/player/ccv/MSF8uHPpGQv/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+    "sourceVariant": "1920x1080",
+    "segmentStartIndex": 1,
+    "segmentCount": 3,
+    "sourceKind": "public-adobe-hls",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 12253702,
+    "sha256": "9d8366e0d39db88ff938285ebac44b652c5afdeba64df2579ed34f0bd191f4dc",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "duarte-adobe-gwsmd67kcsz",
+    "sourcePage": "https://ducreates.myportfolio.com/car-videography",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-ferrari-estoril.mp4",
+    "poster": "/media/catalogue-poster-ferrari-estoril.webp",
+    "publicPlayer": "https://www-ccv.adobe.io/v1/player/ccv/GWSmd67KcsZ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+    "sourceVariant": "1080x1920",
+    "segmentStartIndex": 0,
+    "segmentCount": 2,
+    "sourceKind": "public-adobe-hls",
+    "sourceDimensions": [
+      1080,
+      1920
+    ],
+    "durationSeconds": 10,
+    "bytes": 9133076,
+    "sha256": "415da5008415249df6259b3fd57caa04505d49414cf385133bafcdf86b247c67",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+    "sourcePage": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-columbia-faroe.mp4",
+    "poster": "/media/catalogue-poster-columbia-faroe.webp",
+    "sourceVideo": "https://video.wixstatic.com/video/e3752c_13f1b1ebf6bd49279b59821517b45d63/1080p/mp4/file.mp4",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 10290943,
+    "sha256": "a9a7d48b11c675c5a1377f574c4858a9ad42a47b81ad0284ffde2c5683f5195b",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "duarte-adobe-krvncm8vcwn",
+    "sourcePage": "https://ducreates.myportfolio.com/events",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-hilton-lisbon.mp4",
+    "poster": "/media/catalogue-poster-hilton-lisbon.webp",
+    "publicPlayer": "https://www-ccv.adobe.io/v1/player/ccv/KRVnCm8VcwN/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+    "sourceVariant": "1920x1080",
+    "segmentStartIndex": 1,
+    "segmentCount": 3,
+    "sourceKind": "public-adobe-hls",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 10344777,
+    "sha256": "75fe8f4af4ff9fad7c9bd0cabad116b4640289182a503f177af1288e96465d85",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "duarte-creatum-ferrari",
+    "sourcePage": "https://www.creatummedia.com/project/ferrari",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-ferrari-madeira.mp4",
+    "poster": "/media/catalogue-poster-ferrari-madeira.webp",
+    "sourceVideo": "https://ittwaowwkvrjexigniml.supabase.co/storage/v1/object/public/videos/ferrari-madeira.mp4",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 6162773,
+    "sha256": "99c7b0ac4e9673d6f2e07bdad36ec280d736c89f11cf810070f3925ef9897c60",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+    "sourcePage": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-go-wild-dolomites.mp4",
+    "poster": "/media/catalogue-poster-go-wild-dolomites.webp",
+    "sourceVideo": "https://video.wixstatic.com/video/e3752c_c1aeca96273a4149b4964482386d96f2/1080p/mp4/file.mp4",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 10803133,
+    "sha256": "9bd8b9810950f0495bb2802b648f022d7cbc5688c7711309ac873160b87fb5b3",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "bahri-najm-socotra-hero",
+    "sourcePage": "https://bahrinajm.com/",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-socotra.mp4",
+    "poster": "/media/catalogue-poster-socotra.webp",
+    "sourceVideo": "https://bahrinajm.com/assets/socotra-hero.mp4",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 7934472,
+    "sha256": "5d0a211d436d7c7d1732263526272623b17b255ad88b91063b4c3c979d08363f",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "duarte-creatum-royal-rides-1",
+    "sourcePage": "https://www.creatummedia.com/project/royal-rides",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-royal-rides-portugal.mp4",
+    "poster": "/media/catalogue-poster-royal-rides-portugal.webp",
+    "sourceVideo": "https://ittwaowwkvrjexigniml.supabase.co/storage/v1/object/public/videos/royal-rides-reel.mp4",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      3840,
+      2160
+    ],
+    "durationSeconds": 10,
+    "bytes": 14978159,
+    "sha256": "39fafc11b618322bf797f4e7e010eef4d045311c4692e76e43e5272b4e0ade73",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "samuel-kwan-2d1c3c05ffa84f4a82ae28e3c2c4639a",
+    "sourcePage": "https://www.sanctuarycreatives.com/landmark",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-landmark-hong-kong.mp4",
+    "poster": "/media/catalogue-poster-landmark-hong-kong.webp",
+    "sourceVideo": "https://video.wixstatic.com/video/e3752c_2d1c3c05ffa84f4a82ae28e3c2c4639a/1080p/mp4/file.mp4",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      1920,
+      1080
+    ],
+    "durationSeconds": 10,
+    "bytes": 14040588,
+    "sha256": "6cdb2895a566c39cf47ef2b7dcf67c4c353ef1e4f6003734ba7c131966b20b29",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  },
+  {
+    "id": "robin-dubai",
+    "sourcePage": "https://www.robinchills.com/",
+    "accessedAt": "2026-10-12",
+    "output": "/media/catalogue-preview-dubai.mp4",
+    "poster": "/media/catalogue-poster-dubai.webp",
+    "sourceVideo": "https://dl.dropboxusercontent.com/scl/fi/y7ryognngdbi0idlq76bi/CINEMATIC-DUBAI-30-SEC-V5.mp4?rlkey=w2n69kref9ed386nvsd9rt6t2&raw=1",
+    "sourceKind": "public-mp4",
+    "sourceDimensions": [
+      3840,
+      2160
+    ],
+    "durationSeconds": 10,
+    "bytes": 13239231,
+    "sha256": "e545b5b85b338911190dfe4c658ce543b3756cf096c44506759cb077c3dd842e",
+    "encoding": "H.264 CRF18; native aspect; no upscale; muted; faststart"
+  }
+]

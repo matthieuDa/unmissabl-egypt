@@ -1,0 +1,658 @@
+{
+  "porsche": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 15,
+    "opticalWidth": 146
+  },
+  "puma": {
+    "left": 0.01375,
+    "top": 0,
+    "width": 0.9725,
+    "height": 1,
+    "ratio": 3.1244979919678717,
+    "opticalWidth": 115
+  },
+  "four-seasons": {
+    "left": 0,
+    "top": 0.02891566265060241,
+    "width": 0.9971949509116409,
+    "height": 0.9493975903614458,
+    "ratio": 1.8045685279187818,
+    "opticalWidth": 87
+  },
+  "rosewood": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 4.724409448818897,
+    "opticalWidth": 141
+  },
+  "qatar-airways": {
+    "left": 0.10361067503924647,
+    "top": 0.23674911660777384,
+    "width": 0.7943485086342229,
+    "height": 0.5265017667844523,
+    "ratio": 3.3959731543624163,
+    "opticalWidth": 119
+  },
+  "etihad": {
+    "left": 0.0064516129032258064,
+    "top": 0,
+    "width": 0.9903225806451613,
+    "height": 1,
+    "ratio": 2.790909090909091,
+    "opticalWidth": 108
+  },
+  "hyundai": {
+    "left": 0.1407185628742515,
+    "top": 0.2874251497005988,
+    "width": 0.7215568862275449,
+    "height": 0.4251497005988024,
+    "ratio": 1.6971830985915493,
+    "opticalWidth": 84
+  },
+  "mazda": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 1.2244897959183674,
+    "opticalWidth": 72
+  },
+  "levis": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.439655172413793,
+    "opticalWidth": 101
+  },
+  "dji": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 1.75,
+    "opticalWidth": 86
+  },
+  "arcteryx": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 6.111111111111111,
+    "opticalWidth": 146
+  },
+  "asics": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 3.025,
+    "opticalWidth": 113
+  },
+  "hilton": {
+    "left": 0.14106583072100312,
+    "top": 0.30287648054145516,
+    "width": 0.7554858934169278,
+    "height": 0.4027072758037225,
+    "ratio": 4.050420168067227,
+    "opticalWidth": 130
+  },
+  "corona": {
+    "left": 0.1377245508982036,
+    "top": 0.27245508982035926,
+    "width": 0.7275449101796407,
+    "height": 0.4550898203592814,
+    "ratio": 1.5986842105263157,
+    "opticalWidth": 82
+  },
+  "radisson": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 4.093567251461988,
+    "opticalWidth": 131
+  },
+  "emaar": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 5.031446540880503,
+    "opticalWidth": 145
+  },
+  "elewana-collection": {
+    "left": 0.007209062821833162,
+    "top": 0.009689922480620155,
+    "width": 0.9855818743563337,
+    "height": 0.9903100775193798,
+    "ratio": 1.8727984344422701,
+    "opticalWidth": 89
+  },
+  "jetex": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.98,
+    "opticalWidth": 112
+  },
+  "24h-series": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 5.705357142857143,
+    "opticalWidth": 146
+  },
+  "alsukhon-jewelry": {
+    "left": 0,
+    "top": 0.031512605042016806,
+    "width": 1,
+    "height": 0.9684873949579832,
+    "ratio": 2.229934924078091,
+    "opticalWidth": 97
+  },
+  "aleop": {
+    "left": 0.013100436681222707,
+    "top": 0.06285714285714286,
+    "width": 0.9737991266375546,
+    "height": 0.88,
+    "ratio": 4.3441558441558445,
+    "opticalWidth": 135
+  },
+  "american-express": {
+    "left": 0.0421179302045728,
+    "top": 0.07777777777777778,
+    "width": 0.9121540312876053,
+    "height": 0.8388888888888889,
+    "ratio": 1.0039735099337748,
+    "opticalWidth": 60
+  },
+  "anantara": {
+    "left": 0.0671892497200448,
+    "top": 0.22444444444444445,
+    "width": 0.8488241881298992,
+    "height": 0.5033333333333333,
+    "ratio": 1.6732891832229582,
+    "opticalWidth": 84
+  },
+  "atlantis": {
+    "left": 0.008565310492505354,
+    "top": 0,
+    "width": 0.9828693790149893,
+    "height": 0.947565543071161,
+    "ratio": 1.8142292490118577,
+    "opticalWidth": 87
+  },
+  "audi": {
+    "left": 0.09333333333333334,
+    "top": 0.34444444444444444,
+    "width": 0.8022222222222222,
+    "height": 0.2877777777777778,
+    "ratio": 2.787644787644788,
+    "opticalWidth": 108
+  },
+  "autodromo-algarve": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.7948717948717947,
+    "opticalWidth": 108
+  },
+  "beautiful-destinations": {
+    "left": 0.125,
+    "top": 0.3,
+    "width": 0.75,
+    "height": 0.4,
+    "ratio": 2.6785714285714284,
+    "opticalWidth": 106
+  },
+  "blenders-eyewear": {
+    "left": 0.1407185628742515,
+    "top": 0.3712574850299401,
+    "width": 0.718562874251497,
+    "height": 0.25748502994011974,
+    "ratio": 2.7906976744186047,
+    "opticalWidth": 108
+  },
+  "bmw": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 1,
+    "opticalWidth": 60
+  },
+  "cathay-pacific": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 7.142857142857143,
+    "opticalWidth": 146
+  },
+  "centrakor": {
+    "left": 0.013064133016627079,
+    "top": 0.13333333333333333,
+    "width": 0.9738717339667459,
+    "height": 0.7333333333333333,
+    "ratio": 7.454545454545454,
+    "opticalWidth": 146
+  },
+  "chanel": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 1.5609756097560976,
+    "opticalWidth": 81
+  },
+  "charentes-tourisme": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.4719101123595504,
+    "opticalWidth": 102
+  },
+  "columbia-sportswear": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 5.433333333333334,
+    "opticalWidth": 146
+  },
+  "cortina-tourism": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.4330900243309004,
+    "opticalWidth": 101
+  },
+  "crowne-plaza": {
+    "left": 0.16397228637413394,
+    "top": 0.2969230769230769,
+    "width": 0.6732101616628176,
+    "height": 0.4076923076923077,
+    "ratio": 2.2,
+    "opticalWidth": 96
+  },
+  "decathlon": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 6.666666666666667,
+    "opticalWidth": 146
+  },
+  "duo-curio-collection": {
+    "left": 0.172,
+    "top": 0.342,
+    "width": 0.658,
+    "height": 0.326,
+    "ratio": 2.01840490797546,
+    "opticalWidth": 92
+  },
+  "esc-online": {
+    "left": 0.18461538461538463,
+    "top": 0.19487179487179487,
+    "width": 0.6282051282051282,
+    "height": 0.6,
+    "ratio": 2.094017094017094,
+    "opticalWidth": 94
+  },
+  "expedia": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 3.532008830022075,
+    "opticalWidth": 122
+  },
+  "fact-magazine": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.3703703703703702,
+    "opticalWidth": 100
+  },
+  "felidae": {
+    "left": 0,
+    "top": 0.0019011406844106464,
+    "width": 0.994375,
+    "height": 0.9866920152091255,
+    "ratio": 3.065510597302505,
+    "opticalWidth": 113
+  },
+  "ferrari-challenge": {
+    "left": 0.015625,
+    "top": 0.027874564459930314,
+    "width": 0.974375,
+    "height": 0.9547038327526133,
+    "ratio": 5.689781021897811,
+    "opticalWidth": 146
+  },
+  "gedlich-racing": {
+    "left": 0.008928571428571428,
+    "top": 0.07017543859649122,
+    "width": 0.9776785714285714,
+    "height": 0.8596491228070176,
+    "ratio": 4.469387755102041,
+    "opticalWidth": 137
+  },
+  "google": {
+    "left": 0,
+    "top": 0,
+    "width": 0.9961538461538462,
+    "height": 0.9886363636363636,
+    "ratio": 2.9770114942528734,
+    "opticalWidth": 112
+  },
+  "groupe-malo": {
+    "left": 0.1407185628742515,
+    "top": 0.39520958083832336,
+    "width": 0.718562874251497,
+    "height": 0.20958083832335328,
+    "ratio": 3.4285714285714284,
+    "opticalWidth": 120
+  },
+  "gt-open": {
+    "left": 0.04,
+    "top": 0,
+    "width": 0.92,
+    "height": 1,
+    "ratio": 4.6,
+    "opticalWidth": 139
+  },
+  "hsbc": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 3.717948717948718,
+    "opticalWidth": 125
+  },
+  "insta360": {
+    "left": 0.05536332179930796,
+    "top": 0.34555555555555556,
+    "width": 0.889273356401384,
+    "height": 0.3088888888888889,
+    "ratio": 4.622302158273381,
+    "opticalWidth": 139
+  },
+  "intercontinental": {
+    "left": 0,
+    "top": 0.19305555555555556,
+    "width": 1,
+    "height": 0.5736111111111111,
+    "ratio": 3.099273607748184,
+    "opticalWidth": 114
+  },
+  "kiliwarrior-expeditions": {
+    "left": 0.1377245508982036,
+    "top": 0.39221556886227543,
+    "width": 0.7215568862275449,
+    "height": 0.2155688622754491,
+    "ratio": 3.3472222222222223,
+    "opticalWidth": 119
+  },
+  "latvijas-valsts-mezi": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.0779220779220777,
+    "opticalWidth": 93
+  },
+  "leki": {
+    "left": 0.1407185628742515,
+    "top": 0.38922155688622756,
+    "width": 0.718562874251497,
+    "height": 0.2215568862275449,
+    "ratio": 3.2432432432432434,
+    "opticalWidth": 117
+  },
+  "lexias-hostels": {
+    "left": 0,
+    "top": 0,
+    "width": 0.924375,
+    "height": 0.9965870307167235,
+    "ratio": 5.065068493150685,
+    "opticalWidth": 146
+  },
+  "lvmh": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 4.288135593220339,
+    "opticalWidth": 134
+  },
+  "magil-tisseur": {
+    "left": 0.10179640718562874,
+    "top": 0.39221556886227543,
+    "width": 0.7964071856287425,
+    "height": 0.2275449101796407,
+    "ratio": 3.5,
+    "opticalWidth": 121
+  },
+  "mandarin-oriental": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 1.265,
+    "opticalWidth": 73
+  },
+  "mercedes-benz": {
+    "left": 0.11395646606914213,
+    "top": 0.10666666666666667,
+    "width": 0.7714468629961587,
+    "height": 0.7877777777777778,
+    "ratio": 1.6995768688293371,
+    "opticalWidth": 84
+  },
+  "mikimoto": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 8.333333333333334,
+    "opticalWidth": 146
+  },
+  "mini": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.275960170697013,
+    "opticalWidth": 98
+  },
+  "musicbed": {
+    "left": 0.1497005988023952,
+    "top": 0.46107784431137727,
+    "width": 0.7005988023952096,
+    "height": 0.09580838323353294,
+    "ratio": 7.3125,
+    "opticalWidth": 146
+  },
+  "nomatic": {
+    "left": 0.1437125748502994,
+    "top": 0.44610778443113774,
+    "width": 0.7155688622754491,
+    "height": 0.10778443113772455,
+    "ratio": 6.638888888888889,
+    "opticalWidth": 146
+  },
+  "nouvelle-aquitaine": {
+    "left": 0.0498046875,
+    "top": 0.21006944444444445,
+    "width": 0.8994140625,
+    "height": 0.5954861111111112,
+    "ratio": 2.685131195335277,
+    "opticalWidth": 106
+  },
+  "novotel": {
+    "left": 0.1,
+    "top": 0.4,
+    "width": 0.8,
+    "height": 0.225,
+    "ratio": 6.222222222222222,
+    "opticalWidth": 146
+  },
+  "nuamore": {
+    "left": 0.09322033898305085,
+    "top": 0.1282051282051282,
+    "width": 0.8531073446327684,
+    "height": 0.6282051282051282,
+    "ratio": 6.163265306122449,
+    "opticalWidth": 146
+  },
+  "omega": {
+    "left": 0.0025,
+    "top": 0.2425,
+    "width": 0.995,
+    "height": 0.5125,
+    "ratio": 1.9414634146341463,
+    "opticalWidth": 90
+  },
+  "pacific-high": {
+    "left": 0.08041958041958042,
+    "top": 0.24766355140186916,
+    "width": 0.8356643356643356,
+    "height": 0.6121495327102804,
+    "ratio": 3.648854961832061,
+    "opticalWidth": 124
+  },
+  "padi": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.9,
+    "opticalWidth": 110
+  },
+  "porsche-sprint-challenge-iberica": {
+    "left": 0.021551724137931036,
+    "top": 0.18932038834951456,
+    "width": 0.9547413793103449,
+    "height": 0.616504854368932,
+    "ratio": 3.4881889763779528,
+    "opticalWidth": 121
+  },
+  "race-ready": {
+    "left": 0,
+    "top": 0.19480519480519481,
+    "width": 0.9984375,
+    "height": 0.5930735930735931,
+    "ratio": 9.328467153284672,
+    "opticalWidth": 146
+  },
+  "red-bull": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 4.129251700680272,
+    "opticalWidth": 132
+  },
+  "red-sea-global": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.6548672566371683,
+    "opticalWidth": 106
+  },
+  "retromobile": {
+    "left": 0.020625,
+    "top": 0.05053598774885146,
+    "width": 0.959375,
+    "height": 0.9019908116385911,
+    "ratio": 2.6061120543293717,
+    "opticalWidth": 105
+  },
+  "shiseido": {
+    "left": 0.0075,
+    "top": 0.0273972602739726,
+    "width": 0.985,
+    "height": 0.9452054794520548,
+    "ratio": 5.7101449275362315,
+    "opticalWidth": 146
+  },
+  "tarn-et-garonne-tourisme": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 2.8815789473684212,
+    "opticalWidth": 110
+  },
+  "the-peninsula": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 4.875,
+    "opticalWidth": 143
+  },
+  "tisseur": {
+    "left": 0.1467065868263473,
+    "top": 0.4550898203592814,
+    "width": 0.7095808383233533,
+    "height": 0.08982035928143713,
+    "ratio": 7.9,
+    "opticalWidth": 146
+  },
+  "tourism-australia": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 0.8488888888888889,
+    "opticalWidth": 51
+  },
+  "uniroc": {
+    "left": 0.1437125748502994,
+    "top": 0.38323353293413176,
+    "width": 0.7095808383233533,
+    "height": 0.23353293413173654,
+    "ratio": 3.0384615384615383,
+    "opticalWidth": 113
+  },
+  "vl": {
+    "left": 0.1423290203327172,
+    "top": 0.279383429672447,
+    "width": 0.6913123844731978,
+    "height": 0.5626204238921002,
+    "ratio": 1.2808219178082192,
+    "opticalWidth": 73
+  },
+  "volkswagen": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 1,
+    "opticalWidth": 60
+  },
+  "zalando": {
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1,
+    "ratio": 5.5,
+    "opticalWidth": 146
+  }
+}

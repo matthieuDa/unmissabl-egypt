@@ -1,2 +1,77 @@
 [build]
+  command = "npm run build"
   publish = "dist"
+[build.environment]
+  NODE_VERSION = "24"
+  ASTRO_TELEMETRY_DISABLED = "1"
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+[[redirects]]
+  from = "/fr/destinations/iceland/"
+  to = "/fr/destinations/"
+  status = 301
+[[redirects]]
+  from = "/en/destinations/iceland/"
+  to = "/en/destinations/"
+  status = 301
+
+[[redirects]]
+  from = "/fr/solutions/"
+  to = "/fr/sectors/"
+  status = 301
+
+[[redirects]]
+  from = "/fr/solutions/hotels/"
+  to = "/fr/destinations/france/?sector=hotels#projets"
+  status = 301
+
+[[redirects]]
+  from = "/fr/solutions/resorts/"
+  to = "/fr/destinations/france/?sector=hotels#projets"
+  status = 301
+
+[[redirects]]
+  from = "/fr/solutions/automotive/"
+  to = "/fr/destinations/france/?sector=automotive#projets"
+  status = 301
+
+[[redirects]]
+  from = "/fr/solutions/golf/"
+  to = "/fr/destinations/france/#projets"
+  status = 301
+
+[[redirects]]
+  from = "/fr/solutions/equestrian/"
+  to = "/fr/destinations/france/?sector=equestrian#projets"
+  status = 301
+
+[[redirects]]
+  from = "/en/solutions/"
+  to = "/en/sectors/"
+  status = 301
+
+[[redirects]]
+  from = "/en/solutions/hotels/"
+  to = "/en/destinations/france/?sector=hotels#projets"
+  status = 301
+
+[[redirects]]
+  from = "/en/solutions/resorts/"
+  to = "/en/destinations/france/?sector=hotels#projets"
+  status = 301
+
+[[redirects]]
+  from = "/en/solutions/automotive/"
+  to = "/en/destinations/france/?sector=automotive#projets"
+  status = 301
+
+[[redirects]]
+  from = "/en/solutions/golf/"
+  to = "/en/destinations/france/#projets"
+  status = 301
+
+[[redirects]]
+  from = "/en/solutions/equestrian/"
+  to = "/en/destinations/france/?sector=equestrian#projets"
+  status = 301

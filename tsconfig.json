@@ -1,0 +1,1 @@
+{"extends":"astro/tsconfigs/strict","compilerOptions":{"resolveJsonModule":true,"allowImportingTsExtensions":true},"include":[".astro/types.d.ts","src/**/*","scripts/validate-content.ts"],"exclude":["dist","node_modules"]}

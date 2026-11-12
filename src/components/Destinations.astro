@@ -1,0 +1,8 @@
+---
+import {destinations} from '../data/editorial';
+import {href,type Lang,tx} from '../data/site';
+import Icon from './Icon.astro';
+const {lang}=Astro.props as {lang:Lang};
+---
+<div class="destination-list">{destinations.map(d=><a href={href(lang,'destinations/'+d.id)} class="destination-row"><span class="destination-date">{d.period[lang]}</span><h3>{d.name[lang]}</h3><span class="destination-status">{d.status[lang]}</span><Icon size={30}/></a>)}</div>
+<p class="quiet">{tx(lang,'every-journey-brings-together-a-lead-filmmaker-a-8b6f0')}</p>

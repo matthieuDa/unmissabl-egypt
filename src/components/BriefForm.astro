@@ -1,0 +1,86 @@
+---
+import {briefMessages} from '../i18n/brief';
+import {site,href,type Lang} from '../data/site';
+import Icon from './Icon.astro';
+const {lang,context=''}=Astro.props as {lang:Lang;context?:string};
+const copy=briefMessages[lang];const email=typeof site.email==='string'?site.email:'';
+const sitekey=import.meta.env.PUBLIC_TURNSTILE_SITE_KEY||'';
+---
+<section class="brief" data-brief-root data-lang={lang} data-sitekey={sitekey} data-words={JSON.stringify(copy)}>
+ <div class="brief-intro"><h2>{copy.title}</h2><p>{copy.intro}</p></div>
+ <form class="brief-form" method="post" action="/api/contact" data-brief-form>
+  <input type="hidden" name="language" value={lang}/><input type="hidden" name="context" value={context}/>
+  <input type="hidden" name="sector"/><input type="hidden" name="destination"/><input type="hidden" name="project"/>
+  <div class="honeypot" aria-hidden="true"><label>{copy.website}<input name="website" tabindex="-1" autocomplete="off"/></label></div>
+  <div class="brief-form-notes"><p>{copy.required}</p><p class="context-note" data-context-summary hidden></p><p class="local-note" data-local-note hidden>{copy.local}</p></div>
+  <div class="brief-fields">
+   <label class="field"><span>{copy.brand} *</span><input name="brand" autocomplete="organization" maxlength="160" required/></label>
+   <label class="field"><span>{copy.name} *</span><input name="name" autocomplete="name" maxlength="120" required/></label>
+   <label class="field field-wide"><span>{copy.email} *</span><input name="email" type="email" autocomplete="email" maxlength="254" required/></label>
+   <label class="field field-wide"><span>{copy.need} *</span><textarea name="need" rows="4" maxlength="3000" placeholder={copy.needPlaceholder} required></textarea></label>
+   <details class="brief-details field-wide"><summary>{copy.details} ({copy.optional})</summary><div class="brief-fields">
+    <label class="field"><span>{copy.location}</span><input name="location" maxlength="200" placeholder={copy.locationPlaceholder}/></label>
+    <label class="field"><span>{copy.period}</span><input name="shoot-period" maxlength="160" placeholder={copy.periodPlaceholder}/></label>
+    <label class="field"><span>{copy.deadline}</span><input name="deadline" type="date"/></label>
+    <label class="field"><span>{copy.flexibility}</span><select name="flexibility">{copy.flexibilityOptions.map((o,i)=><option value={i?o:''}>{o}</option>)}</select></label>
+    <label class="field field-wide"><span>{copy.budget}</span><input name="budget" maxlength="160" placeholder={copy.budgetPlaceholder}/></label>
+   </div></details>
+   <label class="distribution field-wide"><input type="checkbox" name="distribution" value="requested"/><span>{copy.distribution}<small>{copy.distributionNote}</small></span></label>
+  </div>
+  <div class="challenge-area" data-challenge-area hidden><p>{copy.challenge}</p><div data-turnstile></div><button type="button" class="challenge-retry" data-challenge-retry hidden>{copy.retryChallenge}</button></div>
+  <div class="brief-actions"><button type="submit" disabled data-prepare><span data-submit-label>{copy.prepare}</span><Icon size={18}/></button><p>{copy.privacy} <a href={href(lang,'privacy')}>{copy.privacyLink}</a></p></div>
+  <p class="brief-result" data-brief-status role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></p>
+  <noscript><p>{copy.noScript}</p></noscript>
+ </form>
+ <div class="direct-contact"><p>{copy.direct}</p><div class="contact-links"><a href="https://wa.me/33781727689" target="_blank" rel="noopener noreferrer">{copy.whatsapp}<Icon size={18}/></a>{email&&<a href={'mailto:'+email}>{copy.emailLink}<Icon size={18}/></a>}</div></div>
+</section>
+<script>
+ type Turnstile={render:(node:HTMLElement,options:Record<string,unknown>)=>string;reset:(id:string)=>void;getResponse:(id:string)=>string};
+ const global=window as Window & {turnstile?:Turnstile};
+ function setupBriefForms(){document.querySelectorAll<HTMLElement>('[data-brief-root]').forEach(root=>{
+  if(root.dataset.ready)return;root.dataset.ready='true';
+  const form=root.querySelector<HTMLFormElement>('[data-brief-form]')!;const button=root.querySelector<HTMLButtonElement>('[data-prepare]')!;const label=root.querySelector<HTMLElement>('[data-submit-label]')!;const status=root.querySelector<HTMLElement>('[data-brief-status]')!;
+  const words=JSON.parse(root.dataset.words!);const local=['localhost','127.0.0.1','[::1]'].includes(location.hostname);const key=root.dataset.sitekey;let widget:string|undefined;let sending=false;let sent=false;let challengeReady=local;const requestId=crypto.randomUUID();
+  const notify=(text:string,error=false)=>{status.textContent=text;status.hidden=false;status.classList.toggle('is-error',error);};
+  const input=(name:string)=>form.elements.namedItem(name) as HTMLInputElement|null;
+  const query=new URLSearchParams(location.search);const hints:string[]=[];if(input('context')?.value)hints.push(input('context')!.value);
+  const destinations=root.dataset.lang==='fr'?{egypt:'Égypte',france:'France — Côte d’Azur'}:{egypt:'Egypt',france:'France — Côte d’Azur'};
+  const sectors=root.dataset.lang==='fr'?{hospitality:'Hôtellerie',hotels:'Hôtels',resorts:'Resorts',automotive:'Automobile',equestrian:'Haras',estates:'Domaines & villas',vineyards:'Vignobles'}:{hospitality:'Hospitality',hotels:'Hotels',resorts:'Resorts',automotive:'Automotive',equestrian:'Stud farms',estates:'Estates & villas',vineyards:'Vineyards'};
+  for(const name of ['sector','destination','project']){const raw=(query.get(name)||'').replace(/[\u0000-\u001f\u007f]/g,' ').trim().slice(0,160);if(!raw)continue;const dictionary:Record<string,string>=name==='destination'?destinations:name==='sector'?sectors:{};const value=dictionary[raw]||raw;input(name)!.value=value;hints.push(value);if(name==='destination'&&!input('location')!.value)input('location')!.value=value;}
+  if(hints.length){const summary=root.querySelector<HTMLElement>('[data-context-summary]')!;summary.textContent=words.context+' — '+hints.join(' · ');summary.hidden=false;}
+  document.addEventListener('unmissabl:trip-context',((event:CustomEvent<{sector:string;destination:string;period:string}>)=>{
+   const detail=event.detail;if(detail.destination!=='france')return;
+   const destination=destinations.france;input('sector')!.value=detail.sector;input('destination')!.value=destination;
+   if(!input('location')!.value)input('location')!.value=destination;
+   if(!input('shoot-period')!.value)input('shoot-period')!.value=detail.period;
+   const summary=root.querySelector<HTMLElement>('[data-context-summary]')!;summary.textContent=words.context+' — '+[destination,detail.period,detail.sector].join(' · ');summary.hidden=false;
+  }) as EventListener);
+  if(local){root.querySelector<HTMLElement>('[data-local-note]')!.hidden=false;button.disabled=false;}
+  else if(!key){notify(words.unavailable,true);button.disabled=true;}
+  else {
+   root.querySelector<HTMLElement>('[data-challenge-area]')!.hidden=false;
+   const retry=root.querySelector<HTMLButtonElement>('[data-challenge-retry]')!;
+   const challengeError=()=>{challengeReady=false;button.disabled=true;if(!sent){notify(words.challengeError,true);retry.hidden=false;}};
+   const render=()=>{if(!global.turnstile||widget!==undefined)return;widget=global.turnstile.render(root.querySelector<HTMLElement>('[data-turnstile]')!,{sitekey:key,action:'production-brief',language:root.dataset.lang,theme:'light',size:'flexible',callback:()=>{challengeReady=true;button.disabled=sending||sent;retry.hidden=true;},'expired-callback':challengeError,'error-callback':challengeError});};
+   const loadChallenge=()=>{if(global.turnstile){render();return;}let script=document.querySelector<HTMLScriptElement>('script[data-unmissabl-turnstile]');if(script?.dataset.failed==='true'){script.remove();script=null;}if(!script){script=document.createElement('script');script.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';script.async=true;script.dataset.unmissablTurnstile='true';document.head.append(script);}script.addEventListener('load',render,{once:true});script.addEventListener('error',()=>{script!.dataset.failed='true';challengeError();},{once:true});};
+   retry.addEventListener('click',()=>{retry.hidden=true;if(widget&&global.turnstile)global.turnstile.reset(widget);else loadChallenge();});
+   loadChallenge();
+  }
+  form.addEventListener('submit',async event=>{
+   event.preventDefault();if(sending||sent||!form.reportValidity())return;
+   const token=widget&&global.turnstile?global.turnstile.getResponse(widget):'';
+   if(!local&&!token){notify(words.challengeError,true);status.focus();return;}
+   sending=true;button.disabled=true;label.textContent=words.sending;form.setAttribute('aria-busy','true');notify(words.sending);
+   const data=Object.fromEntries(new FormData(form).entries());data.turnstileToken=token;data.requestId=requestId;
+   try{const response=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),signal:AbortSignal.timeout(25_000)});let result:{ok?:boolean;mode?:string;reference?:string;code?:string;field?:string}={};try{result=await response.json();}catch{}
+    if(!response.ok||!result.ok){const message=response.status===429?words.limited:result.code==='challenge'?words.challengeError:result.code==='unconfigured'?words.unavailable:result.code==='invalid'?words.invalid:words.error;notify(message,true);if(result.field){const field=input(result.field);if(field){field.closest('details')?.setAttribute('open','');field.focus();}}}
+    else {sent=true;notify((result.mode==='local'?words.captured:words.sent)+(result.reference||''));}
+   }catch{notify(words.error,true);}finally{sending=false;challengeReady=local;button.disabled=sent||!local;label.textContent=words.prepare;form.removeAttribute('aria-busy');if(widget&&global.turnstile)global.turnstile.reset(widget);status.focus({preventScroll:true});}
+  });
+  form.addEventListener('input',()=>{if(sent){sent=false;button.disabled=sending||!challengeReady;status.hidden=true;}});
+ });document.dispatchEvent(new Event('unmissabl:brief-ready'));}
+ setupBriefForms();document.addEventListener('astro:page-load',setupBriefForms);
+</script>
+<style>
+.brief{color-scheme:light;background:#f3f3ef;color:#121313;padding:clamp(2rem,6vw,5rem) clamp(1.25rem,5vw,5rem)}.brief-intro,.brief-form,.direct-contact{width:min(100%,58rem);margin-inline:auto}.brief-intro{margin-bottom:2.5rem}h2{font-size:clamp(2rem,4.4vw,4rem);line-height:1.08;font-weight:500;letter-spacing:-.03em;margin:0 0 1rem;max-width:18ch}.brief-intro>p{max-width:65ch;line-height:1.7}.brief-form-notes{border-top:1px solid #c9ccc5;padding-top:1.25rem;margin-bottom:2rem;font-size:.875rem;line-height:1.65}.brief-form-notes p{margin-bottom:.5rem}.local-note{font-weight:600}.brief-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.75rem 2rem}.field{display:flex;min-width:0;flex-direction:column;gap:.625rem;font-size:.9375rem;line-height:1.5}.field-wide{grid-column:1/-1}input,select,textarea,button{font:inherit}input:not([type=checkbox],[type=hidden]),select,textarea{box-sizing:border-box;width:100%;min-width:0;min-height:48px;padding:.75rem .125rem;border:0;border-bottom:1px solid #959d94;border-radius:0;background:transparent;color:#121313;font-size:1rem}textarea{resize:vertical;min-height:144px;line-height:1.65}input::placeholder,textarea::placeholder{color:#626960;opacity:1}input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #121313;outline-offset:5px}.brief-details summary{cursor:pointer;min-height:44px;line-height:1.6;padding:12px 0}.brief-details[open] summary{margin-bottom:20px}.distribution{display:flex;align-items:start;gap:14px;line-height:1.6;cursor:pointer}.distribution input{width:20px;height:20px;flex-shrink:0;margin-top:3px;accent-color:#121313}small{display:block;color:#555a55;font-size:.8125rem}.brief-actions{display:flex;align-items:start;gap:24px;margin-top:32px}.brief-actions p{font-size:.8125rem;line-height:1.7;max-width:48ch}.brief-actions p a{text-decoration:underline;text-underline-offset:3px}button{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;min-height:52px;padding:14px 22px;background:#121313;color:#fff;border:1px solid #121313;cursor:pointer;flex-shrink:0}button:hover{background:#303531}button:disabled{cursor:not-allowed;opacity:.55}.challenge-area{margin-top:24px;min-height:70px;max-width:100%}.challenge-area>p{font-size:.8125rem;margin-bottom:10px}.challenge-retry{margin-top:12px;font-size:.875rem;background:transparent;color:#121313}.brief-result{line-height:1.7;border-top:1px solid #959d94;padding-top:20px;margin-top:24px;overflow-wrap:anywhere}.brief-result.is-error{font-weight:550}.brief-result:focus-visible{outline:2px solid #121313;outline-offset:6px}.direct-contact{border-top:1px solid #c9ccc5;margin-top:40px;padding-top:24px}.direct-contact>p{font-size:.9375rem;margin-bottom:8px}.contact-links{display:flex;flex-wrap:wrap;gap:4px 28px}.contact-links a{display:inline-flex;align-items:center;gap:12px;min-height:44px;text-decoration:underline;text-underline-offset:4px}.honeypot{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}[hidden]{display:none!important}@media(max-width:640px){.brief-fields{grid-template-columns:minmax(0,1fr);gap:24px}.brief-actions{flex-direction:column;gap:16px}.brief-actions button{width:100%}.contact-links{flex-direction:column;align-items:flex-start}}
+</style>

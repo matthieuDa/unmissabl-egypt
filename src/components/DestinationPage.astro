@@ -1,0 +1,29 @@
+---
+import DestinationSectors from './DestinationSectors.astro';
+import {destinationCampaigns} from '../data/destination-campaigns';
+import {type Destination} from '../data/editorial';
+import {projectById} from '../data/projects';
+import {href,type Lang} from '../data/site';
+import BriefForm from './BriefForm.astro';
+import ProjectCard from './ProjectCard.astro';
+import Icon from './Icon.astro';
+const {destination:d,lang}=Astro.props as {destination:Destination;lang:Lang};
+const c=destinationCampaigns[d.id as keyof typeof destinationCampaigns];
+const fr=lang==='fr';
+const references=c.projects.map(projectById).filter(Boolean);
+---
+<section class="trip-hero dark">
+ <img src={c.image} alt={d.name[lang]} fetchpriority="high" width="2200" height="1467"/>
+ <div class="trip-hero-content"><h1>{c.headline[lang]}</h1><p>{c.intro[lang]}</p><div class="trip-hero-bottom"><span>{d.period[lang]} · {d.status[lang]}</span><a class="outline-button" href={d.id==='france'?'#projets':'#brief'}>{d.id==='france'?(fr?'Découvrir les projets':'Explore the projects'):(fr?'Préparer ma campagne':'Plan my campaign')}<Icon/></a></div></div>
+</section>
+<div class="trip-image-credit">{c.credit[lang]}</div>
+{d.id==='france'?<DestinationSectors lang={lang}/>:<section class="trip-calendar section light"><h2>{fr?'Le calendrier de production':'The production schedule'}</h2><p>{d.description[lang]}</p></section>}
+<section class="section light trip-opportunity"><h2>{fr?'L’équipe se déplace. Votre budget va plus loin.':'The crew travels. Your budget goes further.'}</h2><div><p class="lead">{fr?'Rejoignez une production déjà planifiée et donnez à votre marque un tournage qui lui est entièrement dédié.':'Join a planned production and give your brand a shoot designed entirely around it.'}</p><p>{fr?'Nous partageons les frais de déplacement et de mise en place entre les projets compatibles. Vous financez la création et la production de vos contenus ; la logistique commune est répartie entre les marques participantes.':'Travel and setup costs are shared between compatible projects. You invest in the creation and production of your content; shared logistics are divided between participating brands.'}</p><p>{fr?'Un concept propre à votre marque. Un réalisateur responsable. Matthieu à la production, de votre premier brief à la livraison.':'A concept unique to your brand. A lead filmmaker. Matthieu producing, from your first brief to delivery.'}</p></div></section>
+{d.id!=='france'&&<><section class="section dark trip-settings"><div class="section-head"><h2>{fr?'Imaginez votre marque ici.':'Picture your brand here.'}</h2><p>{fr?'Pistes de décors et d’usages à construire autour de votre brief. L’itinéraire et les accès se définissent avec vous.':'Possible settings and uses, shaped around your brief. The itinerary and access are agreed with you.'}</p></div><div class="trip-settings-list">{c.settings[lang].map(([title,description])=><article><h3>{title}</h3><p>{description}</p></article>)}</div></section>
+<section class="section light"><div class="section-head"><h2>{fr?'Le regard que nous apportons.':'The perspective we bring.'}</h2><p>{fr?'Références de nos talents, tournées dans d’autres destinations. Votre campagne aura sa propre histoire.':'Work by our talents, filmed in other destinations. Your campaign will have a story of its own.'}</p></div><div class="project-grid">{references.map(p=><ProjectCard project={p!} lang={lang}/>)}</div></section>
+</>}
+<section class="section dark trip-delivery"><h2>{fr?'Un tournage. Une campagne complète.':'One shoot. A complete campaign.'}</h2><div><ul><li>{fr?'Un film pour installer votre univers.':'A film to establish your brand’s world.'}</li><li>{fr?'Des montages verticaux pour les réseaux et vos campagnes.':'Vertical edits for social channels and campaigns.'}</li><li>{fr?'Une sélection photographique pour prolonger l’histoire.':'A photography selection to extend the story.'}</li></ul><p>{fr?'Formats, volumes, délais et droits sont définis dans votre devis. Casting, accès particuliers et envois de produits sont évalués selon votre projet.':'Formats, quantities, delivery and rights are agreed in your quote. Casting, special access and product shipping are scoped for your project.'}</p><dl class="credit-list"><dt>{fr?'Direction du projet':'Project direction'}</dt><dd>{d.lead?'Alexandre Buisson':fr?'Réalisateur sélectionné selon votre brief':'Filmmaker selected for your brief'}</dd><dt>Production</dt><dd>Matthieu Dalle-Berardinelli</dd></dl></div></section>
+<section class="section light" id="brief"><BriefForm lang={lang} context={d.name[lang]+' · '+d.period[lang]}/></section>
+<section class="section dark trip-bespoke"><h2>{fr?'Plusieurs pays dans une même campagne ?':'Several countries in one campaign?'}</h2><p>{fr?'Nos réalisateurs sur place permettent de coordonner plusieurs décors en parallèle, avec une direction commune et sans envoyer une équipe dans chaque pays.':'Our local filmmakers make it possible to coordinate several settings in parallel, with one creative direction and without flying a crew to every country.'}</p><a class="text-link" href={href(lang,'bespoke')}>{fr?'Construire une production sur mesure':'Build a bespoke production'}<Icon/></a></section>
+
+<style>.trip-calendar{display:grid;grid-template-columns:1fr 1fr;gap:7vw;padding-bottom:0}.trip-calendar h2{font-size:clamp(28px,3vw,44px)}.trip-calendar p{line-height:1.75;max-width:65ch}@media(max-width:760px){.trip-calendar{grid-template-columns:1fr;gap:24px}}</style>

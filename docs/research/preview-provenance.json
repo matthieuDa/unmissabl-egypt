@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "previews": [
+    {
+      "projectId": "bahri-najm-socotra-hero",
+      "title": "Bahri Najm — Socotra, film d'accueil",
+      "creatorId": "bahri-najm",
+      "sourcePageUrl": "https://bahrinajm.com/",
+      "originalMediaUrl": "https://bahrinajm.com/assets/socotra-hero.mp4",
+      "sourceObservedAt": "2026-10-12T10:17:28.476596+00:00",
+      "downloadedAt": null,
+      "acquisition": "existing-local-file-reused",
+      "originalLocalPath": "/Users/matthieu/Documents/ChatGPT/FILMAKERS/public/media/bahri-socotra.mp4",
+      "originalBytes": 5745857,
+      "originalSha256": "ad18b72c64b76fd48ad5219cf985bbb0e4cd5a17c7a97e381423e258ec51f3fd",
+      "originalContentType": "video/mp4",
+      "original": {
+        "durationSeconds": 12.42,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "hasAudio": false,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 3698 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      },
+      "previewPath": "/media/preview-bahri-socotra.mp4",
+      "outputBytes": 1800550,
+      "outputSha256": "cfe926ee2ccff6f565f7357690704b0fb045d2f1304dc224c748dc1549231d1a",
+      "output": {
+        "durationSeconds": 10.0,
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "hasAudio": false,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1437 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      },
+      "trim": {
+        "startSeconds": 0,
+        "endSeconds": 10,
+        "durationSeconds": 10
+      },
+      "transform": {
+        "codec": "libx264",
+        "pixelFormat": "yuv420p",
+        "maxWidth": 1280,
+        "maxHeight": 720,
+        "preserveAspectRatio": true,
+        "crop": false,
+        "fps": 24,
+        "crf": 27,
+        "preset": "medium",
+        "maxrate": "1500k",
+        "bufsize": "3000k",
+        "keyframeInterval": 48,
+        "audioRemoved": true,
+        "subtitlesRemoved": true,
+        "dataStreamsRemoved": true,
+        "inputMetadataRemoved": true,
+        "faststart": true,
+        "filter": "scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,fps=24,setsar=1"
+      },
+      "verification": {
+        "decodedWithoutError": true,
+        "noAudioStream": true,
+        "faststartConfirmed": true,
+        "atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "checkedAt": "2026-10-12T10:17:28.476596+00:00"
+      },
+      "credits": "Portfolio Bahri Najm / Last Meridian Films ; crédit précis de ce montage non détaillé",
+      "notes": "Existing public/media/bahri-socotra.mp4 left unchanged. Download date belongs to earlier preparation and was not asserted here. Preview begins after the opening second, except Socotra which starts at 0. No colour, content or framing change."
+    },
+    {
+      "projectId": "samuel-kwan-236bfe8ca0454367b3e2c46b12c59ac3",
+      "title": "The Art of Hosting — Rosewood Hong Kong Festive",
+      "creatorId": "samuel-kwan",
+      "sourcePageUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+      "originalMediaUrl": "https://video.wixstatic.com/video/e3752c_236bfe8ca0454367b3e2c46b12c59ac3/720p/mp4/file.mp4",
+      "sourceObservedAt": "2026-10-12T10:13:42.400980+00:00",
+      "downloadedAt": "2026-10-12T10:13:42.400980+00:00",
+      "acquisition": "ordinary-public-GET",
+      "originalLocalPath": "/private/tmp/unmissabl-preview-sources/samuel-kwan-236bfe8ca0454367b3e2c46b12c59ac3.mp4",
+      "originalBytes": 4958655,
+      "originalSha256": "6d365646b55a289088cbbe5c354ee542167d5f6c2d4f888dbac4e3808dd9be7c",
+      "originalContentType": "video/mp4",
+      "original": {
+        "durationSeconds": 32.77,
+        "width": 406,
+        "height": 720,
+        "fps": 23.98,
+        "hasAudio": true,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 406x720 [SAR 1:1 DAR 203:360], 1007 kb/s, 23.98 fps, 23.98 tbr, 24k tbn (default)"
+      },
+      "previewPath": "/media/preview-rosewood-festive.mp4",
+      "outputBytes": 436533,
+      "outputSha256": "11e742a5bbb30a38a5adc60e12f5c2d1a11def7620f238ac139e3a7f36eeeb25",
+      "output": {
+        "durationSeconds": 10.0,
+        "width": 406,
+        "height": 720,
+        "fps": 24.0,
+        "hasAudio": false,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 406x720 [SAR 1:1 DAR 203:360], 346 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      },
+      "trim": {
+        "startSeconds": 1,
+        "endSeconds": 11,
+        "durationSeconds": 10
+      },
+      "transform": {
+        "codec": "libx264",
+        "pixelFormat": "yuv420p",
+        "maxWidth": 1280,
+        "maxHeight": 720,
+        "preserveAspectRatio": true,
+        "crop": false,
+        "fps": 24,
+        "crf": 27,
+        "preset": "medium",
+        "maxrate": "1500k",
+        "bufsize": "3000k",
+        "keyframeInterval": 48,
+        "audioRemoved": true,
+        "subtitlesRemoved": true,
+        "dataStreamsRemoved": true,
+        "inputMetadataRemoved": true,
+        "faststart": true,
+        "filter": "scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,fps=24,setsar=1"
+      },
+      "verification": {
+        "decodedWithoutError": true,
+        "noAudioStream": true,
+        "faststartConfirmed": true,
+        "atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "checkedAt": "2026-10-12T10:17:28.476596+00:00"
+      },
+      "credits": "Sanctuary Creative — rôle individuel de Samuel Kwan non détaillé",
+      "notes": "Original retained in /private/tmp/unmissabl-preview-sources; no full source copy added to public/media. Preview begins after the opening second, except Socotra which starts at 0. No colour, content or framing change."
+    },
+    {
+      "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+      "title": "Faroe Islands Exploration with Columbia HK",
+      "creatorId": "samuel-kwan",
+      "sourcePageUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+      "originalMediaUrl": "https://video.wixstatic.com/video/e3752c_13f1b1ebf6bd49279b59821517b45d63/720p/mp4/file.mp4",
+      "sourceObservedAt": "2026-10-12T10:13:44.053821+00:00",
+      "downloadedAt": "2026-10-12T10:13:44.053821+00:00",
+      "acquisition": "ordinary-public-GET",
+      "originalLocalPath": "/private/tmp/unmissabl-preview-sources/samuel-kwan-13f1b1ebf6bd49279b59821517b45d63.mp4",
+      "originalBytes": 6973526,
+      "originalSha256": "5c1af2b7d4f92a13b37bc20a688a14b536b2ecaa444e7dda26e69e679ee026b0",
+      "originalContentType": "video/mp4",
+      "original": {
+        "durationSeconds": 19.35,
+        "width": 1280,
+        "height": 720,
+        "fps": 23.98,
+        "hasAudio": true,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2686 kb/s, 23.98 fps, 23.98 tbr, 24k tbn (default)"
+      },
+      "previewPath": "/media/preview-columbia-faroe.mp4",
+      "outputBytes": 1995551,
+      "outputSha256": "b634e051ce7626e7bd33dbb9f9b821972e4c6bbde8d82bd68a6599aa9152da7e",
+      "output": {
+        "durationSeconds": 10.0,
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "hasAudio": false,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1593 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      },
+      "trim": {
+        "startSeconds": 1,
+        "endSeconds": 11,
+        "durationSeconds": 10
+      },
+      "transform": {
+        "codec": "libx264",
+        "pixelFormat": "yuv420p",
+        "maxWidth": 1280,
+        "maxHeight": 720,
+        "preserveAspectRatio": true,
+        "crop": false,
+        "fps": 24,
+        "crf": 27,
+        "preset": "medium",
+        "maxrate": "1500k",
+        "bufsize": "3000k",
+        "keyframeInterval": 48,
+        "audioRemoved": true,
+        "subtitlesRemoved": true,
+        "dataStreamsRemoved": true,
+        "inputMetadataRemoved": true,
+        "faststart": true,
+        "filter": "scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,fps=24,setsar=1"
+      },
+      "verification": {
+        "decodedWithoutError": true,
+        "noAudioStream": true,
+        "faststartConfirmed": true,
+        "atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "checkedAt": "2026-10-12T10:17:28.476596+00:00"
+      },
+      "credits": "Sanctuary Creative — rôle individuel de Samuel Kwan non détaillé",
+      "notes": "Original retained in /private/tmp/unmissabl-preview-sources; no full source copy added to public/media. Preview begins after the opening second, except Socotra which starts at 0. No colour, content or framing change."
+    },
+    {
+      "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+      "title": "Travel to the Dolomites with Go Wild HK",
+      "creatorId": "samuel-kwan",
+      "sourcePageUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+      "originalMediaUrl": "https://video.wixstatic.com/video/e3752c_c1aeca96273a4149b4964482386d96f2/720p/mp4/file.mp4",
+      "sourceObservedAt": "2026-10-12T10:13:45.112993+00:00",
+      "downloadedAt": "2026-10-12T10:13:45.112993+00:00",
+      "acquisition": "ordinary-public-GET",
+      "originalLocalPath": "/private/tmp/unmissabl-preview-sources/samuel-kwan-c1aeca96273a4149b4964482386d96f2.mp4",
+      "originalBytes": 14843466,
+      "originalSha256": "673d08ceb83a6088809f7c2041ef8cebacd1c07d475ef3f522563a53e878928c",
+      "originalContentType": "video/mp4",
+      "original": {
+        "durationSeconds": 38.27,
+        "width": 1280,
+        "height": 720,
+        "fps": 23.98,
+        "hasAudio": true,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/bt709/unknown, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2901 kb/s, 23.98 fps, 23.98 tbr, 24k tbn (default)"
+      },
+      "previewPath": "/media/preview-go-wild-dolomites.mp4",
+      "outputBytes": 1886678,
+      "outputSha256": "367d302d0456c460bae0bb918a8d39d87c7595b8742b60d033d27c8a14047049",
+      "output": {
+        "durationSeconds": 10.0,
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "hasAudio": false,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/bt709/unknown, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1506 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      },
+      "trim": {
+        "startSeconds": 1,
+        "endSeconds": 11,
+        "durationSeconds": 10
+      },
+      "transform": {
+        "codec": "libx264",
+        "pixelFormat": "yuv420p",
+        "maxWidth": 1280,
+        "maxHeight": 720,
+        "preserveAspectRatio": true,
+        "crop": false,
+        "fps": 24,
+        "crf": 27,
+        "preset": "medium",
+        "maxrate": "1500k",
+        "bufsize": "3000k",
+        "keyframeInterval": 48,
+        "audioRemoved": true,
+        "subtitlesRemoved": true,
+        "dataStreamsRemoved": true,
+        "inputMetadataRemoved": true,
+        "faststart": true,
+        "filter": "scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,fps=24,setsar=1"
+      },
+      "verification": {
+        "decodedWithoutError": true,
+        "noAudioStream": true,
+        "faststartConfirmed": true,
+        "atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "checkedAt": "2026-10-12T10:17:28.476596+00:00"
+      },
+      "credits": "Sanctuary Creative — rôle individuel de Samuel Kwan non détaillé",
+      "notes": "Original retained in /private/tmp/unmissabl-preview-sources; no full source copy added to public/media. Preview begins after the opening second, except Socotra which starts at 0. No colour, content or framing change."
+    },
+    {
+      "projectId": "duarte-creatum-royal-rides-1",
+      "title": "ROYAL RIDES — film 1",
+      "creatorId": "duarte",
+      "sourcePageUrl": "https://www.creatummedia.com/project/royal-rides",
+      "originalMediaUrl": "https://ittwaowwkvrjexigniml.supabase.co/storage/v1/object/public/videos/royal-rides-reel.mp4",
+      "sourceObservedAt": "2026-10-12T10:13:47.522799+00:00",
+      "downloadedAt": "2026-10-12T10:13:47.522799+00:00",
+      "acquisition": "ordinary-public-GET",
+      "originalLocalPath": "/private/tmp/unmissabl-preview-sources/duarte-creatum-royal-rides-1.mp4",
+      "originalBytes": 44313263,
+      "originalSha256": "2c9ee9d5fa34aea28b87deb23abd8deed1ffab28d250c7c46d40acb46db0fa8b",
+      "originalContentType": "application/octet-stream",
+      "original": {
+        "durationSeconds": 13.46,
+        "width": 3840,
+        "height": 2160,
+        "fps": 24.0,
+        "hasAudio": true,
+        "videoStream": "Stream #0:0[0x1](eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160, 25986 kb/s, 24 fps, 24 tbr, 24k tbn (default)"
+      },
+      "previewPath": "/media/preview-royal-rides-portugal.mp4",
+      "outputBytes": 1565374,
+      "outputSha256": "2dfa5f66880e72d4ddcf43fca07d5c16b1bb47f72ad85ad04c6c39169c9dd3dd",
+      "output": {
+        "durationSeconds": 8.0,
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "hasAudio": false,
+        "videoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1562 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      },
+      "trim": {
+        "startSeconds": 5,
+        "endSeconds": 13,
+        "durationSeconds": 8
+      },
+      "transform": {
+        "codec": "libx264",
+        "pixelFormat": "yuv420p",
+        "maxWidth": 1280,
+        "maxHeight": 720,
+        "preserveAspectRatio": true,
+        "crop": false,
+        "fps": 24,
+        "crf": 27,
+        "preset": "medium",
+        "maxrate": "1500k",
+        "bufsize": "3000k",
+        "keyframeInterval": 48,
+        "audioRemoved": true,
+        "subtitlesRemoved": true,
+        "dataStreamsRemoved": true,
+        "inputMetadataRemoved": true,
+        "faststart": true,
+        "filter": "scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,fps=24,setsar=1"
+      },
+      "verification": {
+        "decodedWithoutError": true,
+        "noAudioStream": true,
+        "faststartConfirmed": true,
+        "atoms": [
+          "ftyp",
+          "moov",
+          "free",
+          "mdat"
+        ],
+        "checkedAt": "2026-10-12T10:17:28.476596+00:00"
+      },
+      "credits": "Director & Cinematographer",
+      "notes": "Original retained in /private/tmp/unmissabl-preview-sources; no full source copy added to public/media. The source is 13.46 seconds long; retain the useful 5–13 second section, matching the original portfolio player startTime=5."
+    }
+  ],
+  "generatedAt": "2026-10-12T10:17:28.476596+00:00",
+  "ffmpeg": {
+    "version": "7.1",
+    "path": "/private/tmp/unmissabl-media-tools/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1"
+  },
+  "downloadLimitBytesPerFile": 120000000
+}

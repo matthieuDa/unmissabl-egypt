@@ -1,0 +1,57 @@
+---
+import BrandArtwork from './BrandArtwork.astro';
+import brands from '../data/brands.json';
+import BrandMark from './BrandMark.astro';
+import type {Lang} from '../data/site';
+const {lang,sector}=Astro.props as {lang:Lang;sector?:string};
+const marks=brands.filter(b=>b.entityType!=='agency-or-production'&&(!sector||b.sectorIds.includes(sector)));
+const priority=['porsche','puma','four-seasons','rosewood','qatar-airways','etihad','hyundai','mazda','levis','dji','arcteryx','asics','hilton','corona','radisson','emaar','elewana-collection','jetex'];
+const homeSelection=['porsche','four-seasons','dji','lvmh','red-bull','chanel','volkswagen','omega','hilton','puma','rosewood','qatar-airways','etihad','asics','levis','mercedes-benz','bmw','audi','google','american-express','mandarin-oriental','arcteryx','corona','columbia-sportswear','hyundai','mazda','radisson','emaar','shiseido','cathay-pacific'];
+marks.sort((a,b)=>{const ai=priority.indexOf(a.id),bi=priority.indexOf(b.id);return (ai<0?100:ai)-(bi<0?100:bi)||a.name.localeCompare(b.name);});
+const logoMarks=marks.filter(brand=>brand.logo);
+const nameOnly=marks.filter(brand=>!brand.logo);
+const visible=sector?logoMarks:homeSelection.map(id=>logoMarks.find(brand=>brand.id===id)).filter((brand):brand is typeof logoMarks[number]=>!!brand);
+const fr=lang==='fr';
+---
+{marks.length>0&&<section class:list={['brand-proof','light',{'sector-brand-proof':!!sector,'home-brand-proof':!sector}]} aria-labelledby="brand-proof-title">
+ <div class="brand-proof-heading"><h2 id="brand-proof-title">{sector?(fr?'Des marques de votre secteur.':'Brands in your industry.'):(fr?'Ils font confiance à nos talents.':'Brands that trust our talents.')}</h2><p>{sector?(fr?'Une sélection de références des talents du collectif.':'Selected work from our collective’s talents.'):(fr?'Automobile, hôtellerie, mode, technologie. Des univers exigeants, un même sens de l’image.':'Automotive, hospitality, fashion, technology. Distinctive brands, a shared eye for imagery.')}</p></div>
+ {sector?<div class="brand-marks">{visible.map(brand=><BrandMark brand={brand} lang={lang} sector={sector}/>)}</div>:<div class="brand-marquee" aria-label={fr?'Sélection de marques du collectif':'Selected brands from the collective'}><div class="brand-marquee-track"><div class="brand-marquee-set">{visible.map(brand=><BrandMark brand={brand} lang={lang}/>)}</div><div class="brand-marquee-set" aria-hidden="true">{visible.map(brand=><span class="brand-marquee-copy" data-brand={brand.id}><BrandArtwork brand={brand} decorative/></span>)}</div></div></div>}
+ {sector&&nameOnly.length>0&&<div class="brand-names"><h3>{fr?'Autres références documentées':'Other documented references'}</h3><div class="brand-name-list">{nameOnly.map(brand=><BrandMark brand={brand} lang={lang} sector={sector}/>)}</div></div>}
+ <p class="brand-attribution">{fr?'Références des talents du collectif, réalisées avec leurs équipes et productions d’origine.':'Work by our collective’s talents, created with their original teams and production companies.'}</p>
+</section>}
+<script>
+ document.querySelectorAll<HTMLElement>('.brand-marquee').forEach(strip=>{
+  const set=strip.querySelector<HTMLElement>('.brand-marquee-set')!;
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+  let position=strip.scrollLeft, expected=position, previous=0, resumeAt=0;
+  let touching=false, hovered=false, focused=false, visible=false;
+  const defer=()=>{resumeAt=performance.now()+1800;};
+  strip.addEventListener('pointerdown',()=>{touching=true;defer();},{passive:true});
+  const release=()=>{if(touching){touching=false;defer();}};
+  window.addEventListener('pointerup',release,{passive:true});
+  window.addEventListener('pointercancel',release,{passive:true});
+  strip.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')hovered=true;});
+  strip.addEventListener('pointerleave',()=>{hovered=false;});
+  strip.addEventListener('focusin',()=>{focused=true;});
+  strip.addEventListener('focusout',event=>{focused=strip.contains(event.relatedTarget as Node);});
+  strip.addEventListener('wheel',defer,{passive:true});
+  strip.addEventListener('scroll',()=>{
+   // Native swipes and momentum take precedence over automatic movement.
+   if(Math.abs(strip.scrollLeft-expected)>1){position=strip.scrollLeft;expected=position;defer();}
+  },{passive:true});
+  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;}).observe(strip);
+  const advance=(now:number)=>{
+   const elapsed=Math.min(now-previous,50);previous=now;
+   if(visible&&!document.hidden&&!reduced.matches&&!touching&&!hovered&&!focused&&now>=resumeAt){
+    const width=set.getBoundingClientRect().width;
+    if(width>0){
+     position=(position+elapsed*width/130000)%width;
+     strip.scrollLeft=position;
+     expected=strip.scrollLeft;
+    }
+   }
+   requestAnimationFrame(advance);
+  };
+  requestAnimationFrame(advance);
+ });
+</script>

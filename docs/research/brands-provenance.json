@@ -1,0 +1,3503 @@
+{
+  "observedAt": "2026-10-12",
+  "scope": "References named by the collective’s creators or their production portfolios; not a list of direct UNMISSABL contracts. Brand, organization, property and event identities are distinct records, not a count of unique corporate customers.",
+  "method": "Existing published project relations plus public portfolio client logos and explicitly named portfolio projects. Original logo bytes reused or copied without redraw, tracing or AI generation. Sector tags describe the brand business; no sector inferred only from a shoot setting.",
+  "excluded": [
+    {
+      "name": "Ookpik World",
+      "reason": "Studio portfolio credits Yoan Sun Dubord and Zacksta; Chuck Dumont is not individually credited."
+    },
+    {
+      "name": "Canada wordmark",
+      "reason": "No exact commissioning department established."
+    },
+    {
+      "name": "SEANAY Swim / Keoni; Emaar Entertainment / Zaid",
+      "reason": "Instagram posts inaccessible; exact creator credit not confirmed."
+    },
+    {
+      "name": "Private wedding clients and personal films",
+      "reason": "Not public brand references."
+    }
+  ],
+  "failedAssets": [
+    {
+      "source": "tom-content",
+      "url": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/michelinvoyage.png?fit=2048%2C1748&ssl=1",
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1764257804645-kuv3d9?alt=media&token=ca53a9ce-dca0-4276-a66e-2a603cd5f0a1&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1764257804455-ionu00?alt=media&token=beaa00af-1dd0-4a47-a3d7-1754eb7205d6&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1770727765482-izet8p?alt=media&token=a0938c85-ee36-4c8f-bda7-b59de7549266&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1764230202854-qyid3t?alt=media&token=c19a9951-55cc-41f8-a58e-291b0b51b398&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1764230202981-w23rz8?alt=media&token=1edf24f3-38e5-4dd6-acb8-fbafef42f0ef&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1764582725624-li8mog?alt=media&token=d0932956-d695-428d-9fbd-4ba47d70fae9&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1765108739191-p5ejqv?alt=media&token=b454f358-78e2-49be-ad65-05604606a396&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1777127048168-prcnbj?alt=media&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "matiss-logos-fragment",
+      "url": "https://cdn.framekit.ai/v0/b/digisell-io.appspot.com/o/users%2FuzCNIEzigIPqogmwXPXmApt7VNn1%2F1777127102949-somnh9?alt=media&format=auto",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "brands": [
+    {
+      "brandId": "porsche",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-listing",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/porsche.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/e4e3bd41-eceb-41d9-b6f2-3d84d9d3b739_rw_1200.png?h=8c075d2b2aa70b500c55b12013422a23",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "4bfe608889de2c63d72bc8b9f7e3f56db59a9f19319a8bfb7c1ce4c181b8a99d",
+          "transformation": "none — original bytes",
+          "width": 950,
+          "height": 1100,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "puma",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-puma",
+          "url": "https://www.tompacelli.com/portfolio/puma/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Puma"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "four-seasons",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-76d126f1cdae492f971cf01e0c16764c",
+          "url": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Four Seasons Hong Kong — Argo"
+        },
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-e69d32ce332f4aecb0c60b70c08ed0a4",
+          "url": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Four Seasons Hong Kong × Mikimoto"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/four-seasons.png",
+          "sha256": "fa993a47f655dd647e20bb7fd2dca7dbb98f5f4c2da3083c496aac65c56e8e59",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://static.wixstatic.com/media/e3752c_bda4b74b1f6c468c8422aeed4484eb06~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/four-seasons.png",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "rosewood",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-236bfe8ca0454367b3e2c46b12c59ac3",
+          "url": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Rosewood Hong Kong"
+        },
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-8218e39818084803818865e4ff74b712",
+          "url": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Rosewood Hong Kong — DarkSide Bar"
+        },
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-78dba1769d554fdf8de6d88601739faf",
+          "url": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Rosewood Hong Kong — Holt's Cafe"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/rosewood.png",
+          "sha256": "268705c4d9b11e8a5378070325cd38eb70f1613964102b78357587f9b5b146b7",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://static.wixstatic.com/media/e3752c_1d61ef3c9f0c458fb26ef34a1cc72329~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/rosewood.png",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "qatar-airways",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "robin-qatar-doha",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "clientLabel": "Qatar Airways"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-qatar-paris",
+          "clientLabel": "Qatar Airways",
+          "sourceNotes": "Promotes hidden sites of Paris. No playable asset linked on the public portfolio summary."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "inventoryId": "robin-qatar-doha",
+          "clientLabel": "Qatar Airways",
+          "sourceNotes": "Official portfolio lists 2022. Title identifies Doha. Public bundle: https://www.robinchills.com/assets/index-CEnpLh9b.js . Observed 2026-10-12. Source-site poster returned 403; replaced with the exact thumbnail returned by YouTube oEmbed. Original source-site poster: https://www.robinchills.com/assets/work-6-Dq7xu3tD.jpg"
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "inventoryId": "robin-qatar-editor",
+          "clientLabel": "Qatar Airways",
+          "sourceNotes": "Official portfolio lists 2022. Editor credit only. Does not establish that Robin filmed on location. Public bundle: https://www.robinchills.com/assets/index-CEnpLh9b.js . Observed 2026-10-12. Source-site poster returned 403; replaced with the exact thumbnail returned by YouTube oEmbed. Original source-site poster: https://www.robinchills.com/__l5e/assets-v1/a210c7df-ccaa-43d1-ac57-e8e0f2900c5e/work-qatar-2.jpg"
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/qatar-airways.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/Qatar-Airways.png?fit=637%2C283&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "041a01f1f30d7782076c54656980b78693a6886099eaf7f051e2adaa00dcac14",
+          "transformation": "none — original bytes",
+          "width": 637,
+          "height": 283,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "etihad",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "robin-etihad",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "clientLabel": "Etihad"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "hyundai",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-hyundai-ioniq-5",
+          "url": "https://dumontfilms.ca/projects/hyundai-ioniq-5",
+          "creatorIds": [
+            "chuck-dumont",
+            "robin-chills"
+          ],
+          "clientLabel": "Hyundai Switzerland"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/hyundai.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/776fd9ef-90a8-418c-b193-c610a40dd850_Hyundai_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "a15239e8f54702516bc75fbe9a77436a8d55bf15154e888edca04ec8f141a699",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "mazda",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "cj-mazda",
+          "url": "https://www.youtube.com/watch?v=ttJeN5mkZbM",
+          "creatorIds": [
+            "cj-blardony"
+          ],
+          "clientLabel": "Mazda"
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/mazda.svg",
+          "sha256": "fc4a00d150d4080cb1e961f4ec142c7012ef4355962d2096f513239bf6ba8942",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent Mazda logo retained; its precise original download URL was not recorded. Mazda project credit is separately sourced.",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/mazda.svg",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "levis",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-levis",
+          "url": "https://www.tompacelli.com/portfolio/levis/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Levi’s × Zalando"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "dji",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "robin-dji-lofoten",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills",
+            "chuck-dumont"
+          ],
+          "clientLabel": "DJI"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "inventoryId": "robin-dji-lofoten",
+          "clientLabel": "DJI",
+          "sourceNotes": "Official portfolio lists 2023. Title identifies Lofoten. Public bundle: https://www.robinchills.com/assets/index-CEnpLh9b.js . Observed 2026-10-12. Source-site poster returned 403; replaced with the exact thumbnail returned by YouTube oEmbed. Original source-site poster: https://www.robinchills.com/assets/work-4-CcmUXY58.jpg"
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://youtu.be/AecI57_tqCw",
+          "creatorIds": [
+            "cj-blardony"
+          ],
+          "inventoryId": "cj-dji",
+          "clientLabel": "DJI",
+          "sourceNotes": "Linked publicly by https://bio.site/cjblardony on 2026-10-12. Bio label DJI RS 3 Mini; oEmbed confirms launch video title and CJ Blardony channel. Exact role not given."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://dumontfilms.ca/projects/dji-air-3",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "inventoryId": "chuck-dumont-dji-air-3",
+          "clientLabel": "DJI",
+          "sourceNotes": "Portfolio Dumont Films. Crédits originaux : Client : DJI ; Directeur : Benjy ; Production : Benjy, Chuck Dumont, Robin Diederichs, Xavier Barriault ; Éditeur : Benjy ; Photographe : Xavier Barriault ; Pilote FPV : Chuck Dumont. Film également présent au portfolio Robin Chills : dédupliquer le YouTube Efa-hzncDzY à l'échelle du collectif. Galerie photo publiée : https://images.prismic.io/dumontfilms-v1/1103139e-0ca6-4514-9e87-6d754468e721_A04I8318.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/41cde93a-6c8b-40d8-8e8e-f26f5e1586a9_A04I7999.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/8fec6a1c-7b5b-4f6b-8fc7-0aeb9318b0cd_A04I8738.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/bf876b5c-4f34-4d49-8474-2abe10a8d7cf_A04I8545-2.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/2fb9431f-ee40-4ebb-b51f-89c89b1d297f_A04I8928.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/4df9c374-0492-48f9-9e6f-00245881b903_A04I8546-2.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/80fab50e-0787-41ac-a679-6f51a4b7c230_A04I8126.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/5565c868-dbc6-4df9-b872-3e9cac400298_A04I8886.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/aa77647c-c414-4fdd-8141-605097945f7e_A04I8089.jpg?auto=compress,format | https://images.prismic.io/dumontfilms-v1/91c14182-9388-47f1-9c5d-8f1299692dbd_A04I8347.jpg?auto=compress,format Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12. Référence du créateur/collectif d'origine, pas client UNMISSABL établi."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/dji.svg",
+          "sha256": "0b46c97bd3490af9ff2476c9a200e2cc964f0af48403d2efa1fa5fcb94454ab1",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://static.wixstatic.com/media/e3752c_304a67b20e2547cfa7ec7100ec1d631f~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/dji.svg",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        },
+        {
+          "path": "/media/logos/dji.svg",
+          "sha256": "0b46c97bd3490af9ff2476c9a200e2cc964f0af48403d2efa1fa5fcb94454ab1",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://images.prismic.io/dumontfilms-v1/47f488c7-8441-4def-86f7-13a10fbafaa0_DJI_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/dji.svg",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "arcteryx",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-arcteryx-montreal",
+          "url": "https://dumontfilms.ca/projects/arcteryx-montreal",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "clientLabel": "Arc'teryx Montréal"
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/arcteryx-official.svg",
+          "originalAssetUrl": "https://arcteryx.com/fr/en#arcteryx-logo",
+          "brandSourceUrl": "https://arcteryx.com/fr/en",
+          "downloadedAt": "2026-10-12T15:41:34.836709+00:00",
+          "sha256": "f3e970d81b33a753f7726d7083e103ba996a09cc905e1b8dbf914f8ec70993fd",
+          "transformation": "Official inline SVG, unchanged paths; --colour-white resolved to #ffffff for standalone use. Requires dark treatment or CSS brightness(0) on a light surface."
+        }
+      ]
+    },
+    {
+      "brandId": "asics",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-listing",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-asics-x-burj2burj",
+          "clientLabel": "ASICS X Burj2Burj",
+          "sourceNotes": "Marathon Aftermovie. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-asics",
+          "clientLabel": "ASICS",
+          "sourceNotes": "Asics Marathon Highlights. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/asics-official.svg",
+          "originalAssetUrl": "https://corp.asics.com/system/assets/logo-asics.svg",
+          "brandSourceUrl": "https://corp.asics.com/en",
+          "downloadedAt": "2026-10-12T15:41:34.836709+00:00",
+          "sha256": "b8447d0ea869e09c2bbd721b4e76e3c7cafe071b1ac0d751d02a7add0af528a3",
+          "transformation": "none — original bytes"
+        }
+      ]
+    },
+    {
+      "brandId": "hilton",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-krvncm8vcwn",
+          "url": "https://ducreates.myportfolio.com/events",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Duo Curio Collection by Hilton"
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/hilton-official.png",
+          "originalAssetUrl": "https://stories-editor.hilton.com/wp-content/uploads/2024/12/Hilton_HHR_LOGO_Hilton-Blue_RGB.png",
+          "brandSourceUrl": "https://stories.hilton.com/",
+          "downloadedAt": "2026-10-12T15:41:34.836709+00:00",
+          "sha256": "e6f67da7d8a5d0449fdf43e58c1a951b058152b654cff6491f4f03cc52f2c96f",
+          "transformation": "none — original bytes"
+        }
+      ]
+    },
+    {
+      "brandId": "corona",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-corona",
+          "url": "https://dumontfilms.ca/projects/corona",
+          "creatorIds": [
+            "chuck-dumont",
+            "alexandre-buisson"
+          ],
+          "clientLabel": "Corona Studios"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/corona.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/2173c8b9-f041-4f4e-8478-e6352a10e6e2_Corona_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "f4c747fc1fdec3315973c5804bf3461d8f1db06cead0d47e57c95e9ac492844a",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "radisson",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-radisson",
+          "url": "https://www.tompacelli.com/portfolio/radisson/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Radisson Château de Bangkok"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "emaar",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-listing",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-emaar",
+          "clientLabel": "EMAAR",
+          "sourceNotes": "Content Creation. Site categories: none. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "elewana-collection",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "elewana-collection",
+          "url": "https://dumontfilms.ca/projects/elewana-collection",
+          "creatorIds": [
+            "chuck-dumont",
+            "alexandre-buisson"
+          ],
+          "clientLabel": "Elewana Collection"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/elewana.png",
+          "sha256": "139262caa7e20b1cac8d1a9beae2e632be6f6e5384cec5a5cdec12d55120eb17",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://images.prismic.io/dumontfilms-v1/b4bd6992-254d-4080-a438-92fd7f67bf90_Elewana_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/elewana.png",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "jetex",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "robin-jetex",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "clientLabel": "Jetex"
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/jetex-official.svg",
+          "originalAssetUrl": "https://www.jetex.com/wp-content/uploads/2023/04/Jetex-Logo.svg",
+          "brandSourceUrl": "https://www.jetex.com/",
+          "downloadedAt": "2026-10-12T15:41:34.836709+00:00",
+          "sha256": "130d7fa1734002c68af4d76f8a044145069c03971a5e72a890c15c360960fe05",
+          "transformation": "none — original bytes"
+        }
+      ]
+    },
+    {
+      "brandId": "24h-series",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-msf8uhppgqv",
+          "url": "https://ducreates.myportfolio.com/24h-series-barcelona",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "24H Series / Land Motorsport (contexte portfolio)"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/24h-series.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/8502edaa-64f3-4463-a4a5-71e07998f126_rw_1200.png?h=8e6c2e7aa706596552b930d543afc8f3",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "9279cbb1e27a4c593d6a6b05632e71600e3ba76de5ea8d7c7e727fa572663d13",
+          "transformation": "none — original bytes",
+          "width": 639,
+          "height": 112,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "30sundays",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-107546913",
+          "url": "https://www.behance.net/gallery/107546913/30SUNDAYS-Shoot-1-(W-Amman)",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "30SUNDAYS"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "abu-dhabi-butterfly-gardens",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-abu-dhabi-butterfly-gardens",
+          "clientLabel": "Abu Dhabi Butterfly Gardens",
+          "sourceNotes": "Opening Campaign. Site categories: Commercial. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "adai",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-adai",
+          "clientLabel": "ADAI",
+          "sourceNotes": "Launch Event Media Production. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "alsukhon-jewelry",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-116879129",
+          "url": "https://www.behance.net/gallery/116879129/AlSukhon-Jewelry",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "AlSukhon Jewelry"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "aleop",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-aleop",
+          "url": "https://www.tompacelli.com/portfolio/aleop/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Aléop"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "amber-rally",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-amber-rally",
+          "clientLabel": "Amber Rally",
+          "sourceNotes": "Digital Media Production. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "american-express",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-amex",
+          "url": "https://www.tompacelli.com/portfolio/amex/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "American Express"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/american-express.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2026/01/american-express-logo-black-and-white.png?fit=1182%2C1280&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "49a2f0cddcc55a499a2ee775a033814ba2ddaacc5abcc91b0405fea72b59414d",
+          "transformation": "none — original bytes",
+          "width": 1182,
+          "height": 1280,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "anantara",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/anantara.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/93e694f3-a500-4e79-a820-616c20d3c34d_rw_1200.png?h=d22897868ddc378a598239db4f0acfe3",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "47299933a2dda7a90dae9e3000057b478b0cac6576e44bd433a248e57b3e4e50",
+          "transformation": "none — original bytes",
+          "width": 996,
+          "height": 1004,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "atlantis",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-atlantis-dubai",
+          "clientLabel": "Atlantis Dubai",
+          "sourceNotes": "Tropical themed shoot for Atlantis Dubai. Site categories: Commercial. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "audi",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-f4pcdve-a3k",
+          "url": "https://ducreates.myportfolio.com/events",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Audi"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/audi.jpg",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/c0779492-99f5-43e5-82cc-d0d09d926e5d_rw_1200.jpg?h=550456e7fb3c6a081c766fa2c9fe2347",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "6b5d971490d64025edfcfba072120abb52db0b4383624947dc8c965a5bafa233",
+          "transformation": "none — original bytes",
+          "width": 1200,
+          "height": 1200,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "autodromo-algarve",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/autodromo-algarve.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/9887b4d9-3be4-42a8-8e0a-c7991cd14ea6_rw_600.png?h=eeab54c5efbb9199820170deafb673d2",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "a3313029e82ad5ed81fb55cffec603ae96afb5e4c1e8af378c5c92b021bd1941",
+          "transformation": "none — original bytes",
+          "width": 218,
+          "height": 78,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "baron-motorsport",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-gwsmd67kcsz",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Baron Motorsport — Ferrari Challenge"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "beautiful-destinations",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/beautiful-destinations.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/07/beautiful-destinations-logo.png?fit=400%2C280&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "f434f954223f34e9d4b97815e07970ccd29fe9048dd64794d4dcd076b6578bfc",
+          "transformation": "none — original bytes",
+          "width": 400,
+          "height": 280,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "blenders-eyewear",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/blenders-eyewear.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/4f573c1d-6eaf-4df0-8852-75e302c47e10_Blenders_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "3ebd82ab2974711eb906ca6890e809afa1f6af121cba44303ad20d97229cc832",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "bmw",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/bmw.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/451b7cc7-5d56-4391-9919-c8f228316064_rw_1200.png?h=7347f181b9c9de25f26baaae6137e395",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "630ad03af2a609cc9dec0bad6b60160dd5181d7d269de650e52b94f45a2a7cf3",
+          "transformation": "none — original bytes",
+          "width": 800,
+          "height": 800,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "buena-onda",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://dumontfilms.ca/projects/accueillez-un-stagiaire",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "inventoryId": "chuck-dumont-accueillez-un-stagiaire",
+          "clientLabel": "Buena Onda Communication",
+          "sourceNotes": "Portfolio Dumont Films. Crédits originaux : Client : Buena Onda Communication ; Production : Chuck Dumont, Yoan Sun Dubord. Galerie photo publiée :  Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12. Référence du créateur/collectif d'origine, pas client UNMISSABL établi."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "cathay-pacific",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/cathay.png",
+          "sha256": "6cf17518cc22f50c66a7067c81f7196da40af9dddca93bc247f2b88782fdeebd",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://static.wixstatic.com/media/e3752c_6fc97bbdbb11482aa09a2bb0f2030e3e~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/cathay.png",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "centrakor",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-centrakor",
+          "clientLabel": "Centrakor",
+          "sourceNotes": "Brand activation via Social Cut Agency; no public film linked."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/centrakor.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/centrakor.png?fit=842%2C150&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/content/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "693a79d7fb04e796f8675db3a47466b4a7e091bf8c79c603f2a6e36bfb027e7d",
+          "transformation": "none — original bytes",
+          "width": 842,
+          "height": 150,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "chanel",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/chanel.png",
+          "originalAssetUrl": "https://static.wixstatic.com/media/e3752c_9824c4980eb84227adc93e35b4882e49~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "86b6434aaaef4ed2dca94281c8d6f9938cea975cb231873c46c3cd2450b7913f",
+          "transformation": "none — original bytes",
+          "width": 256,
+          "height": 164,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "charentes-tourisme",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-charentestourism",
+          "url": "https://www.tompacelli.com/portfolio/charentestourism/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Charentes Tourisme"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "columbia-sportswear",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+          "url": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Columbia Sportswear Hong Kong"
+        },
+        {
+          "type": "published-project",
+          "projectId": "duarte-creatum-columbia-1",
+          "url": "https://www.creatummedia.com/project/columbia",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Columbia Sportswear"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/columbia",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-columbia-1",
+          "clientLabel": "Columbia Sportswear",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2025. Le descriptif indique les Alpes ; pays/lieu exact non précisé. Galerie publiée : https://www.creatummedia.com/lovable-uploads/dfdc56e7-151d-4ab3-a737-b9d3e6a99b3e.webp | https://www.creatummedia.com/lovable-uploads/15c6fee6-bc2c-4ee5-ba36-93a9fa9ae97f.webp | https://www.creatummedia.com/lovable-uploads/a61a92af-70ce-44ba-87fd-30c7e194e666.webp | https://www.creatummedia.com/lovable-uploads/f5627eaa-75ef-4cbb-9e47-d8393de90dcf.webp | https://www.creatummedia.com/lovable-uploads/d4531db5-1ae7-4855-9f1b-afb072b6cb01.webp | https://www.creatummedia.com/lovable-uploads/8934e4ae-7c6f-46e3-85c4-52500402fa5b.webp Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 20939750 octets le 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/columbia",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-columbia-2",
+          "clientLabel": "Columbia Sportswear",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2025. Le descriptif indique les Alpes ; pays/lieu exact non précisé. Galerie publiée : https://www.creatummedia.com/lovable-uploads/dfdc56e7-151d-4ab3-a737-b9d3e6a99b3e.webp | https://www.creatummedia.com/lovable-uploads/15c6fee6-bc2c-4ee5-ba36-93a9fa9ae97f.webp | https://www.creatummedia.com/lovable-uploads/a61a92af-70ce-44ba-87fd-30c7e194e666.webp | https://www.creatummedia.com/lovable-uploads/f5627eaa-75ef-4cbb-9e47-d8393de90dcf.webp | https://www.creatummedia.com/lovable-uploads/d4531db5-1ae7-4855-9f1b-afb072b6cb01.webp | https://www.creatummedia.com/lovable-uploads/8934e4ae-7c6f-46e3-85c4-52500402fa5b.webp Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 16792232 octets le 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/columbia",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-columbia-3",
+          "clientLabel": "Columbia Sportswear",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2025. Le descriptif indique les Alpes ; pays/lieu exact non précisé. Galerie publiée : https://www.creatummedia.com/lovable-uploads/dfdc56e7-151d-4ab3-a737-b9d3e6a99b3e.webp | https://www.creatummedia.com/lovable-uploads/15c6fee6-bc2c-4ee5-ba36-93a9fa9ae97f.webp | https://www.creatummedia.com/lovable-uploads/a61a92af-70ce-44ba-87fd-30c7e194e666.webp | https://www.creatummedia.com/lovable-uploads/f5627eaa-75ef-4cbb-9e47-d8393de90dcf.webp | https://www.creatummedia.com/lovable-uploads/d4531db5-1ae7-4855-9f1b-afb072b6cb01.webp | https://www.creatummedia.com/lovable-uploads/8934e4ae-7c6f-46e3-85c4-52500402fa5b.webp Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 18659710 octets le 2026-10-12."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/columbia-sportswear.png",
+          "originalAssetUrl": "https://static.wixstatic.com/media/e3752c_da6d73c88b7f4e29a9531140caa5ca02~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "d09b3901706e59e8f7a3134449185e1a29edb1d58557884b610bcb03d02f7695",
+          "transformation": "none — original bytes",
+          "width": 326,
+          "height": 60,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "cortina-tourism",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/cortina",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-cortina",
+          "clientLabel": "Cortina Tourism Board",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2022. Fiche contenant une vidéo vide et six /placeholder.svg ; source-only, ne pas promouvoir en référence film vérifiée. Galerie publiée :  Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "crowne-plaza",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/crowne-plaza.jpg",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/461b537b-9909-4d74-8440-69feb624825c_rw_1200.jpg?h=f0f491e7bd1225ed2ff3dfab61c1e238",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "f9afdcb16196e4d3fa62342cca8395b25ceca79ae8729f813b7d667e034335b3",
+          "transformation": "none — original bytes",
+          "width": 866,
+          "height": 650,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "curlshood",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.behance.net/gallery/116875213/CurlsHood-Planner",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "inventoryId": "zaid-wazzan-behance-116875213",
+          "clientLabel": "CurlsHood",
+          "sourceNotes": "Titre, auteur et couverture visibles sur le profil officiel Behance : https://www.behance.net/zaidwazzan?after=MTI=. Couverture publique max_808 fournie par le srcset du site. Les fiches individuelles de joaillerie ont répondu HTTP 403 ; aucune galerie intérieure ni rôle contractuel détaillé n'est inventé. Le nom de marque vient de l'intitulé, pas d'un contrat vérifié. Ce ne sont pas des films. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "decathlon",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://rayanclaverol.com/",
+          "creatorIds": [
+            "rayan-claverol"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/decathlon.svg",
+          "originalAssetUrl": "https://rayanclaverol.com/clients/decathlon.svg",
+          "portfolioUrl": "https://rayanclaverol.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "0137659a31618e40d52ca0c3cfa920835a89fb209f6a68addb93df054bb6ec55",
+          "transformation": "none — original bytes"
+        }
+      ]
+    },
+    {
+      "brandId": "duo-curio-collection",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/duo-curio-collection.jpg",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/f2564b92-0259-4920-b81e-b7afe6e1c472_rw_600.jpg?h=ef99f688a348811faf7c8627e5e9e267",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "776dfcde6036ef6c1ec2a489650f59a9b4726652f7d8b508a208a19ce7c10d28",
+          "transformation": "none — original bytes",
+          "width": 500,
+          "height": 500,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "esc-online",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/esc-online.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/a3e2d783-f39c-4725-9990-30fc35544485_rw_600.png?h=f0bcdcf14c277a5d56cbc3c23c4ae936",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "298db2857d3f337f5a26b5c4113b91af98a422981a0c2c99840d209729b92716",
+          "transformation": "none — original bytes",
+          "width": 390,
+          "height": 195,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "eva-vr",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-eva-vr",
+          "clientLabel": "EVA VR",
+          "sourceNotes": "Digital Media Production. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "expedia",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/expedia.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2026/01/expedia-logo-black-and-white.png?fit=2400%2C680&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "2c329b3cfdb9069d0d4d3bfa21a053f6869139c36ba9a58843ac19c299b91b9f",
+          "transformation": "none — original bytes",
+          "width": 2400,
+          "height": 680,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "eyewa",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.behance.net/gallery/107547361/EYEWA-30SUNDAYS-Shoot-2-(Boulevard)",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "inventoryId": "zaid-wazzan-behance-107547361",
+          "clientLabel": "EYEWA / 30SUNDAYS",
+          "sourceNotes": "Titre, auteur et couverture visibles sur le profil officiel Behance : https://www.behance.net/zaidwazzan?after=MTI=. Couverture publique max_808 fournie par le srcset du site. Les fiches individuelles de joaillerie ont répondu HTTP 403 ; aucune galerie intérieure ni rôle contractuel détaillé n'est inventé. Le nom de marque vient de l'intitulé, pas d'un contrat vérifié. Ce ne sont pas des films. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "fact-magazine",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-fact-magazine",
+          "clientLabel": "Fact Magazine",
+          "sourceNotes": "Award Event Recap. Site categories: Hospitality, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js No hoverVideo is declared for this entry. Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "fanillah",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.behance.net/gallery/93173051/Fanillah-Streetwear",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "inventoryId": "zaid-wazzan-behance-93173051",
+          "clientLabel": "Fanillah",
+          "sourceNotes": "Titre, auteur et couverture visibles sur le profil officiel Behance : https://www.behance.net/zaidwazzan?after=MjQ=. Couverture publique max_808 fournie par le srcset du site. Les fiches individuelles de joaillerie ont répondu HTTP 403 ; aucune galerie intérieure ni rôle contractuel détaillé n'est inventé. Le nom de marque vient de l'intitulé, pas d'un contrat vérifié. Ce ne sont pas des films. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "felidae",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-felidae-clothing",
+          "clientLabel": "Felidae Clothing",
+          "sourceNotes": "Collection Launch Campaign. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "ferrari-challenge",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-qj45jmuhpys",
+          "clientLabel": "Ferrari Challenge × Trofeo Pirelli",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Ferrari Challenge x Trofeo Pirelli. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:34.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-ushzqsc7mic",
+          "clientLabel": "Ferrari Challenge × Trofeo Pirelli",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Ferrari Challenge x Trofeo Pirelli. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:34.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Observation 2026-10-12."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/ferrari-challenge.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/b2b2fa11-bf53-483a-89b0-c5cacaa48126_rw_1920.png?h=53d9f4bbef8f1f294c5dc2cfa7829168",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "6a88e2e5f837e0d0e5c78914d2e285ddeae5f08e67519df2fd7cc6a2c485a335",
+          "transformation": "none — original bytes",
+          "width": 1920,
+          "height": 344,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "fisom",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-fisom",
+          "clientLabel": "FISOM",
+          "sourceNotes": "Travel film for a travel agency. Site categories: Commercial. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "fluid-focus-freedive",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-fluidfocusfreediving",
+          "url": "https://www.tompacelli.com/portfolio/fluidfocusfreediving/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Fluid Focus Freedive"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "fnac-live",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/festival",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-rctwuptqzyn",
+          "clientLabel": "Nenny × Fnac Live",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Nenny x Fnac Live. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:33.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "fotobildes",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-fotobildes",
+          "clientLabel": "Fotobildes",
+          "sourceNotes": "Educational Video Productions. Site categories: Commercial, Hospitality. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "gedlich-racing",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/gedlich-racing.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/0e444222-36f3-4225-93ab-839bc1575b02_rw_600.png?h=c1b14cfc1b71e9e154380dd4a1901ea5",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "28ac6e145e5e8fdae1e5e532526c0bb031706e13de4f36a7728688c7b9eac219",
+          "transformation": "none — original bytes",
+          "width": 224,
+          "height": 57,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "go-wild-hk",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+          "url": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Go Wild HK"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "google",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/google.png",
+          "originalAssetUrl": "https://static.wixstatic.com/media/e3752c_8074e50b668a425589ebd47d8dc03ec4~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "65113af4c241b5664a01b0466490e9432814451d3c689e10a0ff50d96d9fb91a",
+          "transformation": "none — original bytes",
+          "width": 260,
+          "height": 88,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "groupe-malo",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-malo-college-st-sacrament",
+          "url": "https://dumontfilms.ca/projects/malo-college-st-sacrament",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "clientLabel": "Groupe Malo"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/groupe-malo.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/65a7f6fd7a5e8b1120d59fd7_GroupeMalo_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "6e66e68544a45822936ad7d65d1998286f1303217bb016e9b9311e1a88eb6dda",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "gt-open",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/gt-open.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/24d66652-77f0-400a-9ca3-544b84aceae7_rw_1200.png?h=a709bb57760f01d3f71283172ceedd84",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "d9dd6e47832b353bbb891fb96d770ac19bd8eb4fd4e143295aab441062d2ab6d",
+          "transformation": "none — original bytes",
+          "width": 1200,
+          "height": 240,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "gt-winter-series",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe--7iyymyphgp",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Portimão Test Day. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-vae8v38f45x",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe--i_kdhdvqqz",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-tvcmxbmutzk",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Portimão Test Day. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-nqwyxxrxpyp",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-be_js3z535j",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-7fw6vpayfcl",
+          "clientLabel": "GT Winter Series",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : GT WINTER SERIES - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "haifa-khalid",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.behance.net/gallery/100076401/Jeans-Lace-summer20-haifa-khalid-fashion-designer",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "inventoryId": "zaid-wazzan-behance-100076401",
+          "clientLabel": "Haifa Khalid",
+          "sourceNotes": "Titre, auteur et couverture visibles sur le profil officiel Behance : https://www.behance.net/zaidwazzan?after=MjQ=. Couverture publique max_808 fournie par le srcset du site. Les fiches individuelles de joaillerie ont répondu HTTP 403 ; aucune galerie intérieure ni rôle contractuel détaillé n'est inventé. Le nom de marque vient de l'intitulé, pas d'un contrat vérifié. Ce ne sont pas des films. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "hsbc",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/hsbc.png",
+          "originalAssetUrl": "https://static.wixstatic.com/media/e3752c_f622422e93424f8dbfd180220b832ba9~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "20ab36a1663edc457603ddea463b52ce089788171daba98b65bc2a9482a958c1",
+          "transformation": "none — original bytes",
+          "width": 290,
+          "height": 78,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "indotrip-designer",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-eastjava",
+          "url": "https://www.tompacelli.com/portfolio/eastjava/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "IndoTrip Designer"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "industria-club",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-lt3faj4ucdc",
+          "url": "https://ducreates.myportfolio.com/festival",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Industria Club"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "insta360",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-insta360-1",
+          "url": "https://www.tompacelli.com/portfolio/insta360/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Insta360"
+        },
+        {
+          "type": "published-project",
+          "projectId": "tom-insta360-2",
+          "url": "https://www.tompacelli.com/portfolio/insta360/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Insta360"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/insta360.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/04/Insta360-logo-1.png?fit=8025%2C5000&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "c86c614c4b63be6a9eb6552071d9a731e2cd7bf0d24a70ada6349baca5d7cf83",
+          "transformation": "none — original bytes",
+          "width": 8025,
+          "height": 5000,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "intercontinental",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-akla-lisbon",
+          "url": "https://ducreates.myportfolio.com/restaurants",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "AKLA — InterContinental Lisboa"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/restaurants",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-9waebihdvvf",
+          "clientLabel": "InterContinental Lisboa",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Intercontinental Lisboa. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:36.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/intercontinental.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/77f7a2c0-11bd-4022-af2a-a96d24559e6b_rw_1920.png?h=cf60bcc38511940c4cb46727c4c7276f",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "27a567e6331b2f551dd79a3b819464bdbbb5888080e7d702a59d29831b3f77f2",
+          "transformation": "none — original bytes",
+          "width": 1280,
+          "height": 720,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "iscom",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://fr.linkedin.com/posts/marceau-thevenin_des-montages-iphone-%C3%A0-ma-premi%C3%A8re-pub-tv-activity-7374742033971974144-bGOo",
+          "creatorIds": [
+            "marceau-thevenin"
+          ],
+          "inventoryId": "marceau-iscom-tv-ad",
+          "clientLabel": "ISCOM",
+          "sourceNotes": "Le créateur présente sa publicité pour ISCOM dans cette publication LinkedIn ; le résultat public indexé contient une transcription vidéo. Page HTTP 200 le 2026-10-12. La lecture sans compte et le master client doivent être confirmés avant un deck."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "kastuesi",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-kastuesi",
+          "clientLabel": "kASTuesi",
+          "sourceNotes": "Documentary Short Film. Site categories: Documentary, Hospitality. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "kessel",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-i-jknbso9rv",
+          "clientLabel": "Kessel — Ferrari Challenge",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Ferrari Challenge x Trofeo Pirelli Kessel Ch team - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:34.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "kiabi",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-kiabi",
+          "url": "https://www.tompacelli.com/portfolio/kiabi/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Kiabi"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "kiliwarrior-expeditions",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-kiliwarrior-expeditions",
+          "url": "https://dumontfilms.ca/projects/kiliwarrior-expeditions",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "clientLabel": "Kiliwarrior Expeditions"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/kiliwarrior-expeditions.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/aefcba7d-fa36-42ea-9390-b941d73f8d43_Kiliwarrior_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "5aeb80ea3b39e9f29442ccdb84af74c13a345ab56e09b38bb2366c84bfd0c90f",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "landmark",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-2d1c3c05ffa84f4a82ae28e3c2c4639a",
+          "url": "https://www.sanctuarycreatives.com/landmark",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "Landmark"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "latvijas-valsts-mezi",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-latvijas-valsts-mezi",
+          "clientLabel": "Latvijas Valsts Mezi",
+          "sourceNotes": "Post Production Services. Site categories: Documentary. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Do not imply on-location cinematography. Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "leki",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/leki.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/e45d938f-f2e7-4a87-a57c-8e9e0d53bee1_Leki_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "d6f4997265be359e1f7cf0f18b06cf5eb8dba7ebc9784cf72333a9e3eddf1ade",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "lexias-hostels",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-lexias",
+          "clientLabel": "Lexias Hostels",
+          "sourceNotes": "Video and photography production across Philippines; no public film linked."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/lexias-hostels.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/Lexias-logo.png?fit=2000%2C366&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/content/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "d792ed93717fa0462e71da8c7251a6f7af31607f8030cc11c44b95823334259c",
+          "transformation": "none — original bytes",
+          "width": 2000,
+          "height": 366,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "lima-empanadas",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-lima-empanadas",
+          "clientLabel": "Lima Empanadas",
+          "sourceNotes": "Digital Media Production. Site categories: Hospitality, Commercial. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "luscious-bracelets",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-118227397",
+          "url": "https://www.behance.net/gallery/118227397/Luscious-Bracelets-photoshoot",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Luscious Bracelets"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "lvmh",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-lvmh",
+          "clientLabel": "LVMH",
+          "sourceNotes": "Source explicitly says internal purposes and two days around Paris; no public film found. Do not present as a public client deliverable."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/lvmh.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/LVMH.png?fit=1518%2C354&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/content/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "a444f024cf0dba47cfddc6545bba6224409621a54f71dfba7372d6e8c2898645",
+          "transformation": "none — original bytes",
+          "width": 1518,
+          "height": 354,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "magil-tisseur",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-royalmount-magil-tisseur",
+          "url": "https://dumontfilms.ca/projects/royalmount-magil-tisseur",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "clientLabel": "Magil Tisseur"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/magil-tisseur.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/Zg1dWzskWekewB5q_MagilTisseur_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "5cb26ebbca280cf8eccc2177eb9e8370b6695f3366f09eeebfaf1c85135dd846",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "mandarin-oriental",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/mandarin-oriental.png",
+          "sha256": "ec3a1e3a65b78b21bc39829896fe19c54a98e0d764b250caeca88904872d3211",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://static.wixstatic.com/media/e3752c_1893d051235545489b4a1ae074e10282~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/mandarin-oriental.png",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "marvelous-island",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/portfolio/marvelous/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-marvelous",
+          "clientLabel": "Marvelous Island",
+          "sourceNotes": "May 2025 festival recap; creator states membership of the official media crew. Title and media embed observed 2026-10-12; format follows source iframe. YouTube oEmbed also returned metadata."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "mercedes-benz",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/mercedes-benz.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/ff7cf479-38ed-41b9-a599-ccdee2cea9af_rw_1920.png?h=6cbf10bb5bba517c8f9369397258ad12",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "38c6d7a6f12cefa7c25f5f76f9d0c55dc59db3127908147cd593932caeb92e5d",
+          "transformation": "none — original bytes",
+          "width": 1920,
+          "height": 1106,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "michelin-voyages",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-michelin",
+          "clientLabel": "Michelin Voyages",
+          "sourceNotes": "One book-launch aftermovie made for Les Coflocs; no public film linked."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "mikimoto",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "inventoryId": "samuel-kwan-e69d32ce332f4aecb0c60b70c08ed0a4",
+          "clientLabel": "Four Seasons Hong Kong × Mikimoto",
+          "sourceNotes": "Collaboration festive hôtelière nommée ; ne pas décrire comme une campagne de packshots de bijoux. Production publiée par Sanctuary Creative, à conserver dans les crédits. Présence sur le portfolio de la structure ; pas un client direct UNMISSABL établi. Résolutions publiques : 360p, 480p, 720p et 1080p. Lieux de projets, pas disponibilités ; coordonnées représentatives de la zone lorsqu'elles sont indiquées. Observation : 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 7217955 octets le 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "mini",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/mini.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/26534331-d96d-4116-a584-a60473f7842b_rw_1920.png?h=44b400683c0c5a33d472dda3f550686b",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "591b5e957defb7a4aaf3326959d5ad1ba01ed9d8b67083bc02dee7e096155618",
+          "transformation": "none — original bytes",
+          "width": 1920,
+          "height": 844,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "musicbed",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-musicbed",
+          "url": "https://dumontfilms.ca/projects/musicbed",
+          "creatorIds": [
+            "chuck-dumont",
+            "robin-chills"
+          ],
+          "clientLabel": "Musicbed"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://rayanclaverol.com/",
+          "creatorIds": [
+            "rayan-claverol"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/musicbed.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/e0e8992c-bf5b-43ca-9f83-782fa5a31d31_Musicbed_LogoWhite.png?auto=format%2Ccompress&rect=0%2C0%2C334%2C334&w=334&h=334",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "62b1a9638b80b63f2db3f8599a4b00edf04355e0275fb898573de61d7b1e0421",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        },
+        {
+          "observedLogoUrl": "https://rayanclaverol.com/clients/musicbed.png",
+          "portfolioUrl": "https://rayanclaverol.com/",
+          "note": "Additional logo evidence; primary local asset kept."
+        }
+      ]
+    },
+    {
+      "brandId": "nadeen-rasekh-designs",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-116879445",
+          "url": "https://www.behance.net/gallery/116879445/Yasmeen-Quttami-ft-Nadeen-Rasekh-designs",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Nadeen Rasekh designs"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "nomatic",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-nomatic-bags",
+          "url": "https://dumontfilms.ca/projects/nomatic-bags",
+          "creatorIds": [
+            "chuck-dumont",
+            "robin-chills"
+          ],
+          "clientLabel": "Nomatic"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/nomatic.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/9686620d-eff9-4661-ab42-d26d82639a5a_Nomatic_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "a65f6eb3731a3da3d8af80d80b2e25c093c623716795a27e43d2775852dab7cf",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "nouvelle-aquitaine",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-nouvelle-aquitaine",
+          "clientLabel": "Nouvelle-Aquitaine",
+          "sourceNotes": "Collection of tourism board edits; no individual media URLs."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/nouvelle-aquitaine.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/Nouvelle-Aquitaine.png?fit=1024%2C576&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/content/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "7223520c3dc26be13fc1a8ed9e89c126158d8f974d881d4ab7ab275506c5891f",
+          "transformation": "none — original bytes",
+          "width": 1024,
+          "height": 576,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "nova-era-beach-party",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/portfolio/novaerabeachparty/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-novaerabeachparty-1",
+          "clientLabel": "Nova Era Beach Party",
+          "sourceNotes": "Two editions on one source page. 2023: filming for DJ Vegas in Portugal. 2024: creator states director of official aftermovies. These roles are not interchangeable. Title and media embed observed 2026-10-12; format follows source iframe. YouTube oEmbed also returned metadata."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/portfolio/novaerabeachparty/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-novaerabeachparty-2",
+          "clientLabel": "Nova Era Beach Party",
+          "sourceNotes": "Two editions on one source page. 2023: filming for DJ Vegas in Portugal. 2024: creator states director of official aftermovies. These roles are not interchangeable. Title and media embed observed 2026-10-12; format follows source iframe. YouTube oEmbed also returned metadata."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "novotel",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://rayanclaverol.com/",
+          "creatorIds": [
+            "rayan-claverol"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/novotel.svg",
+          "originalAssetUrl": "https://rayanclaverol.com/clients/novotel.svg",
+          "portfolioUrl": "https://rayanclaverol.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "4b12460fd1ac45b4b53a992e84a8379ef5d2a255e15f4523b98db966cf89c815",
+          "transformation": "none — original bytes"
+        }
+      ]
+    },
+    {
+      "brandId": "nuamore",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://rayanclaverol.com/",
+          "creatorIds": [
+            "rayan-claverol"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/nuamore.png",
+          "originalAssetUrl": "https://rayanclaverol.com/clients/nuamore.png",
+          "portfolioUrl": "https://rayanclaverol.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "35bd5190c97c5106ac60eb2ee8cdf796dcae8c913f01601956a371b3ecd97b6f",
+          "transformation": "none — original bytes",
+          "width": 354,
+          "height": 78,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "omega",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.sanctuarycreatives.com/",
+          "creatorIds": [
+            "samuel-kwan"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/omega.png",
+          "sha256": "394d85504c36a640ed549238f6c9ff2a08c158b28f0772d0768d30cca2d6213d",
+          "status": "reused-existing",
+          "originalAssetUrl": null,
+          "note": "Existing transparent logo retained. The newly fetched portfolio logo confirms the visual identity, but is not claimed as the byte source of this pre-existing asset.",
+          "supportingLogoUrl": "https://static.wixstatic.com/media/e3752c_ee7e3f50a897479199cd9bc5e259368b~mv2.png",
+          "portfolioUrl": "https://www.sanctuarycreatives.com/",
+          "historicalOrigin": {
+            "gitCommit": "09db6e9",
+            "path": "dist/assets/logos/omega.png",
+            "note": "Restored by parent from the existing site in this commit; exact historical remote download URL was not retained."
+          }
+        }
+      ]
+    },
+    {
+      "brandId": "onefinestay",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-onefinestay",
+          "url": "https://www.tompacelli.com/portfolio/onefinestay/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "onefinestay"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "pacific-high",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://rayanclaverol.com/",
+          "creatorIds": [
+            "rayan-claverol"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/pacific-high.png",
+          "originalAssetUrl": "https://rayanclaverol.com/clients/pacific-high.png",
+          "portfolioUrl": "https://rayanclaverol.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "b2ae1b7b220df4d6ba33c8ffbfabbcce446ddaf9f2ca78d57baeca27f05232ae",
+          "transformation": "none — original bytes",
+          "width": 572,
+          "height": 214,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "padi",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-redseapadi",
+          "url": "https://www.tompacelli.com/portfolio/redseapadi/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Visit Red Sea × PADI"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "paka-festival",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/portfolio/pakafestival/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-pakafestival",
+          "clientLabel": "PAKA Festival",
+          "sourceNotes": "2025 weekend recap in Brittany. Page h2 incorrectly says PUMA; iframe title and body consistently establish PAKA Festival. No Puma client attribution here. Title and media embed observed 2026-10-12; format follows source iframe. YouTube oEmbed also returned metadata."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "pedra-do-couto",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/festival",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-2rutdjitavk",
+          "clientLabel": "Pedra Do Couto",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Pedra Do Couto. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:34.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "pescosta-chalet",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/luxury-chalet",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-luxury-chalet-1",
+          "clientLabel": "Pescosta Chalet Luxury Living",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2025. CONFLIT DE SOURCE : client Pescosta Chalet Luxury Living et titre Luxury Chalet ; description évoque une île atlantique et fichiers madeira-1/2. Aucun lieu de tournage retenu sans clarification. Galerie publiée :  Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 41057812 octets le 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/luxury-chalet",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-luxury-chalet-2",
+          "clientLabel": "Pescosta Chalet Luxury Living",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2025. CONFLIT DE SOURCE : client Pescosta Chalet Luxury Living et titre Luxury Chalet ; description évoque une île atlantique et fichiers madeira-1/2. Aucun lieu de tournage retenu sans clarification. Galerie publiée :  Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 38368997 octets le 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "planet-donuts",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-118226137",
+          "url": "https://www.behance.net/gallery/118226137/Planet-Donuts-Shoot-1",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Planet Donuts"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "porsche-sprint-challenge-iberica",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-e8egaxc99ve",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Porsche Sprint Challenge Iberica"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/porsche-sprint-challenge-iberica.jpg",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/f1b97f83-46db-460c-ae5e-b8d26ebff257_rw_1200.jpg?h=dc5cf034ad8385817ced4886b2ded4c9",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "96c8f1d3ffc8631619a9efe67c58b1ab41739364ed10b235502fae28004b43eb",
+          "transformation": "none — original bytes",
+          "width": 928,
+          "height": 412,
+          "hasTransparency": false
+        }
+      ]
+    },
+    {
+      "brandId": "race-ready",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://ducreates.myportfolio.com/brands",
+          "creatorIds": [
+            "duarte"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-adobe-qs75gpe7jay",
+          "clientLabel": "Race Ready",
+          "sourceNotes": "Lecteur officiellement intégré au portfolio Creatum Media. La légende identifie une marque, un lieu ou un événement ; le contrat direct avec cette marque n'est pas établi. Légende d'origine : Race Ready - Estoril. MP4 et poster CDN Adobe signés, expiration déclarée 2026-10-15T09:47:35.000Z. Le lecteur embedUrl est le lien durable ; ne pas traiter ces URLs signées comme des assets permanents. Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/race-ready.png",
+          "originalAssetUrl": "https://cdn.myportfolio.com/7c9480fe-67a9-42c2-b5ea-f3b8f60e34e2/66c0786f-7a6f-483d-97ef-be89bf418c0a_rw_1920.png?h=32c61b575914b6543c632e3e8622d8c6",
+          "portfolioUrl": "https://ducreates.myportfolio.com/brands",
+          "downloadedAt": "2026-10-12",
+          "sha256": "a642fc6814cbf195eb95d4ca1b1f010947757fee00f4c22f29a4fae661c95447",
+          "transformation": "none — original bytes",
+          "width": 1280,
+          "height": 231,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "raya-bsheirat",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.behance.net/gallery/106774221/Raya-Bsheirat-fashion-designer",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "inventoryId": "zaid-wazzan-behance-106774221",
+          "clientLabel": "Raya Bsheirat",
+          "sourceNotes": "Titre, auteur et couverture visibles sur le profil officiel Behance : https://www.behance.net/zaidwazzan?after=MTI=. Couverture publique max_808 fournie par le srcset du site. Les fiches individuelles de joaillerie ont répondu HTTP 403 ; aucune galerie intérieure ni rôle contractuel détaillé n'est inventé. Le nom de marque vient de l'intitulé, pas d'un contrat vérifié. Ce ne sont pas des films. Observation 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "red-bull",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/portfolio/redbull/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-redbull",
+          "clientLabel": "Red Bull",
+          "sourceNotes": "Paris talent activation via Boomerang agency. Creator describes the displayed edit as an additional personal edit beyond original client deliverables; do not label it the official client master. Title and media embed observed 2026-10-12; format follows source iframe. YouTube oEmbed also returned metadata."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "red-sea-global",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/red-sea-global.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2026/01/Red_Sea_Global_Logo.png?fit=1200%2C452&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "e264c42784233ec9f6f574b1f496a2126e1b1c7e46da44702469f65edb3cef1b",
+          "transformation": "none — original bytes",
+          "width": 1200,
+          "height": 452,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "royal-rides",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-creatum-royal-rides-1",
+          "url": "https://www.creatummedia.com/project/royal-rides",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Royal Rides"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "retromobile",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-retromobile",
+          "clientLabel": "Salon Rétromobile",
+          "sourceNotes": "Vintage-car exhibition daily aftermovie made for Les Coflocs; no public film linked."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/retromobile.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/Logo_Retromobile.png?fit=2560%2C1045&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/content/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "39d55ff272f344def5e2b0bf5757612de8c484da59796e04f8fe93546710e45c",
+          "transformation": "none — original bytes",
+          "width": 2560,
+          "height": 1045,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "salsa-ogre",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-salsa-ogre",
+          "clientLabel": "Salsa Ogre",
+          "sourceNotes": "Dance Film Productions. Site categories: Commercial, Lifestyle. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "shiseido",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.sanctuarycreatives.com/shiseido",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "inventoryId": "samuel-kwan-5471e99abe44490095b6b2e0bfcae50f",
+          "clientLabel": "Shiseido",
+          "sourceNotes": "Secteur beauté, hors taxonomie V1 fournie. Production publiée par Sanctuary Creative, à conserver dans les crédits. Présence sur le portfolio de la structure ; pas un client direct UNMISSABL établi. Résolutions publiques : 360p, 480p, 720p et 1080p. Lieux de projets, pas disponibilités ; coordonnées représentatives de la zone lorsqu'elles sont indiquées. Observation : 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 6108412 octets le 2026-10-12."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.sanctuarycreatives.com/shiseido",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "inventoryId": "samuel-kwan-a3836edcedca48ae81a5d443b337266f",
+          "clientLabel": "Shiseido",
+          "sourceNotes": "Secteur beauté, hors taxonomie V1 fournie. Production publiée par Sanctuary Creative, à conserver dans les crédits. Présence sur le portfolio de la structure ; pas un client direct UNMISSABL établi. Résolutions publiques : 360p, 480p, 720p et 1080p. Lieux de projets, pas disponibilités ; coordonnées représentatives de la zone lorsqu'elles sont indiquées. Observation : 2026-10-12. Contrôle de l'URL vidéo : HTTP 200, Content-Type video/mp4, Content-Length 8134950 octets le 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "signee-jewelry",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-118225965",
+          "url": "https://www.behance.net/gallery/118225965/Signee-Jewelry-shoot-3",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Signee Jewelry"
+        },
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-116876101",
+          "url": "https://www.behance.net/gallery/116876101/Signee-Jewelry-shoot-2",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Signee Jewelry"
+        },
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-116875609",
+          "url": "https://www.behance.net/gallery/116875609/Signee-Jewelry-shoot-1",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Signee Jewelry"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "singer",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "duarte-adobe-fqyvsjfqfuj",
+          "url": "https://ducreates.myportfolio.com/car-videography",
+          "creatorIds": [
+            "duarte"
+          ],
+          "clientLabel": "Porsche Singer (sujet de la campagne)"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "siro",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-siro-za-abeel",
+          "clientLabel": "SIRO Za'abeel",
+          "sourceNotes": "Hotel Marketing Media Production. Site categories: Commercial, Hospitality. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-siro-x-wpa",
+          "clientLabel": "SIRO X WPA",
+          "sourceNotes": "Paddle Court Launch Campaign. Site categories: Commercial, Hospitality. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-paddle-hero",
+          "clientLabel": "SIRO | World Padel Academy",
+          "sourceNotes": "2026; alternate preview of SIRO X WPA, not an additional client project. First HEAD observed 200 video/mp4 / 2793961 bytes, later HEAD and GET returned 403. Exact active hero items array observed 2026-10-12. Availability must be checked before use. Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "socksat",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "zaid-wazzan-behance-118226489",
+          "url": "https://www.behance.net/gallery/118226489/(Socksat)-Lifestyle-Photoshoots-pt1",
+          "creatorIds": [
+            "zaid-wazzan"
+          ],
+          "clientLabel": "Socksat"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "sony",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.creatummedia.com/project/sony",
+          "creatorIds": [
+            "duarte"
+          ],
+          "inventoryId": "duarte-creatum-sony",
+          "clientLabel": "Sony Electronics",
+          "sourceNotes": "Production Creatum Media / Duarte. Rôle repris de la fiche officielle. Année publiée : 2023. Fiche contenant une vidéo vide et six /placeholder.svg ; source-only, ne pas promouvoir en référence film vérifiée. Galerie publiée :  Source technique : https://www.creatummedia.com/assets/index-B2g1fpc7.js ; observé 2026-10-12."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "stereoparc",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/portfolio/stereoparc/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-stereoparc",
+          "clientLabel": "Stereoparc Festival",
+          "sourceNotes": "July 2025 official aftermovie. Source explicitly states directing and leading a five-person team; also mentions two daily recaps without separate published media URLs. Title and media embed observed 2026-10-12; format follows source iframe. YouTube oEmbed also returned metadata."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "tarn-et-garonne-tourisme",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-tarngaronne",
+          "url": "https://www.tompacelli.com/portfolio/tarngaronne/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Tarn-et-Garonne Tourisme"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "the-peninsula",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-507de54c49f240b1a7f2d27c44231ab1",
+          "url": "https://www.sanctuarycreatives.com/peninsula-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "The Peninsula Hong Kong"
+        },
+        {
+          "type": "published-project",
+          "projectId": "samuel-kwan-467cf31c65464fd180f8b2660a3d02d6",
+          "url": "https://www.sanctuarycreatives.com/peninsula-hong-kong",
+          "creatorIds": [
+            "samuel-kwan"
+          ],
+          "clientLabel": "The Peninsula Hong Kong — Spring Moon"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "tisseur",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "chuck-dumont-tisseur-bureau-fpv",
+          "url": "https://dumontfilms.ca/projects/tisseur-bureau-fpv",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "clientLabel": "Tisseur"
+        },
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/tisseur.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/282089aa-80f9-4d04-bffe-b33dac15a487_Tisseur_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "3846014c8e025e3b99154fa212359e92a9b5ac211c8aa90dda9670579c7ad67b",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "tourism-australia",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-tourism-australia",
+          "clientLabel": "Tourism Australia",
+          "sourceNotes": "Four aftermovies in English/French through StudiesUp and Les Coflocs, at Australian embassy in Paris. Not evidence of a shoot in Australia."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/tourism-australia.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/Tourism_Australia_logo.png?fit=1200%2C1413&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "b161fb68a4be6ecccee51a5ad423ffc0a00361b844e894bada2620d4100aaf58",
+          "transformation": "none — original bytes",
+          "width": 1200,
+          "height": 1413,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "uniroc",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://dumontfilms.ca/projects",
+          "creatorIds": [
+            "chuck-dumont"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://dumontfilms.ca/projects/uniroc-autoroute-15",
+          "creatorIds": [
+            "chuck-dumont"
+          ],
+          "inventoryId": "chuck-dumont-uniroc-autoroute-15",
+          "clientLabel": "Uniroc",
+          "sourceNotes": "Portfolio Dumont Films. Crédits originaux : Client : Uniroc ; Production : Chuck Dumont, Benjy ; Éditeur : Chuck Dumont ; Drone : Benjy ; Drone FPV : Chuck Dumont. Galerie photo publiée : https://images.prismic.io/dumontfilms-v1/6509ad0ffbd9a45bcec80000_CHUCK--6.jpg?auto=format,compress | https://images.prismic.io/dumontfilms-v1/6509ad37fbd9a45bcec80004_CHUCK--11.jpg?auto=format,compress | https://images.prismic.io/dumontfilms-v1/6509acaefbd9a45bcec7ffed_A2-Uniroc.jpg?auto=format,compress | https://images.prismic.io/dumontfilms-v1/6509acbffbd9a45bcec7fff6_CHUCK-05892.jpg?auto=format,compress | https://images.prismic.io/dumontfilms-v1/6509ace4fbd9a45bcec7fffb_CHUCK--1.jpg?auto=format,compress | https://images.prismic.io/dumontfilms-v1/6509acc5fbd9a45bcec7fff9_CHUCK-05921.jpg?auto=format,compress Coordonnées de repérage représentatives de la ville/région nommée, pas la position exacte de la caméra.  Observation 2026-10-12. Référence du créateur/collectif d'origine, pas client UNMISSABL établi."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/uniroc.png",
+          "originalAssetUrl": "https://images.prismic.io/dumontfilms-v1/83fd9b5e-9390-4f95-bb0a-137edd69b901_Uniroc_LogoWhite.png?auto=format,compress",
+          "portfolioUrl": "https://dumontfilms.ca/projects",
+          "downloadedAt": "2026-10-12",
+          "sha256": "2c4144d5efb9419eb397ed53fb25786d7d92b66613b91b48aff8685728af19f2",
+          "transformation": "none — original bytes",
+          "width": 334,
+          "height": 334,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "vingummi",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://bymatiss.com/",
+          "creatorIds": [
+            "matiss-skujins"
+          ],
+          "inventoryId": "matiss-vingummi",
+          "clientLabel": "Vingummi",
+          "sourceNotes": "Digital Marketing Media Production. Site categories: Commercial. Grid entry from live published projects array. Video is a hover preview, not established as the complete film. Media HEAD requests returned 403 on 2026-10-12; sample ordinary GET requests also returned 403. URLs retained as provenance only; do not publish a broken player. Exact project role not given. Public JS: https://file-cdn.framekit.ai/digisell-io.appspot.com/sites/amTSYTLKVB8KCzgLck0l/published/js/230df66af7f7.js Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "vintage-fun-cup-tour",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-vintagefuncuptour-2",
+          "url": "https://www.tompacelli.com/portfolio/vintagefuncuptour/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Vintage Fun Cup Tour"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "visit-dubai",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "robin-dubai",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "clientLabel": "Visit Dubai"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "visit-ras-al-khaimah",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "inventoryId": "robin-ras-al-khaimah",
+          "clientLabel": "Visit Ras Al Khaimah",
+          "sourceNotes": "Official portfolio lists 2024. Title identifies Ras Al Khaimah. Public bundle: https://www.robinchills.com/assets/index-CEnpLh9b.js . Observed 2026-10-12. Source-site poster returned 403; replaced with the exact thumbnail returned by YouTube oEmbed. Original source-site poster: https://www.robinchills.com/__l5e/assets-v1/b74bf5e9-0f83-4d2a-89a3-5dde1ad7b50d/work-rak.jpg"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "visit-red-sea",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-redseapadi",
+          "url": "https://www.tompacelli.com/portfolio/redseapadi/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Visit Red Sea × PADI"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "visit-venezuela",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-project",
+          "url": "https://www.robinchills.com/",
+          "creatorIds": [
+            "robin-chills"
+          ],
+          "inventoryId": "robin-venezuela",
+          "clientLabel": "Visit Venezuela",
+          "sourceNotes": "Official portfolio lists 2024. Title identifies Los Roques; no exact shoot coordinates published. Public bundle: https://www.robinchills.com/assets/index-CEnpLh9b.js . Observed 2026-10-12. Exact published YouTube ID: aAP6c90wxGU. oEmbed returned 403; no player URL guessed. Poster HEAD also returned 403 on 2026-10-12; do not assume it is usable for a card."
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "vl",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "portfolio-logo",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ]
+        },
+        {
+          "type": "portfolio-project",
+          "url": "https://www.tompacelli.com/content/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "inventoryId": "tom-vl-summer",
+          "clientLabel": "VL Summer Tour",
+          "sourceNotes": "Short aftermovies around French west coast; no individual media URLs."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/media/logos/vl.png",
+          "originalAssetUrl": "https://i0.wp.com/www.tompacelli.com/wp-content/uploads/2023/11/VL-Logo.png?fit=541%2C519&ssl=1",
+          "portfolioUrl": "https://www.tompacelli.com/content/",
+          "downloadedAt": "2026-10-12",
+          "sha256": "8c60d4139816822faee715f6dd3bd068a38a9f6431022f0aa67ac9d966070e45",
+          "transformation": "none — original bytes",
+          "width": 541,
+          "height": 519,
+          "hasTransparency": true
+        }
+      ]
+    },
+    {
+      "brandId": "volkswagen",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-volkswagenxlescoflocs",
+          "url": "https://www.tompacelli.com/portfolio/volkswagenxlescoflocs/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Volkswagen × Les Coflocs"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "brandId": "zalando",
+      "observedAt": "2026-10-12",
+      "evidence": [
+        {
+          "type": "published-project",
+          "projectId": "tom-levis",
+          "url": "https://www.tompacelli.com/portfolio/levis/",
+          "creatorIds": [
+            "tom-pacelli"
+          ],
+          "clientLabel": "Levi’s × Zalando"
+        }
+      ],
+      "assets": []
+    }
+  ]
+}

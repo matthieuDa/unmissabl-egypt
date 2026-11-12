@@ -1,28 +1,15 @@
-# UNMISSABL — raccordement du domaine (déploiement OpenAI Sites historique)
+# Hébergement et domaine
 
-Ce fichier documente le déploiement OpenAI Sites précédent. Pour le déploiement GitHub/Netlify, connecter le dépôt dans Netlify et appliquer les enregistrements DNS affichés dans les réglages de domaine Netlify.
+Cette branche ne change aucun domaine et ne publie pas le site. Le site global actuellement hébergé par ChatGPT Sites reste inchangé.
 
-La landing est déployée à https://unmissabl-egypt.hjrf68hwnt.chatgpt.site.
-L'accès est actuellement privé. Son ouverture publique attend la confirmation de Matthieu.
+Le dépôt prépare un site statique Astro accompagné d’une fonction Netlify pour le contact. Avant toute publication autorisée, suivre [la configuration du contact](docs/contact-configuration.md), puis vérifier le domaine cible et ses réglages directement auprès de l’hébergeur retenu. Les anciens paramètres DNS de la landing Égypte ne sont pas réutilisés.
 
-Les domaines `unmissabl.com` et `www.unmissabl.com` sont enregistrés côté hébergement, avec validation DNS en attente. Les valeurs ci-dessous ont été retournées par l'hébergeur le 21 septembre 2026. Vérifier de nouveau le statut avant d'appliquer des modifications ultérieures.
+Après validation de la mise en ligne :
 
-## À appliquer chez le gestionnaire DNS
+1. Vérifier l’hébergement choisi, ses domaines HTTPS et les variables de contact.
+2. Mettre à jour `src/data/site.ts` : URL canonique, adresse de contact et mode `demo`. Le mode actuel laisse les pages non indexables.
+3. Compléter les mentions de confidentialité et les informations de l’entreprise.
+4. Configurer uniquement les enregistrements DNS réellement demandés par l’hébergeur retenu ; préserver les enregistrements mail existants.
+5. Contrôler les deux langues, les liens, les vidéos et la réception réelle d’un brief fictif sur le domaine final.
 
-Remplacer uniquement les quatre anciens enregistrements A Squarespace de la racine (`198.49.23.144`, `198.49.23.145`, `198.185.159.144`, `198.185.159.145`) par les deux nouveaux A ci-dessous. Remplacer le CNAME de `www` par la cible fournie. Préserver les autres enregistrements, notamment toute configuration mail, et ne pas changer les serveurs de noms.
-
-| Type | Nom / hôte | Valeur |
-| --- | --- | --- |
-| A | @ | 162.159.143.30 |
-| A | @ | 172.66.3.26 |
-| CNAME | www | custom-domains.chatgpt.site. |
-| TXT | _openai-site-verification | openai-site-verification=g6_-NuFWSGkWKlyYzCLh4cF-WN9I0eUQqxm-bz5hDco |
-| TXT | _cf-custom-hostname | 33c9d8e1-a536-4ec3-9907-1cd3f0199422 |
-| TXT | _openai-site-verification.www | openai-site-verification=83apDUw1cWBOdIOKBGFE6Kt5IpqmiTWvueaVBy4x1d0 |
-| TXT | _cf-custom-hostname.www | d85b19d4-9788-4c0f-812e-e235b082272b |
-
-Si le fournisseur demande un nom complet, ajouter `.unmissabl.com` aux noms relatifs. Ne pas ajouter ce suffixe deux fois. Utiliser le TTL par défaut.
-
-## Vérification finale
-
-Après propagation, actualiser le statut des deux domaines dans l'hébergement ; attendre la validation du domaine et du certificat SSL, puis ouvrir les deux adresses dans une session sans authentification et vérifier accueil, images et contact. La demande de rendez-vous prépare un email ; elle ne confirme pas automatiquement un créneau.
+Une pull request ou un build local ne vaut pas autorisation de déploiement.

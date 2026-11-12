@@ -1,0 +1,23 @@
+---
+import type {Lang} from '../data/site';
+const {lang}=Astro.props as {lang:Lang};
+---
+<div class="entry-loader" id="entry-loader" hidden aria-label={lang==='fr'?'Chargement de la vidéo':'Loading the film'}>
+ <div class="entry-frames" aria-hidden="true"><img src="/media/elewana-suite.webp" alt="" width="800" height="1000"/><img src="/media/reels/signature-poster.webp" alt="" width="800" height="1000"/><img src="/media/robin-dubai.webp" alt="" width="800" height="1000"/></div>
+ <div class="entry-axis" aria-hidden="true"></div><div class="entry-vertical" aria-hidden="true"></div>
+ <div class="entry-word" aria-hidden="true">unmissabl</div>
+ <div class="entry-track" aria-hidden="true"><span></span></div>
+ <div class="entry-bottom"><p role="status" data-entry-status>{lang==='fr'?'Préparation des images':'Preparing the images'}</p><button data-entry-skip>{lang==='fr'?'Accéder au site':'Enter the site'}</button></div>
+</div>
+<script is:inline>
+ (()=>{const loader=document.getElementById('entry-loader');if(!loader)return;
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ let seen=false;try{seen=!!sessionStorage.getItem('unmissabl-entry-v3');}catch{}
+ if(reduce||seen)return;
+ loader.hidden=false;document.documentElement.classList.add('entry-active');
+ // Remains usable if the main script fails.
+ const open=()=>{loader.hidden=true;document.documentElement.classList.remove('entry-active');document.querySelectorAll('[data-entry-inert]').forEach(n=>{n.inert=false;n.removeAttribute('data-entry-inert');});};
+ loader.querySelector('[data-entry-skip]').addEventListener('click',open);
+ setTimeout(()=>{if(!loader.classList.contains('is-leaving'))open();},18000);
+ })();
+</script>

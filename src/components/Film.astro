@@ -1,0 +1,12 @@
+---
+import {talentNames,type Project} from '../data/projects';
+import {tx,type Lang} from '../data/site';
+import Icon from './Icon.astro';
+const {project:p,lang}=Astro.props as {project:Project;lang:Lang};
+---
+<div class:list={['film',{portrait:p.format==='social'}]} data-film data-video={p.videoUrl} data-embed={p.embedUrl}>
+ <img src={p.poster} alt={p.title} width="1600" height="900"/>
+ {(p.videoUrl||p.embedUrl)?<button class="film-play" data-film-play><span><Icon name="play" size={28}/></span>{tx(lang,'play-the-film-62bac')}</button>:null}
+ <p class="film-error" hidden>{tx(lang,'the-player-is-unavailable-watch-the-film-in-its-bb287')}</p>
+</div>
+<p class="source-line">{lang==='fr'?'Talents du collectif : ':'Collective talents: '}{talentNames(p)}.</p>

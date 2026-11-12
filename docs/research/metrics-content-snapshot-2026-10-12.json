@@ -1,0 +1,1539 @@
+{
+  "projects": [
+    {
+      "id": "elewana-collection",
+      "title": "Elewana Collection",
+      "client": "Elewana Collection",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/elewana-collection",
+      "location": {
+        "label": {
+          "fr": "Tanzanie",
+          "en": "Tanzania"
+        },
+        "country": {
+          "fr": "Tanzanie",
+          "en": "Tanzania"
+        },
+        "lat": -6.15,
+        "lon": 39.2
+      },
+      "creatorIds": [
+        "chuck-dumont",
+        "alexandre-buisson"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-redseapadi",
+      "title": "Visit Red Sea x PADI - Ambassadivers Week Recap",
+      "client": "Visit Red Sea × PADI",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/redseapadi/",
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-amex",
+      "title": "3 Days in Amsterdam | Amex Travel | American Express",
+      "client": "American Express",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/amex/",
+      "location": {
+        "label": {
+          "fr": "Amsterdam",
+          "en": "Amsterdam"
+        },
+        "country": {
+          "fr": "Pays-Bas",
+          "en": "Netherlands"
+        },
+        "lat": 52.37,
+        "lon": 4.9
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-charentestourism",
+      "title": "Les Charentes, nos pépites",
+      "client": "Charentes Tourisme",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/charentestourism/",
+      "location": {
+        "label": {
+          "fr": "Charentes",
+          "en": "Charentes"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 45.75,
+        "lon": -0.5
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-eastjava",
+      "title": "East Java",
+      "client": "IndoTrip Designer",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/eastjava/",
+      "location": {
+        "label": {
+          "fr": "Java oriental",
+          "en": "East Java"
+        },
+        "country": {
+          "fr": "Indonésie",
+          "en": "Indonesia"
+        },
+        "lat": -7.7,
+        "lon": 112.5
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-levis",
+      "title": "Levi’s × Zalando",
+      "client": "Levi’s × Zalando",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/levis/",
+      "location": {
+        "label": {
+          "fr": "Paris",
+          "en": "Paris"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 48.86,
+        "lon": 2.35
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-onefinestay",
+      "title": "Rue Jules César Loft - Home tour",
+      "client": "onefinestay",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/onefinestay/",
+      "location": {
+        "label": {
+          "fr": "Paris",
+          "en": "Paris"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 48.86,
+        "lon": 2.35
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-puma",
+      "title": "Puma — Teveris",
+      "client": "Puma",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/puma/",
+      "location": {
+        "label": {
+          "fr": "Paris",
+          "en": "Paris"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 48.86,
+        "lon": 2.35
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-radisson",
+      "title": "Radisson Château de Bangkok - Discover Bangkok",
+      "client": "Radisson Château de Bangkok",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/radisson/",
+      "location": {
+        "label": {
+          "fr": "Bangkok",
+          "en": "Bangkok"
+        },
+        "country": {
+          "fr": "Thaïlande",
+          "en": "Thailand"
+        },
+        "lat": 13.75,
+        "lon": 100.5
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-volkswagenxlescoflocs",
+      "title": "VW x Les Coflocs -Lot & Garonne",
+      "client": "Volkswagen × Les Coflocs",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/volkswagenxlescoflocs/",
+      "location": {
+        "label": {
+          "fr": "Lot-et-Garonne",
+          "en": "Lot-et-Garonne"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 44.37,
+        "lon": 0.44
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "robin-dubai",
+      "title": "Visit Dubai · Stopover",
+      "client": "Visit Dubai",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.robinchills.com/",
+      "location": {
+        "label": {
+          "fr": "Dubaï",
+          "en": "Dubai"
+        },
+        "country": {
+          "fr": "Émirats arabes unis",
+          "en": "United Arab Emirates"
+        },
+        "lat": 25.2,
+        "lon": 55.27
+      },
+      "creatorIds": [
+        "robin-chills"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "robin-jetex",
+      "title": "JETEX · Fly Private",
+      "client": "Jetex",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.robinchills.com/",
+      "creatorIds": [
+        "robin-chills"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "robin-qatar-doha",
+      "title": "Qatar Airways · Doha",
+      "client": "Qatar Airways",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.robinchills.com/",
+      "location": {
+        "label": {
+          "fr": "Doha",
+          "en": "Doha"
+        },
+        "country": {
+          "fr": "Qatar",
+          "en": "Qatar"
+        },
+        "lat": 25.29,
+        "lon": 51.53
+      },
+      "creatorIds": [
+        "robin-chills"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "robin-etihad",
+      "title": "Etihad A380",
+      "client": "Etihad",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.robinchills.com/",
+      "creatorIds": [
+        "robin-chills"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "robin-dji-lofoten",
+      "title": "DJI · Lofoten",
+      "client": "DJI",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.robinchills.com/",
+      "location": {
+        "label": {
+          "fr": "Lofoten",
+          "en": "Lofoten Islands"
+        },
+        "country": {
+          "fr": "Norvège",
+          "en": "Norway"
+        },
+        "lat": 68.2,
+        "lon": 13.6
+      },
+      "creatorIds": [
+        "robin-chills",
+        "chuck-dumont"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "cj-mazda",
+      "title": "Mazda Discovers - Textile Art in Portugal",
+      "client": "Mazda",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.youtube.com/watch?v=ttJeN5mkZbM",
+      "location": {
+        "label": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 39.4,
+        "lon": -8.22
+      },
+      "creatorIds": [
+        "cj-blardony"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "cj-mongolia",
+      "title": "Mongolia Proudly Welcomes You",
+      "client": "Mongolia Proudly Welcomes You",
+      "personal": false,
+      "portfolioOnly": true,
+      "sourceUrl": "https://youtu.be/xO8pnEKVtjQ?si=nr0PDCh0GvnZv86v",
+      "location": {
+        "label": {
+          "fr": "Mongolie",
+          "en": "Mongolia"
+        },
+        "country": {
+          "fr": "Mongolie",
+          "en": "Mongolia"
+        },
+        "lat": 46.86,
+        "lon": 103.85
+      },
+      "creatorIds": [
+        "cj-blardony"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "rayan-socotra",
+      "title": "Socotra — A Place Untouched",
+      "client": "Socotra — A Place Untouched",
+      "personal": false,
+      "portfolioOnly": true,
+      "sourceUrl": "https://rayanclaverol.com/#latest-film",
+      "location": {
+        "label": {
+          "fr": "Socotra",
+          "en": "Socotra"
+        },
+        "country": {
+          "fr": "Yémen",
+          "en": "Yemen"
+        },
+        "lat": 12.5,
+        "lon": 53.8
+      },
+      "creatorIds": [
+        "rayan-claverol"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "samuel-kwan-236bfe8ca0454367b3e2c46b12c59ac3",
+      "title": "The Art of Hosting — Rosewood Hong Kong Festive",
+      "client": "Rosewood Hong Kong",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-8218e39818084803818865e4ff74b712",
+      "title": "Artistry in Cocktails — DarkSide Bar",
+      "client": "Rosewood Hong Kong — DarkSide Bar",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-78dba1769d554fdf8de6d88601739faf",
+      "title": "Finding Rosewood Style — Holt's Cafe",
+      "client": "Rosewood Hong Kong — Holt's Cafe",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/rosewood-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-76d126f1cdae492f971cf01e0c16764c",
+      "title": "Four Seasons Hong Kong — Argo Exploration Menu",
+      "client": "Four Seasons Hong Kong — Argo",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-e69d32ce332f4aecb0c60b70c08ed0a4",
+      "title": "Four Seasons Hong Kong × Mikimoto Festive",
+      "client": "Four Seasons Hong Kong × Mikimoto",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/four-seaons-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-507de54c49f240b1a7f2d27c44231ab1",
+      "title": "The Peninsula Hong Kong — Mother's Day Celebrations",
+      "client": "The Peninsula Hong Kong",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/peninsula-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-467cf31c65464fd180f8b2660a3d02d6",
+      "title": "The Craft of Spring Moon — Dragon Boat Festival Rice Dumplings",
+      "client": "The Peninsula Hong Kong — Spring Moon",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/peninsula-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "samuel-kwan-2d1c3c05ffa84f4a82ae28e3c2c4639a",
+      "title": "Landmark — Christmas Drone Production",
+      "client": "Landmark",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/landmark",
+      "location": {
+        "label": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "country": {
+          "fr": "Hong Kong",
+          "en": "Hong Kong"
+        },
+        "lat": 22.281,
+        "lon": 114.159
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "samuel-kwan-c1aeca96273a4149b4964482386d96f2",
+      "title": "Travel to the Dolomites with Go Wild HK",
+      "client": "Go Wild HK",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Dolomites",
+          "en": "Dolomites"
+        },
+        "country": {
+          "fr": "Italie",
+          "en": "Italy"
+        },
+        "lat": 46.4983,
+        "lon": 11.3548
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "samuel-kwan-13f1b1ebf6bd49279b59821517b45d63",
+      "title": "Faroe Islands Exploration with Columbia HK",
+      "client": "Columbia Sportswear Hong Kong",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.sanctuarycreatives.com/columbia-sportswear-hong-kong",
+      "location": {
+        "label": {
+          "fr": "Îles Féroé",
+          "en": "Faroe Islands"
+        },
+        "country": {
+          "fr": "Îles Féroé",
+          "en": "Faroe Islands"
+        },
+        "lat": 62.0079,
+        "lon": -6.79
+      },
+      "creatorIds": [
+        "samuel-kwan"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-creatum-columbia-1",
+      "title": "Columbia Sportswear",
+      "client": "Columbia Sportswear",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.creatummedia.com/project/columbia",
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-creatum-ferrari",
+      "title": "Ferrari — Madeira",
+      "client": "Ferrari — Madeira",
+      "personal": true,
+      "portfolioOnly": true,
+      "sourceUrl": "https://www.creatummedia.com/project/ferrari",
+      "location": {
+        "label": {
+          "fr": "Madère",
+          "en": "Madeira"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 32.7607,
+        "lon": -16.9595
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-creatum-royal-rides-1",
+      "title": "Royal Rides",
+      "client": "Royal Rides",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.creatummedia.com/project/royal-rides",
+      "location": {
+        "label": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 39.3999,
+        "lon": -8.2245
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "bahri-najm-socotra-hero",
+      "title": "Socotra",
+      "client": "Socotra",
+      "personal": false,
+      "portfolioOnly": true,
+      "sourceUrl": "https://bahrinajm.com/",
+      "location": {
+        "label": {
+          "fr": "Socotra",
+          "en": "Socotra"
+        },
+        "country": {
+          "fr": "Yémen",
+          "en": "Yémen"
+        },
+        "lat": 12.4634,
+        "lon": 53.8237
+      },
+      "creatorIds": [
+        "bahri-najm"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-royalmount-magil-tisseur",
+      "title": "Royalmount",
+      "client": "Magil Tisseur",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/royalmount-magil-tisseur",
+      "location": {
+        "label": {
+          "fr": "Montréal",
+          "en": "Montréal"
+        },
+        "country": {
+          "fr": "Canada",
+          "en": "Canada"
+        },
+        "lat": 45.5019,
+        "lon": -73.5674
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "zaid-wazzan-behance-118227397",
+      "title": "Luscious Bracelets photoshoot",
+      "client": "Luscious Bracelets",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/118227397/Luscious-Bracelets-photoshoot",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-118225965",
+      "title": "Signee Jewelry shoot 3",
+      "client": "Signee Jewelry",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/118225965/Signee-Jewelry-shoot-3",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-116879129",
+      "title": "AlSukhon Jewelry",
+      "client": "AlSukhon Jewelry",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/116879129/AlSukhon-Jewelry",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-116876101",
+      "title": "Signee Jewelry shoot 2",
+      "client": "Signee Jewelry",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/116876101/Signee-Jewelry-shoot-2",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-116875609",
+      "title": "Signee Jewelry shoot 1",
+      "client": "Signee Jewelry",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/116875609/Signee-Jewelry-shoot-1",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "tom-fluidfocusfreediving",
+      "title": "The Power of Freediving",
+      "client": "Fluid Focus Freedive",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/fluidfocusfreediving/",
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-aleop",
+      "title": "Aléop — Summer",
+      "client": "Aléop",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/aleop/",
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-insta360-1",
+      "title": "Insta360 Flow",
+      "client": "Insta360",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/insta360/",
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-insta360-2",
+      "title": "Insta360 GO 3",
+      "client": "Insta360",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/insta360/",
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-kiabi",
+      "title": "Kiabi × Moana",
+      "client": "Kiabi",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/kiabi/",
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-letsgodolomites",
+      "title": "Quiet Storms in the Dolomites",
+      "client": "Quiet Storms in the Dolomites",
+      "personal": true,
+      "portfolioOnly": true,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/letsgodolomites/",
+      "location": {
+        "label": {
+          "fr": "Dolomites",
+          "en": "Dolomites"
+        },
+        "country": {
+          "fr": "Italie",
+          "en": "Italy"
+        },
+        "lat": 46.5,
+        "lon": 11.85
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-lostinparadise",
+      "title": "Siargao — Lost in Paradise",
+      "client": "Siargao — Lost in Paradise",
+      "personal": true,
+      "portfolioOnly": true,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/lostinparadise/",
+      "location": {
+        "label": {
+          "fr": "Siargao",
+          "en": "Siargao"
+        },
+        "country": {
+          "fr": "Philippines",
+          "en": "Philippines"
+        },
+        "lat": 9.85,
+        "lon": 126.05
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-tarngaronne",
+      "title": "Tarn-et-Garonne",
+      "client": "Tarn-et-Garonne Tourisme",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/tarngaronne/",
+      "location": {
+        "label": {
+          "fr": "Tarn-et-Garonne",
+          "en": "Tarn-et-Garonne"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 44.02,
+        "lon": 1.35
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "tom-vintagefuncuptour-2",
+      "title": "Vintage Fun Cup — Noirmoutier",
+      "client": "Vintage Fun Cup Tour",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.tompacelli.com/portfolio/vintagefuncuptour/",
+      "location": {
+        "label": {
+          "fr": "Noirmoutier",
+          "en": "Noirmoutier"
+        },
+        "country": {
+          "fr": "France",
+          "en": "France"
+        },
+        "lat": 47,
+        "lon": -2.24
+      },
+      "creatorIds": [
+        "tom-pacelli"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-malo-college-st-sacrament",
+      "title": "Collège Saint-Sacrement",
+      "client": "Groupe Malo",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/malo-college-st-sacrament",
+      "location": {
+        "label": {
+          "fr": "L'Assomption",
+          "en": "L'Assomption"
+        },
+        "country": {
+          "fr": "Canada",
+          "en": "Canada"
+        },
+        "lat": 45.8232,
+        "lon": -73.4294
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-tisseur-bureau-fpv",
+      "title": "Tisseur — FPV",
+      "client": "Tisseur",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/tisseur-bureau-fpv",
+      "location": {
+        "label": {
+          "fr": "Sainte-Adèle",
+          "en": "Sainte-Adèle"
+        },
+        "country": {
+          "fr": "Canada",
+          "en": "Canada"
+        },
+        "lat": 45.95,
+        "lon": -74.1333
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-musicbed",
+      "title": "Musicbed — The Next Generation",
+      "client": "Musicbed",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/musicbed",
+      "location": {
+        "label": {
+          "fr": "Costa Rica",
+          "en": "Costa Rica"
+        },
+        "country": {
+          "fr": "Costa Rica",
+          "en": "Costa Rica"
+        },
+        "lat": 9.7489,
+        "lon": -83.7534
+      },
+      "creatorIds": [
+        "chuck-dumont",
+        "robin-chills"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-nomatic-bags",
+      "title": "Nomatic — Life on the Move",
+      "client": "Nomatic",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/nomatic-bags",
+      "creatorIds": [
+        "chuck-dumont",
+        "robin-chills"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-arcteryx-montreal",
+      "title": "Arc’teryx — Kilimanjaro",
+      "client": "Arc'teryx Montréal",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/arcteryx-montreal",
+      "location": {
+        "label": {
+          "fr": "Kilimandjaro",
+          "en": "Mount Kilimanjaro"
+        },
+        "country": {
+          "fr": "Tanzanie",
+          "en": "Tanzania"
+        },
+        "lat": -3.0674,
+        "lon": 37.3556
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "chuck-dumont-corona",
+      "title": "Corona — Chemka Hot Springs",
+      "client": "Corona Studios",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/corona",
+      "location": {
+        "label": {
+          "fr": "Tanzanie / Zanzibar",
+          "en": "Tanzania / Zanzibar"
+        },
+        "country": {
+          "fr": "Tanzanie",
+          "en": "Tanzania"
+        },
+        "lat": -6,
+        "lon": 35
+      },
+      "creatorIds": [
+        "chuck-dumont",
+        "alexandre-buisson"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-kiliwarrior-expeditions",
+      "title": "Kiliwarrior Expeditions",
+      "client": "Kiliwarrior Expeditions",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/kiliwarrior-expeditions",
+      "location": {
+        "label": {
+          "fr": "Kilimandjaro",
+          "en": "Mount Kilimanjaro"
+        },
+        "country": {
+          "fr": "Tanzanie",
+          "en": "Tanzania"
+        },
+        "lat": -3.0674,
+        "lon": 37.3556
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "chuck-dumont-hyundai-ioniq-5",
+      "title": "Hyundai Ioniq 5",
+      "client": "Hyundai Switzerland",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://dumontfilms.ca/projects/hyundai-ioniq-5",
+      "location": {
+        "label": {
+          "fr": "Suisse — Interlaken / Saint-Moritz",
+          "en": "Switzerland — Interlaken / St. Moritz"
+        },
+        "country": {
+          "fr": "Suisse",
+          "en": "Switzerland"
+        },
+        "lat": 46.8182,
+        "lon": 8.2275
+      },
+      "creatorIds": [
+        "chuck-dumont",
+        "robin-chills"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "chuck-dumont-north-face",
+      "title": "The North Face — Circaloft",
+      "client": "The North Face — Circaloft",
+      "personal": true,
+      "portfolioOnly": true,
+      "sourceUrl": "https://dumontfilms.ca/projects/north-face",
+      "location": {
+        "label": {
+          "fr": "Tadoussac",
+          "en": "Tadoussac"
+        },
+        "country": {
+          "fr": "Canada",
+          "en": "Canada"
+        },
+        "lat": 48.1435,
+        "lon": -69.7192
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "chuck-dumont-ironman-hawaii",
+      "title": "Ironman 70.3 Hawaii",
+      "client": "Ironman 70.3 Hawaii",
+      "personal": true,
+      "portfolioOnly": true,
+      "sourceUrl": "https://dumontfilms.ca/projects/ironman-70.3-hawaii",
+      "location": {
+        "label": {
+          "fr": "Big Island, Hawaii",
+          "en": "Hawaii Island"
+        },
+        "country": {
+          "fr": "États-Unis",
+          "en": "United States"
+        },
+        "lat": 19.5429,
+        "lon": -155.6659
+      },
+      "creatorIds": [
+        "chuck-dumont"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-adobe-f4pcdve-a3k",
+      "title": "Audi A6 e-tron",
+      "client": "Audi",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/events",
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-adobe-krvncm8vcwn",
+      "title": "Duo Curio Collection by Hilton",
+      "client": "Duo Curio Collection by Hilton",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/events",
+      "location": {
+        "label": {
+          "fr": "Lisbonne",
+          "en": "Lisbon"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-adobe-e8egaxc99ve",
+      "title": "Porsche Sprint Challenge Iberica",
+      "client": "Porsche Sprint Challenge Iberica",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "duarte-adobe-gwsmd67kcsz",
+      "title": "Ferrari Challenge — Baron Motorsport",
+      "client": "Baron Motorsport — Ferrari Challenge",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+      "location": {
+        "label": {
+          "fr": "Estoril",
+          "en": "Estoril"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 38.7057,
+        "lon": -9.3977
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "duarte-adobe-fqyvsjfqfuj",
+      "title": "Porsche Singer — Portimão",
+      "client": "Porsche Singer (sujet de la campagne)",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/car-videography",
+      "location": {
+        "label": {
+          "fr": "Portimão",
+          "en": "Portimão"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 37.1366,
+        "lon": -8.5377
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "duarte-akla-lisbon",
+      "title": "AKLA — InterContinental Lisboa",
+      "client": "AKLA — InterContinental Lisboa",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/restaurants",
+      "location": {
+        "label": {
+          "fr": "Lisbonne",
+          "en": "Lisbon"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 38.7223,
+        "lon": -9.1393
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "duarte-adobe-msf8uhppgqv",
+      "title": "24H Series — Barcelona",
+      "client": "24H Series / Land Motorsport (contexte portfolio)",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/24h-series-barcelona",
+      "location": {
+        "label": {
+          "fr": "Barcelone",
+          "en": "Barcelona"
+        },
+        "country": {
+          "fr": "Espagne",
+          "en": "Espagne"
+        },
+        "lat": 41.3851,
+        "lon": 2.1734
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "film"
+    },
+    {
+      "id": "duarte-adobe-lt3faj4ucdc",
+      "title": "Industria Club — Porto",
+      "client": "Industria Club",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://ducreates.myportfolio.com/festival",
+      "location": {
+        "label": {
+          "fr": "Porto",
+          "en": "Porto"
+        },
+        "country": {
+          "fr": "Portugal",
+          "en": "Portugal"
+        },
+        "lat": 41.1579,
+        "lon": -8.6291
+      },
+      "creatorIds": [
+        "duarte"
+      ],
+      "format": "social"
+    },
+    {
+      "id": "zaid-wazzan-behance-118226489",
+      "title": "Socksat",
+      "client": "Socksat",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/118226489/(Socksat)-Lifestyle-Photoshoots-pt1",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-118226137",
+      "title": "Planet Donuts",
+      "client": "Planet Donuts",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/118226137/Planet-Donuts-Shoot-1",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-116879445",
+      "title": "Nadeen Rasekh",
+      "client": "Nadeen Rasekh designs",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/116879445/Yasmeen-Quttami-ft-Nadeen-Rasekh-designs",
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    },
+    {
+      "id": "zaid-wazzan-behance-107546913",
+      "title": "30SUNDAYS — W Amman",
+      "client": "30SUNDAYS",
+      "personal": false,
+      "portfolioOnly": false,
+      "sourceUrl": "https://www.behance.net/gallery/107546913/30SUNDAYS-Shoot-1-(W-Amman)",
+      "location": {
+        "label": {
+          "fr": "Amman",
+          "en": "Amman"
+        },
+        "country": {
+          "fr": "Jordanie",
+          "en": "Jordan"
+        },
+        "lat": 31.9539,
+        "lon": 35.9106
+      },
+      "creatorIds": [
+        "zaid-wazzan"
+      ],
+      "format": "photo"
+    }
+  ],
+  "talents": [
+    {
+      "id": "tom-pacelli",
+      "name": "Tom Pacelli",
+      "producer": false,
+      "instagram": "https://www.instagram.com/tom.pacelli/"
+    },
+    {
+      "id": "orie-hyde",
+      "name": "Orie Hyde",
+      "producer": false,
+      "instagram": "https://www.instagram.com/orie.hyde/"
+    },
+    {
+      "id": "marceau-thevenin",
+      "name": "Marceau Thevenin",
+      "producer": false,
+      "instagram": "https://www.instagram.com/marceau.tvn/"
+    },
+    {
+      "id": "laura",
+      "name": "Laura Edl",
+      "producer": false,
+      "instagram": "https://www.instagram.com/lauraaedl/"
+    },
+    {
+      "id": "samuel-kwan",
+      "name": "Samuel Kwan",
+      "producer": false,
+      "instagram": "https://www.instagram.com/samuelkwansy/"
+    },
+    {
+      "id": "cj-blardony",
+      "name": "CJ Blardony",
+      "producer": false,
+      "instagram": "https://www.instagram.com/cjblardony/"
+    },
+    {
+      "id": "robin-chills",
+      "name": "Robin Chills",
+      "producer": false,
+      "instagram": "https://www.instagram.com/robinchills/"
+    },
+    {
+      "id": "chuck-dumont",
+      "name": "Chuck Dumont",
+      "producer": false,
+      "instagram": "https://www.instagram.com/chuck_dumont/"
+    },
+    {
+      "id": "zaid-wazzan",
+      "name": "Zaid Wazzan",
+      "producer": false,
+      "instagram": "https://www.instagram.com/_byzaid_/"
+    },
+    {
+      "id": "matiss-skujins",
+      "name": "Matiss Skujins",
+      "producer": false,
+      "instagram": "https://www.instagram.com/matiss.skujins/"
+    },
+    {
+      "id": "keoni-lachhar",
+      "name": "Keoni Lachhar",
+      "producer": false,
+      "instagram": "https://www.instagram.com/bykeonilachhar/"
+    },
+    {
+      "id": "bahri-najm",
+      "name": "Bahri Najm",
+      "producer": false,
+      "instagram": "https://www.instagram.com/bahrinajm/"
+    },
+    {
+      "id": "rayan-claverol",
+      "name": "Rayan Claverol",
+      "producer": false,
+      "instagram": "https://www.instagram.com/rayanclaverrol/"
+    },
+    {
+      "id": "duarte",
+      "name": "Duarte · Du Creates",
+      "producer": false,
+      "instagram": "https://www.instagram.com/du.creates/"
+    },
+    {
+      "id": "alexandre-buisson",
+      "name": "Alexandre Buisson",
+      "producer": false,
+      "instagram": "https://www.instagram.com/alexoonnn/"
+    },
+    {
+      "id": "matthieu-dalle",
+      "name": "Matthieu Dalle-Berardinelli",
+      "producer": true
+    }
+  ],
+  "sectors": [
+    "hospitality",
+    "travel",
+    "fashion",
+    "automotive",
+    "aviation",
+    "food",
+    "jewellery",
+    "architecture"
+  ],
+  "destinations": [
+    "egypt",
+    "iceland",
+    "france",
+    "portugal"
+  ]
+}
