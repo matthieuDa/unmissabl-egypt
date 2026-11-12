@@ -9,7 +9,8 @@ const locales = ['fr', 'en'];
 const expectedProof = {
   hotels: 'matiss-siro-za-abeel',
   automotive: 'duarte-creatum-royal-rides-1',
-  golf: 'duarte-adobe-krvncm8vcwn',
+  estates: 'maison-de-prepinson-fpv',
+  vineyards: 'tom-charentestourism',
   equestrian: 'haras-de-prepinson',
 };
 const decode = value => value.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
@@ -100,8 +101,25 @@ test('each France industry shows its relevant local credited reference and avail
       assert.ok(posters.length, `No local visual proof for ${sector}`);
       for (const poster of posters) assert.ok(existsSync(new URL(poster.attrs.src.slice(1), dist)), `Missing ${poster.attrs.src}`);
       assert.match(panel.html, /<video\b/, `A playable preview must be rendered for ${sector}`);
-      if (sector === 'golf') assert.match(visibleText(panel.html), lang === 'fr' ? /Référence hôtelière/ : /Hospitality reference/, 'Adjacent hospitality work must retain its true context');
+      if (sector === 'vineyards') {
+        assert.match(visibleText(panel.html), /Domaine & Distillerie Brillouet/);
+        assert.match(visibleText(panel.html), lang === 'fr' ? /Extrait du film Charentes Tourisme/ : /Excerpt from the Charentes Tourism film/);
+        assert.match(panel.html, /charentes-distillerie-1280\.mp4/, 'Vineyards must use the identified cellar excerpt rather than a generic tourism montage');
+      }
+      if (sector === 'estates') assert.match(visibleText(panel.html), /FPV/);
     }
+  }
+});
+
+test('France removes unsupported golf prospecting and keeps the two new references geographically accurate', () => {
+  for (const lang of locales) {
+    const france = readPage(`/${lang}/destinations/france/`);
+    assert.doesNotMatch(visibleText(france), /\bgolfs?\b/i);
+    assert.doesNotMatch(france, /data-sector-(?:tab|panel)="golf"/);
+    assert.match(visibleText(readPage(`/${lang}/projects/maison-de-prepinson-fpv/`)), lang === 'fr' ? /Ortho, Belgique/ : /Ortho, Belgium/);
+    const fpv = panels(france).find(panel => panel.id === 'estates');
+    assert.match(fpv.html, /maison-prepinson-fpv/);
+    assert.ok(!links(fpv.html).some(link => /^https?:/.test(link)), 'The reference journey stays on the site');
   }
 });
 

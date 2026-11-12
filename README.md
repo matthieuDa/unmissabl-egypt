@@ -25,7 +25,7 @@ L’aperçu complet est disponible sur [http://127.0.0.1:4322/fr/](http://127.0.
 
 ## Parcours commerciaux
 
-- Prospection par voyage : `/fr/destinations/france/` et `/en/destinations/france/`, avec onglets Hôtels & yachting, Automobile, Golf et Haras. Le paramètre `?sector=...` ouvre directement le bon projet ; voir les liens dans le guide commercial. Les anciennes pages `/solutions/...` ont été retirées.
+- Prospection par voyage : `/fr/destinations/france/` et `/en/destinations/france/`, avec onglets Hôtels & yachting, Automobile, Domaines & villas, Vignobles et Haras. Le paramètre `?sector=...` ouvre directement le bon projet ; voir les liens dans le guide commercial. Les anciennes pages `/solutions/...` ont été retirées.
 - Destinations : Égypte, fenêtres d’octobre et décembre 2026 ; France — Côte d’Azur, printemps 2027. Octobre est identifié comme une fenêtre passée, sans affirmer qu’une production a eu lieu. L’Islande a été retirée.
 - Proposition personnalisable : `/fr/proposal/` et `/en/proposal/`. Renseigner les montants et le périmètre, puis utiliser « Imprimer / enregistrer en PDF ». Aucun prix manquant n’est présenté comme gratuit.
 - Formulaire : `/fr/contact/` et `/en/contact/`, également intégré aux pages commerciales avec leur contexte.
@@ -67,3 +67,5 @@ La procédure détaillée et les sources techniques figurent dans [la configurat
 - `scripts/`, `tests/` : validation, aperçu et tests.
 
 Les références antérieures restent attribuées aux talents et ne doivent pas être présentées comme des productions réalisées par Unmissabl. Conserver les sources, crédits et périmètres des chiffres lors de toute modification. Les conditions, disponibilités, droits et montants de chaque proposition doivent être validés avant transmission au prospect.
+
+Validation des nouvelles références Domaines / Vignobles : `docs/validation-domaines-2026-11-12.md`.

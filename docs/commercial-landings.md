@@ -10,10 +10,13 @@ Chaque lien conserve l’activité en changeant de langue et préremplit le cont
 |---|---|---|---|
 | Hôtel, resort, partenaire yachting | `/fr/destinations/france/?sector=hotels#projets` | `/en/destinations/france/?sector=hotels#projets` | SIRO One Za’abeel · Matiss Skujins ; Elewana en complément |
 | Automobile | `/fr/destinations/france/?sector=automotive#projets` | `/en/destinations/france/?sector=automotive#projets` | Royal Rides · Duarte |
-| Golf | `/fr/destinations/france/?sector=golf#projets` | `/en/destinations/france/?sector=golf#projets` | Duo Curio Collection by Hilton · Duarte, référence hôtelière explicitement nommée |
+| Domaines & villas | `/fr/destinations/france/?sector=estates#projets` | `/en/destinations/france/?sector=estates#projets` | Maison de Prépinson · véritable visite FPV, Alexandre Buisson et Tim Ohler |
+| Vignobles | `/fr/destinations/france/?sector=vineyards#projets` | `/en/destinations/france/?sector=vineyards#projets` | Domaine & Distillerie Brillouet · extrait identifié du film Charentes Tourisme de Tom Pacelli |
 | Haras | `/fr/destinations/france/?sector=equestrian#projets` | `/en/destinations/france/?sector=equestrian#projets` | Haras de Prépinson · Alexandre Buisson |
 
-Hôtels et yachting sont réunis autour d’un projet de séjour terre-mer. Aucune référence spécifique yacht ou golf n’est inventée. Le film du Haras de Prépinson reste localisé en Belgique : il démontre le savoir-faire du talent pour le futur voyage en France.
+Hôtels et yachting sont réunis autour d’un projet de séjour terre-mer. Aucune référence spécifique yacht n’est inventée. Golf a été retiré faute de référence précise. Les films de Maison de Prépinson et du Haras de Prépinson restent localisés en Belgique : ils démontrent le savoir-faire du talent pour le futur voyage en France.
+
+La section Vignobles montre uniquement les plans identifiés de Brillouet (alambic, chai et dégustation), et non un montage touristique générique. Le client d’origine reste Charentes Tourisme : Brillouet est le lieu présenté, sans commande directe établie. Aucune séquence FPV de vignes n’a été confirmée dans le catalogue ; le FPV est proposé comme option de tournage, selon le lieu et les conditions. La provenance et les minutages sont conservés dans `docs/research/domaines-vignobles-2026-11-12.json`.
 
 ## Composition du parcours
 

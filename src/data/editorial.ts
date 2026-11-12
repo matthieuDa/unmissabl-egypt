@@ -417,8 +417,8 @@ export const destinations: Destination[] = [
     period: { fr: 'Printemps 2027', en: 'Spring 2027' },
     status: { fr: 'Production en préparation', en: 'Production in preparation' },
     description: {
-      fr: 'Une production sur la Côte d’Azur pour les hôtels, resorts, golfs, marques automobiles et lieux d’exception. Le printemps 2027 est la fenêtre de préparation : chaque lieu, créneau et équipe sera retenu selon les projets.',
-      en: 'A Côte d’Azur production for hotels, resorts, golf clubs, automotive brands and distinctive properties. Spring 2027 is the planned window; locations, timing and crews will be selected around the projects.',
+      fr: 'Une production sur la Côte d’Azur pour les hôtels, resorts, domaines, marques automobiles et lieux d’exception. Le printemps 2027 est la fenêtre de préparation : chaque lieu, créneau et équipe sera retenu selon les projets.',
+      en: 'A Côte d’Azur production for hotels, resorts, estates, automotive brands and distinctive properties. Spring 2027 is the planned window; locations, timing and crews will be selected around the projects.',
     },
     lat: 43.7,
     lon: 7.25,

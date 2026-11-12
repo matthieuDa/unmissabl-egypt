@@ -16,7 +16,7 @@ const server=createServer(async(req,res)=>{
   if(![`127.0.0.1:${port}`,`localhost:${port}`].includes(authority)){res.writeHead(403);res.end('Invalid host');return;}
   const url=new URL(req.url,`http://${authority}`);
   const retired=url.pathname.match(/^\/(fr|en)\/solutions(?:\/(hotels|resorts|automotive|golf|equestrian))?\/?$/);
-  if(retired){const destination=retired[2]?`/${retired[1]}/destinations/france/?sector=${retired[2]==='resorts'?'hotels':retired[2]}#projets`:`/${retired[1]}/sectors/`;res.writeHead(302,{Location:destination});res.end();return;}
+  if(retired){const destination=retired[2]?`/${retired[1]}/destinations/france/?sector=${['resorts','golf'].includes(retired[2])?'hotels':retired[2]}#projets`:`/${retired[1]}/sectors/`;res.writeHead(302,{Location:destination});res.end();return;}
   if(url.pathname==='/api/contact'){
    const ip=req.socket.remoteAddress;const now=Date.now();const recent=(attempts.get(ip)||[]).filter(t=>now-t<60_000);attempts.set(ip,recent);
    if(recent.length>=8){res.writeHead(429,{'Content-Type':'application/json','Retry-After':'60','Cache-Control':'no-store'});res.end(JSON.stringify({ok:false,code:'rate-limit'}));return;}recent.push(now);

@@ -374,5 +374,39 @@
       "width": 1280,
       "height": 720
     }
+  ],
+  "/media/previews/maison-prepinson-fpv-1280.mp4": [
+    {
+      "src": "/media/previews/maison-prepinson-fpv-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/maison-prepinson-fpv-1280.mp4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "/media/previews/maison-prepinson-fpv-1920.mp4",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "/media/previews/charentes-distillerie-1280.mp4": [
+    {
+      "src": "/media/previews/charentes-distillerie-640.mp4",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "src": "/media/previews/charentes-distillerie-1280.mp4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "/media/previews/charentes-distillerie-1920.mp4",
+      "width": 1920,
+      "height": 1080
+    }
   ]
 }

@@ -38,7 +38,7 @@
 
 [[redirects]]
   from = "/fr/solutions/golf/"
-  to = "/fr/destinations/france/?sector=golf#projets"
+  to = "/fr/destinations/france/#projets"
   status = 301
 
 [[redirects]]
@@ -68,7 +68,7 @@
 
 [[redirects]]
   from = "/en/solutions/golf/"
-  to = "/en/destinations/france/?sector=golf#projets"
+  to = "/en/destinations/france/#projets"
   status = 301
 
 [[redirects]]
