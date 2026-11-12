@@ -1,6 +1,6 @@
 import fr from '../i18n/fr.json';
 import en from '../i18n/en.json';
-export const site = { name:'Unmissabl', url:'https://unmissabl.com', email:'dalle.matthieu@gmail.com', whatsapp:'33781727689', demo:true };
+export const site = { name:'Unmissabl', url:'https://unmissabl.com', email:'dalle.matthieu@gmail.com', whatsapp:'33781727689', demo:false };
 export type Lang = keyof typeof uiMessages;
 export const locales:readonly Lang[] = ['fr','en'];
 export const defaultLocale:Lang=locales[0];
